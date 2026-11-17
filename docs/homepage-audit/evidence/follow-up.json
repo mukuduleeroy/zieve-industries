@@ -1,0 +1,68 @@
+[
+  {
+    "width": 390,
+    "fonts": {
+      "fonts": [
+        {
+          "familyName": "Georgia",
+          "postScriptName": "Georgia-Bold",
+          "isCustomFont": false,
+          "glyphCount": 35
+        }
+      ]
+    },
+    "enlarged": {
+      "viewport": 390,
+      "width": 568,
+      "overflow": [
+        {
+          "text": "Menu",
+          "right": 406.9375
+        }
+      ],
+      "heroHeading": {
+        "x": 40,
+        "y": 427.1875,
+        "width": 310,
+        "height": 377.59375,
+        "top": 427.1875,
+        "right": 350,
+        "bottom": 804.78125,
+        "left": 40
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "fonts": {
+      "fonts": [
+        {
+          "familyName": "Georgia",
+          "postScriptName": "Georgia-Bold",
+          "isCustomFont": false,
+          "glyphCount": 37
+        }
+      ]
+    },
+    "enlarged": {
+      "viewport": 1440,
+      "width": 1762,
+      "overflow": [
+        {
+          "text": "Request a Quote",
+          "right": 1761.859375
+        }
+      ],
+      "heroHeading": {
+        "x": 57.59375,
+        "y": 477.859375,
+        "width": 1324.8125,
+        "height": 193.59375,
+        "top": 477.859375,
+        "right": 1382.40625,
+        "bottom": 671.453125,
+        "left": 57.59375
+      }
+    }
+  }
+]

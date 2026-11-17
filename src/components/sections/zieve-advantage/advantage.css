@@ -1,0 +1,42 @@
+@layer components {
+  .zieve-advantage { background: var(--color-brand-navy); color: var(--color-paper); }
+  .zieve-advantage :focus-visible { outline-color: var(--color-brand-amber); }
+  .advantage-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-section); align-items: start; }
+  .advantage-editorial { min-width: 0; max-width: 38rem; }
+  .advantage-eyebrow { color: var(--color-brand-amber); }
+  .advantage-title { margin-top: 1.5rem; }
+  .advantage-title > span { display: block; }
+  .advantage-supporting { margin-top: 1.75rem; max-width: 30rem; }
+  .advantage-signature { margin-top: 2.5rem; max-width: 28rem; }
+  .advantage-divider { display: block; width: 4rem; height: 2px; background: var(--color-brand-amber); margin-bottom: 1.5rem; }
+  .advantage-signature p { font-style: italic; }
+  .pillar-accordion { container: pillars / inline-size; min-width: 0; width: 100%; border-top: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 30%, transparent); overflow-anchor: none; }
+  .pillar-row { border-bottom: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 30%, transparent); transition: background var(--duration-fast); }
+  .pillar-row[data-expanded='true'] { background: color-mix(in srgb, var(--color-paper) 5%, transparent); }
+  .zieve-advantage .pillar-trigger { display: grid; grid-template-columns: 1.5rem minmax(0, 1fr) 1.5rem; align-items: center; gap: 1rem; width: 100%; min-height: 88px; padding: 1.5rem 0.75rem; border: 0; border-radius: 0; background: transparent; color: var(--color-paper); font-size: var(--text-body); line-height: 1.5; text-align: left; font-weight: 700; }
+  .zieve-advantage .pillar-trigger:hover { background: color-mix(in srgb, var(--color-paper) 4%, transparent); }
+  .pillar-trigger:focus-visible { outline-offset: -3px; }
+  .pillar-number { font-size: var(--text-label); color: var(--color-paper); font-weight: 400; }
+  .pillar-row[data-expanded='true'] .pillar-number, .pillar-row[data-expanded='true'] .pillar-symbol { color: var(--color-brand-amber); }
+  .pillar-symbol { display: inline-flex; align-items: center; justify-content: center; }
+  .pillar-panel { overflow: hidden; }
+  .pillar-panel-inner { padding: 0 3.25rem 1.75rem; }
+  .pillar-panel .body-text { font-size: var(--text-body); }
+  .advantage-static { margin-top: 2rem; }
+  .advantage-static dl > div { margin-top: 1.5rem; }
+  .advantage-static dt { font-weight: 700; color: var(--color-brand-amber); }
+  .advantage-static dd { margin-top: 0.75rem; line-height: 1.75; }
+  /* Reflow only when the text-relative container is too narrow for row insets. */
+  @container pillars (max-width: 12em) {
+    .zieve-advantage .pillar-trigger { grid-template-columns: minmax(0, 1fr) 1.5rem; }
+    .pillar-number { grid-column: 1; grid-row: 1; }
+    .pillar-symbol { grid-column: 2; grid-row: 1; }
+    .pillar-trigger > span:nth-child(2) { grid-column: 1 / -1; grid-row: 2; }
+    .pillar-panel-inner { padding-inline: 0.75rem; }
+  }
+  @media (min-width: 64rem) {
+    .advantage-grid { grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); gap: var(--grid-gap); }
+    .advantage-editorial { grid-column: 1 / 7; }
+    .pillar-accordion { grid-column: 8 / 13; }
+  }
+}

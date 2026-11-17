@@ -1,0 +1,1906 @@
+[
+  {
+    "size": 100,
+    "width": 320,
+    "document": 320,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 96,
+      "top": 0,
+      "right": 320,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 320,
+      "height": 804,
+      "top": 96,
+      "right": 320,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 804
+      },
+      {
+        "id": "company-introduction",
+        "height": 1102.78125
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1078
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 4127.125
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 1288
+      },
+      {
+        "id": "our-purpose",
+        "height": 2472
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2278.90625
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 320,
+    "document": 568,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 96,
+      "top": 0,
+      "right": 320,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 320,
+      "height": 2065.78125,
+      "top": 96,
+      "right": 320,
+      "bottom": 2161.78125,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 2065.78125
+      },
+      {
+        "id": "company-introduction",
+        "height": 3084.390625
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 2723
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 11390.0625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 4202
+      },
+      {
+        "id": "our-purpose",
+        "height": 9026
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 6974.421875
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "DIV",
+        "class": "container-shell header-inner",
+        "client": 320,
+        "scroll": 407,
+        "text": "HomeAbout UsOur SolutionsOur expertise01Earthmovin"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-stage",
+        "client": 320,
+        "scroll": 540,
+        "text": "Visual placeholder · Approved industrial photograp"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell hero-container",
+        "client": 320,
+        "scroll": 540,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-editorial",
+        "client": 240,
+        "scroll": 500,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "P",
+        "class": "eyebrow hero-eyebrow",
+        "client": 240,
+        "scroll": 271,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWE"
+      },
+      {
+        "tag": "H1",
+        "class": "heading heading-display hero-title",
+        "client": 240,
+        "scroll": 500,
+        "text": "Equipping Industry. Empowering Growth."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 240,
+        "scroll": 402,
+        "text": "Equipping Industry."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 240,
+        "scroll": 500,
+        "text": "Empowering Growth."
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-actions",
+        "client": 240,
+        "scroll": 295,
+        "text": "Explore Our SolutionsRequest a Quote"
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell solutions-showcase",
+        "client": 320,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 320,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "",
+        "client": 240,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "solutions-section-header",
+        "client": 240,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title solutions-title",
+        "client": 240,
+        "scroll": 373,
+        "text": "One accountable partner. Five core divisions."
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 240,
+        "scroll": 373,
+        "text": "One accountable partner."
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 240,
+        "scroll": 298,
+        "text": "Five core divisions."
+      },
+      {
+        "tag": "DIV",
+        "class": "solutions-workbench",
+        "client": 240,
+        "scroll": 281,
+        "text": "01Earthmoving & Construction Equipment02Elution Pl"
+      },
+      {
+        "tag": "DIV",
+        "class": "solution-panels",
+        "client": 240,
+        "scroll": 281,
+        "text": "Illustrative schematic · Approved division photogr"
+      },
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell industry-experience",
+        "client": 320,
+        "scroll": 503,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 320,
+        "scroll": 373,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-section-header",
+        "client": 240,
+        "scroll": 333,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title",
+        "client": 240,
+        "scroll": 333,
+        "text": "Built for the industries that build tomorrow."
+      },
+      {
+        "tag": "OL",
+        "class": "industry-sector-list",
+        "client": 320,
+        "scroll": 503,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 320,
+        "scroll": 376,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 320,
+        "scroll": 376,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 320,
+        "scroll": 376,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 240,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 240,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 240,
+        "scroll": 336,
+        "text": "Mining & Mineral Processing"
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 320,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 320,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 320,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 240,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 240,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 375,
+    "document": 375,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 96,
+      "top": 0,
+      "right": 375,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 375,
+      "height": 804,
+      "top": 96,
+      "right": 375,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 804
+      },
+      {
+        "id": "company-introduction",
+        "height": 1106.28125
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 998.875
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 4035.0625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 1125.5
+      },
+      {
+        "id": "our-purpose",
+        "height": 2129.5
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2138.53125
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 375,
+    "document": 568,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 96,
+      "top": 0,
+      "right": 375,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 375,
+      "height": 1953.78125,
+      "top": 96,
+      "right": 375,
+      "bottom": 2049.78125,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1953.78125
+      },
+      {
+        "id": "company-introduction",
+        "height": 2778.390625
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 2540.375
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 10122.5
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 3985
+      },
+      {
+        "id": "our-purpose",
+        "height": 7991
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 6302.265625
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "DIV",
+        "class": "container-shell header-inner",
+        "client": 375,
+        "scroll": 407,
+        "text": "HomeAbout UsOur SolutionsOur expertise01Earthmovin"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-stage",
+        "client": 375,
+        "scroll": 540,
+        "text": "Visual placeholder · Approved industrial photograp"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell hero-container",
+        "client": 375,
+        "scroll": 540,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-editorial",
+        "client": 295,
+        "scroll": 500,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "H1",
+        "class": "heading heading-display hero-title",
+        "client": 295,
+        "scroll": 500,
+        "text": "Equipping Industry. Empowering Growth."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 295,
+        "scroll": 402,
+        "text": "Equipping Industry."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 295,
+        "scroll": 500,
+        "text": "Empowering Growth."
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell solutions-showcase",
+        "client": 375,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 375,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "",
+        "client": 295,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "solutions-section-header",
+        "client": 295,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title solutions-title",
+        "client": 295,
+        "scroll": 373,
+        "text": "One accountable partner. Five core divisions."
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 295,
+        "scroll": 373,
+        "text": "One accountable partner."
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 295,
+        "scroll": 298,
+        "text": "Five core divisions."
+      },
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell industry-experience",
+        "client": 375,
+        "scroll": 503,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-section-header",
+        "client": 295,
+        "scroll": 333,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title",
+        "client": 295,
+        "scroll": 333,
+        "text": "Built for the industries that build tomorrow."
+      },
+      {
+        "tag": "OL",
+        "class": "industry-sector-list",
+        "client": 375,
+        "scroll": 503,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 295,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 295,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 295,
+        "scroll": 336,
+        "text": "Mining & Mineral Processing"
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 375,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 375,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 375,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 295,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 295,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 295,
+        "scroll": 447,
+        "text": "Civil & Infrastructure Construction"
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 375,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 375,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 375,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 295,
+        "scroll": 463,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 295,
+        "scroll": 463,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 295,
+        "scroll": 463,
+        "text": "Manufacturing"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 295,
+        "scroll": 334,
+        "text": "04Agro-processingSupporting the processing cycle.S"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 390,
+    "document": 390,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 96,
+      "top": 0,
+      "right": 390,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 390,
+      "height": 804,
+      "top": 96,
+      "right": 390,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 804
+      },
+      {
+        "id": "company-introduction",
+        "height": 1096.28125
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1008.25
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 4080.0625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 1117.5
+      },
+      {
+        "id": "our-purpose",
+        "height": 2129.5
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2138.53125
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 390,
+    "document": 568,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 96,
+      "top": 0,
+      "right": 390,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 390,
+      "height": 1841.78125,
+      "top": 96,
+      "right": 390,
+      "bottom": 1937.78125,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1841.78125
+      },
+      {
+        "id": "company-introduction",
+        "height": 2572.390625
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 2493.75
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 9782.90625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 3860
+      },
+      {
+        "id": "our-purpose",
+        "height": 7827
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 6054.484375
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "DIV",
+        "class": "container-shell header-inner",
+        "client": 390,
+        "scroll": 407,
+        "text": "HomeAbout UsOur SolutionsOur expertise01Earthmovin"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-stage",
+        "client": 390,
+        "scroll": 540,
+        "text": "Visual placeholder · Approved industrial photograp"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell hero-container",
+        "client": 390,
+        "scroll": 540,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "DIV",
+        "class": "hero-editorial",
+        "client": 310,
+        "scroll": 500,
+        "text": "ZIEVE INDUSTRIES · HARARE, ZIMBABWEEquipping Indus"
+      },
+      {
+        "tag": "H1",
+        "class": "heading heading-display hero-title",
+        "client": 310,
+        "scroll": 500,
+        "text": "Equipping Industry. Empowering Growth."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 310,
+        "scroll": 402,
+        "text": "Equipping Industry."
+      },
+      {
+        "tag": "SPAN",
+        "class": "hero-headline-line",
+        "client": 310,
+        "scroll": 500,
+        "text": "Empowering Growth."
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell solutions-showcase",
+        "client": 390,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 390,
+        "scroll": 413,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "",
+        "client": 310,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "DIV",
+        "class": "solutions-section-header",
+        "client": 310,
+        "scroll": 373,
+        "text": "02 / OUR SOLUTIONSOne accountable partner. Five co"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title solutions-title",
+        "client": 310,
+        "scroll": 373,
+        "text": "One accountable partner. Five core divisions."
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 310,
+        "scroll": 373,
+        "text": "One accountable partner."
+      },
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell industry-experience",
+        "client": 390,
+        "scroll": 503,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-section-header",
+        "client": 310,
+        "scroll": 333,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "H2",
+        "class": "heading heading-title",
+        "client": 310,
+        "scroll": 333,
+        "text": "Built for the industries that build tomorrow."
+      },
+      {
+        "tag": "OL",
+        "class": "industry-sector-list",
+        "client": 390,
+        "scroll": 503,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 310,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 310,
+        "scroll": 336,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 310,
+        "scroll": 336,
+        "text": "Mining & Mineral Processing"
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 390,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 390,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 390,
+        "scroll": 487,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 310,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 310,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 310,
+        "scroll": 447,
+        "text": "Civil & Infrastructure Construction"
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 390,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 390,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 390,
+        "scroll": 503,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 310,
+        "scroll": 463,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 310,
+        "scroll": 463,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 310,
+        "scroll": 463,
+        "text": "Manufacturing"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 310,
+        "scroll": 334,
+        "text": "04Agro-processingSupporting the processing cycle.S"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 310,
+        "scroll": 334,
+        "text": "04Agro-processingSupporting the processing cycle.S"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 768,
+    "document": 768,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 768,
+      "height": 96,
+      "top": 0,
+      "right": 768,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 768,
+      "height": 804,
+      "top": 96,
+      "right": 768,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 804
+      },
+      {
+        "id": "company-introduction",
+        "height": 1289.296875
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1155.9375
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 4374.90625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 986.65625
+      },
+      {
+        "id": "our-purpose",
+        "height": 1498.25
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 1638.984375
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 768,
+    "document": 768,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 768,
+      "height": 96,
+      "top": 0,
+      "right": 768,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 768,
+      "height": 1369.1875,
+      "top": 96,
+      "right": 768,
+      "bottom": 1465.1875,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1369.1875
+      },
+      {
+        "id": "company-introduction",
+        "height": 2231.1875
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1988
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 7987.953125
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 2099
+      },
+      {
+        "id": "our-purpose",
+        "height": 4194
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 3648.8125
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "DIV",
+        "class": "purpose-values-content",
+        "client": 688,
+        "scroll": 728,
+        "text": "Our Core Values01ReliabilityWe are measured by our"
+      },
+      {
+        "tag": "OL",
+        "class": "purpose-values-list",
+        "client": 688,
+        "scroll": 728,
+        "text": "01ReliabilityWe are measured by our clients’ uptim"
+      },
+      {
+        "tag": "LI",
+        "class": "purpose-value",
+        "client": 208,
+        "scroll": 213,
+        "text": "01ReliabilityWe are measured by our clients’ uptim"
+      },
+      {
+        "tag": "H4",
+        "class": "heading heading-subtitle",
+        "client": 208,
+        "scroll": 213,
+        "text": "Reliability"
+      },
+      {
+        "tag": "LI",
+        "class": "purpose-value",
+        "client": 208,
+        "scroll": 248,
+        "text": "03PartnershipWe succeed only when our clients do; "
+      },
+      {
+        "tag": "H4",
+        "class": "heading heading-subtitle",
+        "client": 208,
+        "scroll": 248,
+        "text": "Partnership"
+      },
+      {
+        "tag": "LI",
+        "class": "purpose-value",
+        "client": 208,
+        "scroll": 219,
+        "text": "04ExcellenceTechnical rigour and quality in everyt"
+      },
+      {
+        "tag": "H4",
+        "class": "heading heading-subtitle",
+        "client": 208,
+        "scroll": 219,
+        "text": "Excellence"
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 377,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 1024,
+    "document": 1024,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 96,
+      "top": 0,
+      "right": 1024,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1024,
+      "height": 804,
+      "top": 96,
+      "right": 1024,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 804
+      },
+      {
+        "id": "company-introduction",
+        "height": 637.453125
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 996.09375
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 2990.640625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 768.28125
+      },
+      {
+        "id": "our-purpose",
+        "height": 1563.421875
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 1151.953125
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 1024,
+    "document": 1056,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 96,
+      "top": 0,
+      "right": 1024,
+      "bottom": 96,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 96,
+      "width": 1024,
+      "height": 1280,
+      "top": 96,
+      "right": 1024,
+      "bottom": 1376,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1280
+      },
+      {
+        "id": "company-introduction",
+        "height": 1557.5
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1822.96875
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 7006.125
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 2364.46875
+      },
+      {
+        "id": "our-purpose",
+        "height": 3440.59375
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2705.015625
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 147,
+        "scroll": 219,
+        "text": "Earthmoving & Construction Equipment"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 147,
+        "scroll": 154,
+        "text": "Elution Plants & Gold Processing"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 147,
+        "scroll": 155,
+        "text": "Lubricants & Fluids"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 147,
+        "scroll": 192,
+        "text": "Consumables & Spares"
+      },
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "SECTION",
+        "class": "section-shell industry-experience",
+        "client": 1024,
+        "scroll": 1056,
+        "text": "03 / INDUSTRIES WE SERVEBuilt for the industries t"
+      },
+      {
+        "tag": "OL",
+        "class": "industry-sector-list",
+        "client": 1024,
+        "scroll": 1056,
+        "text": "01Mining & Mineral ProcessingEquipment and inputs "
+      },
+      {
+        "tag": "LI",
+        "class": "",
+        "client": 1024,
+        "scroll": 1056,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "industry-panel",
+        "client": 1024,
+        "scroll": 1056,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "container-shell",
+        "client": 1024,
+        "scroll": 1056,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-panel-grid",
+        "client": 942,
+        "scroll": 1015,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 374,
+        "scroll": 447,
+        "text": "02Civil & Infrastructure ConstructionFrom earthwor"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 374,
+        "scroll": 447,
+        "text": "Civil & Infrastructure Construction"
+      },
+      {
+        "tag": "DIV",
+        "class": "industry-editorial",
+        "client": 374,
+        "scroll": 463,
+        "text": "03ManufacturingProcessing inputs. Maintenance esse"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title industry-name",
+        "client": 374,
+        "scroll": 463,
+        "text": "Manufacturing"
+      },
+      {
+        "tag": "P",
+        "class": "body-text",
+        "client": 166,
+        "scroll": 186,
+        "text": "Our Harare base and disciplined inventory approach"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 166,
+        "scroll": 174,
+        "text": "Genuine Quality Assurance"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 166,
+        "scroll": 214,
+        "text": "One-Stop-Shop Convenience"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "client": 166,
+        "scroll": 235,
+        "text": "Sector Specialisation"
+      },
+      {
+        "tag": "DIV",
+        "class": "",
+        "client": 212,
+        "scroll": 245,
+        "text": "Our Mission"
+      },
+      {
+        "tag": "H3",
+        "class": "heading heading-title purpose-mission-title",
+        "client": 212,
+        "scroll": 245,
+        "text": "Our Mission"
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 377,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 1440,
+    "document": 1440,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 112,
+      "top": 0,
+      "right": 1440,
+      "bottom": 112,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 112,
+      "width": 1440,
+      "height": 788,
+      "top": 112,
+      "right": 1440,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 788
+      },
+      {
+        "id": "company-introduction",
+        "height": 817.21875
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1190.296875
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 3233.5625
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 792
+      },
+      {
+        "id": "our-purpose",
+        "height": 1759.78125
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 1180.6875
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 1440,
+    "document": 1762,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 112,
+      "top": 0,
+      "right": 1440,
+      "bottom": 112,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 112,
+      "width": 1440,
+      "height": 1280,
+      "top": 112,
+      "right": 1440,
+      "bottom": 1392,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1280
+      },
+      {
+        "id": "company-introduction",
+        "height": 1299.171875
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1765.09375
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 6195.75
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 1708.6875
+      },
+      {
+        "id": "our-purpose",
+        "height": 2751.890625
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2307.4375
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "DIV",
+        "class": "container-shell header-inner",
+        "client": 1440,
+        "scroll": 1762,
+        "text": "HomeAbout UsOur SolutionsOur expertise01Earthmovin"
+      },
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LI",
+        "class": "purpose-value",
+        "client": 239,
+        "scroll": 248,
+        "text": "03PartnershipWe succeed only when our clients do; "
+      },
+      {
+        "tag": "H4",
+        "class": "heading heading-subtitle",
+        "client": 239,
+        "scroll": 248,
+        "text": "Partnership"
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 377,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 100,
+    "width": 1920,
+    "document": 1920,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 112,
+      "top": 0,
+      "right": 1920,
+      "bottom": 112,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 112,
+      "width": 1920,
+      "height": 788,
+      "top": 112,
+      "right": 1920,
+      "bottom": 900,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 788
+      },
+      {
+        "id": "company-introduction",
+        "height": 814.984375
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1189.125
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 3265.984375
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 792
+      },
+      {
+        "id": "our-purpose",
+        "height": 1759.78125
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 1188.6875
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 440,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 188,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  },
+  {
+    "size": 200,
+    "width": 1920,
+    "document": 1920,
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 112,
+      "top": 0,
+      "right": 1920,
+      "bottom": 112,
+      "left": 0
+    },
+    "hero": {
+      "x": 0,
+      "y": 112,
+      "width": 1920,
+      "height": 1280,
+      "top": 112,
+      "right": 1920,
+      "bottom": 1392,
+      "left": 0
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "height": 1280
+      },
+      {
+        "id": "company-introduction",
+        "height": 1204.21875
+      },
+      {
+        "id": "industrial-solutions",
+        "height": 1912.0625
+      },
+      {
+        "id": "industries-we-serve",
+        "height": 5866.234375
+      },
+      {
+        "id": "zieve-advantage",
+        "height": 1418.375
+      },
+      {
+        "id": "our-purpose",
+        "height": 2647.375
+      },
+      {
+        "id": "partner-with-zieve",
+        "height": 2256.640625
+      }
+    ],
+    "overflow": [
+      {
+        "tag": "P",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 881,
+        "text": "Division 01: Earthmoving & Construction Equipment "
+      },
+      {
+        "tag": "LEGEND",
+        "class": "sr-only",
+        "client": 1,
+        "scroll": 377,
+        "text": "Your procurement enquiry"
+      }
+    ]
+  }
+]

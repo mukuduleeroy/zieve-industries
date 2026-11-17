@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import '../design-system/tokens.css';
+@import '../design-system/typography.css';
+@import '../components/layout/header.css';
+@import '../components/sections/hero/hero.css';
+@import '../components/sections/company-introduction/introduction.css';
+@import '../components/sections/solutions-showcase/solutions.css';
+@import '../components/sections/industry-experience/industries.css';
+@import '../components/sections/zieve-advantage/advantage.css';
+@import '../components/sections/corporate-purpose/purpose.css';
+@import '../components/sections/quotation/quotation.css';
+@import '../components/layout/footer/footer.css';
+@layer base {
+  body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-body); overflow-wrap: anywhere; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  :focus-visible { outline: 3px solid var(--color-brand-ochre); outline-offset: 5px; }
+  ::selection { background: var(--color-brand-amber); color: var(--color-brand-navy); }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+}
+@layer components {
+  .container-shell { width: 100%; max-width: calc(var(--container-content) + var(--spacing-gutter) * 2); padding-inline: var(--spacing-gutter); margin-inline: auto; }
+  .section-shell { padding-block: var(--spacing-section); }
+  .foundation-grid { display: grid; grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); gap: var(--grid-gap); }
+  .button { display: inline-flex; align-items: center; justify-content: center; gap: calc(var(--spacing) * 2); min-height: 48px; padding: calc(var(--spacing) * 3) calc(var(--spacing) * 6); border: var(--border-thin) solid transparent; border-radius: var(--radius-sm); font: inherit; font-weight: 700; cursor: pointer; transition: background var(--duration-fast), color var(--duration-fast); }
+  .button-primary { background: var(--color-brand-navy); color: var(--color-paper); }
+  .button-primary:hover { background: var(--color-ink); }
+  .button-secondary { border-color: var(--color-brand-navy); background: transparent; color: var(--color-brand-navy); }
+  .button-secondary:hover { background: var(--color-surface); }
+  .button:disabled { opacity: 0.5; cursor: not-allowed; }
+  .text-link { color: inherit; text-decoration: underline; text-underline-offset: 0.25em; text-decoration-thickness: 1px; }
+  .text-link:hover { text-decoration-thickness: 2px; }
+  .media-image { max-width: 100%; height: auto; }
+  .skip-link { position: fixed; top: 1rem; left: 1rem; z-index: 100; padding: 1rem; background: var(--color-brand-navy); color: white; transform: translateY(-200%); }
+  .skip-link:focus { transform: translateY(0); }
+  .navigation-list { display: flex; flex-wrap: wrap; gap: 1.5rem; list-style: none; padding: 0; margin: 0; }
+  .navigation-disclosure summary { cursor: pointer; min-height: 44px; padding: 0.75rem; }
+  .swatch { height: 5rem; border-radius: var(--radius-sm); border: var(--border-thin) solid var(--color-line); }
+}

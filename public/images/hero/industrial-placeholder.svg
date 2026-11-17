@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <title>Abstract excavator schematic — temporary visual placeholder</title>
+  <desc>Original geometric line artwork. This is not a photograph or a depiction of a Zieve facility.</desc>
+  <defs>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" stroke="#ffffff" stroke-opacity=".05"/></pattern>
+    <linearGradient id="light" x1="1000" y1="200" x2="1800" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#66727d" stop-opacity=".25"/><stop offset="1" stop-color="#0b2233" stop-opacity="0"/></linearGradient>
+  </defs>
+  <path fill="#0b2233" d="M0 0h1920v1080H0z"/>
+  <path fill="url(#grid)" d="M700 0h1220v1080H700z"/>
+  <path fill="url(#light)" d="M650 0h1270v1080H650z"/>
+  <g stroke="#ffffff" stroke-linejoin="round">
+    <path d="M760 850h1160M960 880h840M1060 910h600" stroke-opacity=".16"/>
+    <g stroke-width="3" stroke-opacity=".42">
+      <path d="M1030 758h382c51 0 92 34 92 74s-41 72-92 72h-382c-52 0-92-32-92-72s40-74 92-74Z" fill="#0b2233"/>
+      <path d="M1030 780h382c37 0 66 23 66 52s-29 50-66 50h-382c-37 0-66-21-66-50s29-52 66-52Z"/>
+      <circle cx="1030" cy="832" r="34"/><circle cx="1125" cy="832" r="24"/><circle cx="1220" cy="832" r="24"/><circle cx="1315" cy="832" r="24"/><circle cx="1410" cy="832" r="34"/>
+      <path d="m1020 758-20-98 67-16h157l48 34h133l49 31v49Z" fill="#0b2233"/>
+      <path d="m1088 644 17-157h117l68 157" fill="#0b2233"/>
+      <path d="m1120 507-10 107h129l-40-107Z"/>
+      <path d="M1174 507v107M1289 690h111M1289 714h111M1289 738h111"/>
+      <path d="m1241 636 93-259 223-208 50 29-213 234-99 252Z" fill="#0b2233"/>
+      <path d="m1557 169 50 29 136 365-38 19-156-350" fill="#0b2233"/>
+      <path d="m1695 567 77-28 94 123-42 69-148-28-29-55Z" fill="#0b2233"/>
+      <path d="m1676 703-8 26 22 8 15-29m30 7-7 26 22 7 15-28m30 7-6 26 24 7 17-30"/>
+      <path d="m1280 634 92-210m3-14 138-152m74-7 90 263" stroke-width="10" stroke-opacity=".3"/>
+      <circle cx="1265" cy="656" r="17"/><circle cx="1363" cy="407" r="17"/><circle cx="1581" cy="209" r="14"/><circle cx="1717" cy="574" r="13"/>
+    </g>
+    <g stroke-opacity=".2"><path d="M950 970h920M950 960v20m920-20v20M1830 130v370m-10-370h20m-20 370h20" stroke-dasharray="6 8"/><path d="M1450 70h230m-115-45v90M870 560h80m-40-40v80"/></g>
+  </g>
+  <g stroke="#f2a21a" stroke-width="3" stroke-opacity=".65"><path d="m1345 394 207-196M1020 758h380"/><path d="M1840 850h36m-18-18v36"/></g>
+</svg>

@@ -1,0 +1,50 @@
+@layer components {
+  .quotation-section { background: var(--color-brand-navy); color: var(--color-paper); }
+  .quotation-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-section); align-items: start; }
+  .quotation-editorial { position: relative; min-width: 0; max-width: 38rem; }
+  .quotation-editorial > h2 { position: relative; margin-top: 1.5rem; }
+  .quotation-eyebrow { color: var(--color-brand-amber); }
+  .quotation-supporting { position: relative; margin-top: 1.75rem; }
+  .quotation-linework { position: absolute; top: 2rem; right: 0; width: 35%; aspect-ratio: 1; border-top: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 12%, transparent); border-right: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 12%, transparent); pointer-events: none; }
+  .quotation-contact { position: relative; margin-top: 3rem; font-style: normal; }
+  .quotation-contact dl { display: grid; gap: 1.75rem; margin: 0; }
+  .quotation-contact dt { display: flex; align-items: center; gap: 0.75rem; font-size: var(--text-label); letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-brand-amber); }
+  .quotation-contact dd { margin: 0.5rem 0 0; line-height: 1.8; overflow-wrap: anywhere; }
+  .quotation-contact a { display: inline-flex; align-items: center; min-height: 44px; }
+  .quotation-contact :focus-visible { outline-color: var(--color-brand-amber); }
+  .quotation-form-surface { min-width: 0; width: 100%; padding: clamp(1.25rem, 2.5vw, 2.5rem); background: var(--color-surface); color: var(--color-brand-navy); border-radius: var(--radius-sm); }
+  .quotation-form-surface form { scroll-margin-top: 1rem; }
+  .quotation-form-surface form:focus { outline: none; }
+  .quotation-form-surface fieldset { margin: 0; padding: 0; min-width: 0; border: 0; }
+  .quotation-instructions { margin-block: 1rem 1.75rem; font-size: 0.875rem; line-height: 1.7; }
+  .quotation-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.75rem 1rem; }
+  .quotation-field { min-width: 0; }
+  .quotation-field label, .quotation-draft > label { display: block; margin-bottom: 0.5rem; font-size: 0.875rem; font-weight: 700; line-height: 1.6; }
+  .quotation-field label > span { font-weight: 400; }
+  .quotation-field input, .quotation-field select, .quotation-field textarea, .quotation-draft textarea { display: block; width: 100%; min-width: 0; min-height: 48px; padding: 0.75rem; border: var(--border-thin) solid var(--color-muted); border-radius: var(--radius-sm); background: var(--color-paper); color: var(--color-brand-navy); font: inherit; font-size: 1rem; line-height: 1.6; transition: border-color var(--duration-fast), box-shadow var(--duration-fast); }
+  .quotation-field select { text-overflow: ellipsis; }
+  .quotation-field textarea, .quotation-draft textarea { resize: vertical; }
+  .quotation-field :is(input, select, textarea):focus-visible, .quotation-draft textarea:focus-visible { outline: 2px solid var(--color-brand-navy); outline-offset: 2px; border-color: var(--color-brand-ochre); }
+  .quotation-field [aria-invalid='true'] { border-color: var(--color-brand-ochre); box-shadow: inset 3px 0 var(--color-brand-ochre); }
+  .quotation-field-error { min-height: 1.5rem; margin-top: 0.25rem; font-size: 0.8125rem; line-height: 1.6; font-weight: 700; color: var(--color-brand-navy); }
+  .quotation-field-hint { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.6; color: var(--color-ink); }
+  .quotation-section .quotation-primary { background: var(--color-brand-amber); color: var(--color-brand-navy); border-color: var(--color-brand-amber); text-decoration: none; min-height: 52px; }
+  .quotation-section .quotation-primary:hover { background: var(--color-paper); border-color: var(--color-brand-navy); }
+  .quotation-form-surface fieldset > .quotation-primary { width: 100%; margin-top: 1.25rem; }
+  .quotation-draft { margin-top: 2rem; border-top: var(--border-thin) solid var(--color-line); padding-top: 1.75rem; min-width: 0; }
+  .quotation-draft > p { margin-top: 1rem; line-height: 1.7; overflow-wrap: anywhere; }
+  .quotation-draft > label { margin-top: 1.5rem; }
+  .quotation-draft textarea { min-height: 14rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .quotation-draft-destination { font-size: 0.875rem; }
+  .quotation-draft-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem; }
+  .quotation-draft-actions .button { white-space: normal; }
+  .quotation-draft .quotation-copy-status { min-height: 1.5rem; font-size: 0.875rem; font-weight: 700; }
+  .quotation-draft-note { font-size: 0.8125rem; }
+  @media (min-width: 40rem) {
+    .quotation-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .quotation-field-wide { grid-column: 1 / -1; }
+  }
+  @media (min-width: 64rem) {
+    .quotation-grid { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--grid-gap); }
+  }
+}

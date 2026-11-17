@@ -1,0 +1,38 @@
+@theme {
+  /* Colours sampled from PDF vector/text metadata. */
+  --color-brand-navy: #0b2233;
+  --color-brand-amber: #f2a21a;
+  --color-brand-ochre: #c98210;
+  --color-ink: #263746;
+  --color-muted: #66727d;
+  --color-paper: #ffffff;
+  --color-surface: #f5f7f8;
+  --color-line: #d5dde2; /* Derived interface border. */
+  --font-body: 'Noto Serif', Georgia, 'Times New Roman', serif;
+  --font-heading: 'Noto Serif', Georgia, 'Times New Roman', serif;
+  --text-display: clamp(2.5rem, 5vw, 4.5rem);
+  --text-title: clamp(1.875rem, 3.5vw, 3rem);
+  --text-subtitle: clamp(1.25rem, 2vw, 1.5rem);
+  --text-body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --text-label: 0.75rem;
+  --spacing: 0.25rem;
+  --spacing-gutter: clamp(1.25rem, 4vw, 4rem);
+  --spacing-section: clamp(3rem, 7vw, 6rem);
+  --container-content: 76rem;
+  --container-reading: 46rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.5rem;
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --ease-reveal: cubic-bezier(0.22, 1, 0.36, 1);
+}
+:root {
+  --border-thin: 1px;
+  --duration-fast: 180ms;
+  --duration-reveal: 650ms;
+  --duration-image: 850ms;
+  --grid-columns: 12;
+  --grid-gap: clamp(1rem, 2vw, 2rem);
+}

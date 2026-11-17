@@ -1,0 +1,8 @@
+/* Exact families identified in PDF. Licensed full webfonts still required.
+   Embedded PDF subsets are deliberately not republished as webfonts. */
+.heading { font-family: var(--font-heading); font-weight: 700; line-height: 1.15; text-wrap: balance; }
+.heading-display { font-size: var(--text-display); }
+.heading-title { font-size: var(--text-title); }
+.heading-subtitle { font-size: var(--text-subtitle); }
+.body-text { font-size: var(--text-body); line-height: 1.75; max-width: var(--container-reading); }
+.eyebrow { font-size: var(--text-label); letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; }
