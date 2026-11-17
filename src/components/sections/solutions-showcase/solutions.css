@@ -1,0 +1,44 @@
+@layer components {
+  .solutions-showcase { background: var(--color-brand-navy); color: var(--color-paper); }
+  .solutions-showcase :focus-visible { outline-color: var(--color-brand-amber); }
+  .solutions-section-header { max-width: var(--container-reading); margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+  .solutions-eyebrow { color: var(--color-brand-amber); }
+  .solutions-title { margin-top: 1.5rem; }
+  .solutions-title > span { display: block; }
+  .solutions-title > span + span { color: var(--color-brand-amber); }
+  .solutions-supporting { margin-top: 1.5rem; max-width: 38rem; }
+  .solutions-workbench { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2rem; align-items: start; }
+  .solutions-navigation { display: none; }
+  .solutions-mobile-selector { display: grid; gap: 0.75rem; min-width: 0; }
+  .solutions-mobile-selector label { color: var(--color-brand-amber); }
+  .solutions-mobile-selector select { width: 100%; min-width: 0; min-height: 56px; padding: 0.875rem 0.75rem; border: var(--border-thin) solid var(--color-line); border-radius: var(--radius-sm); background: var(--color-brand-navy); color: var(--color-paper); font: inherit; font-size: 0.875rem; text-overflow: ellipsis; }
+  .solution-panels { display: grid; grid-template-columns: minmax(0, 1fr); min-width: 0; }
+  .solution-panel { grid-area: 1 / 1; min-width: 0; display: grid; grid-template-rows: auto 1fr; }
+  .solution-panel[data-active='false'] { visibility: hidden; pointer-events: none; }
+  .solution-image-reveal { position: relative; padding-top: 62.5%; padding-bottom: 4rem; }
+  .solution-media { position: absolute; inset: 0; margin: 0; }
+  .solution-media-frame { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--color-ink); border: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 20%, transparent); border-radius: var(--radius-sm); }
+  .solutions-showcase .solution-media-image { width: 100%; height: 100%; object-fit: cover; object-position: var(--solution-mobile-position); }
+  .solution-media figcaption { margin-top: 0.75rem; font-size: var(--text-label); line-height: 1.6; color: var(--color-paper); }
+  .solution-media-unavailable { position: absolute; inset: 0; display: grid; place-items: center; padding: 2rem; text-align: center; line-height: 1.7; color: var(--color-paper); }
+  .solution-panel-copy { display: grid; grid-template-rows: auto auto 1fr auto; gap: 1rem; padding-top: 1.5rem; }
+  .solution-panel-number { color: var(--color-brand-amber); }
+  .solutions-showcase .solution-description { line-height: 1.75; }
+  .solutions-showcase .solution-explore { display: inline-flex; align-items: center; justify-self: start; gap: 1.25rem; min-height: 48px; padding-block: 0.75rem; text-decoration: none; font-weight: 700; border-bottom: var(--border-thin) solid var(--color-brand-amber); }
+  .solution-explore svg { color: var(--color-brand-amber); transition: transform var(--duration-fast); }
+  .solution-explore:hover svg { transform: translate(2px, -2px); }
+  .solutions-static { margin-top: 2rem; }
+  .solutions-static li { margin-top: 1.5rem; }
+  @media (min-width: 64rem) {
+    .solutions-workbench { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--grid-gap); }
+    .solutions-navigation { display: block; border-top: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 25%, transparent); }
+    .solutions-mobile-selector { display: none; }
+    .solutions-showcase .division-choice { position: relative; display: grid; grid-template-columns: 2rem minmax(0, 1fr) 1.25rem; gap: 1rem; width: 100%; min-height: 100px; padding: 1.5rem 1rem; border: 0; border-bottom: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 25%, transparent); border-radius: 0; background: transparent; color: var(--color-paper); text-align: left; font-size: var(--text-body); line-height: 1.5; font-weight: 400; transition: background var(--duration-fast); }
+    .division-choice:hover { background: color-mix(in srgb, var(--color-paper) 5%, transparent); }
+    .solutions-showcase .division-choice[aria-pressed='true'] { background: color-mix(in srgb, var(--color-paper) 7%, transparent); font-weight: 700; }
+    .division-active-indicator { position: absolute; top: 0; bottom: 0; left: 0; width: 3px; background: var(--color-brand-amber); transform-origin: center; }
+    .division-number { font-size: var(--text-label); color: var(--color-paper); }
+    .division-choice[aria-pressed='true'] .division-number, .division-choice[aria-pressed='true'] > svg { color: var(--color-brand-amber); }
+    .solutions-showcase .solution-media-image { object-position: var(--solution-desktop-position); }
+  }
+}
