@@ -1,7 +1,0 @@
-import {readFileSync,writeFileSync,existsSync} from 'node:fs';
-import {createRequire} from 'node:module';
-const require=createRequire(import.meta.url);const sharp=require('sharp');
-const root=new URL('../',import.meta.url).pathname;
-const items=JSON.parse(readFileSync(new URL('review-sources.json',import.meta.url),'utf8'));
-const results=await Promise.all(items.map(async item=>{try{if(existsSync(`${root}previews/${item.id}.jpg`)){const data=readFileSync(`${root}previews/${item.id}.jpg`);const m=await sharp(data).metadata();return {...item,status:200,bytes:data.length,width:m.width,height:m.height,format:m.format,scope:'Review copy only; existing preview reused'};}const response=await fetch(item.url);if(!response.ok) return {...item,status:response.status,review:'Unavailable; no access restriction bypass attempted'};const data=Buffer.from(await response.arrayBuffer());const metadata=await sharp(data).metadata();writeFileSync(`${root}previews/${item.id}.jpg`,data);return {...item,status:response.status,bytes:data.length,width:metadata.width,height:metadata.height,format:metadata.format,scope:'Review copy only, not approved production asset'};}catch(e){return {...item,error:String(e)};}}));
-writeFileSync(`${root}evidence/review-downloads.json`,JSON.stringify(results,null,2));console.log(results.map(x=>({id:x.id,status:x.status,bytes:x.bytes,width:x.width,height:x.height,error:x.error})));

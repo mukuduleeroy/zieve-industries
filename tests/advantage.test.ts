@@ -8,7 +8,7 @@ import { PillarRow } from '@/components/sections/zieve-advantage/pillar-row';
 
 describe('Five operating pillars', () => {
   it('references page 10 and preserves official pillar names and closing language', () => {
-    const source = readFileSync('docs/profile-extracted.txt', 'utf8').split('PDF page 10')[1].split('PDF page 11')[0];
+    const source = readFileSync('tests/fixtures/profile-excerpts.txt', 'utf8').split('PDF page 10')[1].split('PDF page 11')[0];
     expect(advantageContent.source.pages).toEqual([10]);
     expect(operatingPillars).toHaveLength(5);
     expect(new Set(operatingPillars.map(pillar => pillar.id)).size).toBe(5);

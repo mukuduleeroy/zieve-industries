@@ -8,7 +8,7 @@ import { CorporatePurpose } from '@/components/sections/corporate-purpose/corpor
 
 describe('Official corporate purpose', () => {
   it('reuses page 11 statements without copying or changing their meaning', () => {
-    const source = readFileSync('docs/profile-extracted.txt', 'utf8').split('PDF page 11')[1].split('PDF page 12')[0].replace(/\s+/g, ' ');
+    const source = readFileSync('tests/fixtures/profile-excerpts.txt', 'utf8').split('PDF page 11')[1].split('PDF page 12')[0].replace(/\s+/g, ' ');
     expect(purposeContent.source.pages).toEqual([11]);
     expect(purposeContent.vision.statement).toBe(company.vision);
     expect(purposeContent.mission.statement).toBe(company.mission);

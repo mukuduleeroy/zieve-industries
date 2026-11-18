@@ -49,7 +49,7 @@ describe('Hero content and progressive media', () => {
     expect(html).toContain(heroPlaceholder.src);
   });
   it('matches both approved local R1 derivatives to the acquisition record', () => {
-    const record: { assets: { path: string; sha256: string }[]; mirrored: boolean } = JSON.parse(readFileSync('docs/homepage-refinement/phase-11a5/evidence/hero-final/acquisition.json', 'utf8'));
+    const record: { assets: { path: string; sha256: string }[]; mirrored: boolean } = JSON.parse(readFileSync('tests/fixtures/hero-acquisition.json', 'utf8'));
     expect(record.mirrored).toBe(false);
     expect(record.assets).toHaveLength(2);
     for (const asset of record.assets) expect(createHash('sha256').update(readFileSync(asset.path)).digest('hex')).toBe(asset.sha256);

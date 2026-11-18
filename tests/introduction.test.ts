@@ -9,7 +9,7 @@ import { introductionMedia } from '@/config/introduction-media';
 
 describe('Executive Summary introduction', () => {
   it('retains traceable headline/positioning and the exact approved narrative', () => {
-    const source = readFileSync('docs/profile-extracted.txt', 'utf8').split('PDF page 3')[0];
+    const source = readFileSync('tests/fixtures/profile-excerpts.txt', 'utf8').split('PDF page 3')[0];
     expect(introductionContent.source.pages).toEqual([2]);
     expect(source).toContain(introductionContent.heading);
     expect(source.toUpperCase()).toContain(introductionContent.closing.toUpperCase());

@@ -1,2 +1,0 @@
-import {chromium} from '@playwright/test';
-const b=await chromium.launch(),p=await b.newPage();p.on('console',m=>{if(m.type()==='error')console.log('console',m.text());});p.on('pageerror',e=>console.log('pageerror',e.message));p.on('response',r=>{if(r.status()>=400)console.log('http',r.status(),r.url());});await p.goto('http://localhost:3000/#solution-panel-consumables-spares',{waitUntil:'networkidle'});console.log(await p.locator('.solution-panel[data-active=true]').getAttribute('id'));await b.close();

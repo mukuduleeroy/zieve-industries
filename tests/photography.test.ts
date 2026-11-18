@@ -30,7 +30,7 @@ describe('conditional photography integration', () => {
     }
   });
   it('preserves the original six verified derivatives recorded in the source register', () => {
-    const register: { localFilename: string; sha256: string }[] = JSON.parse(readFileSync('docs/homepage-refinement/phase-11a5/evidence/stage-b/integrated-images.json', 'utf8'));
+    const register: { localFilename: string; sha256: string }[] = JSON.parse(readFileSync('tests/fixtures/integrated-images.json', 'utf8'));
     expect(Object.values(industrialPhotography)).toHaveLength(6);
     for (const media of Object.values(industrialPhotography)) {
       const record = register.find(item => item.localFilename === `public${media.src}`);

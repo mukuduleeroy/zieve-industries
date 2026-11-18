@@ -1,3 +1,0 @@
-import {chromium,expect} from '@playwright/test';
-const b=await chromium.launch(),p=await b.newPage({viewport:{width:1440,height:1000}});await p.goto('http://127.0.0.1:3100',{waitUntil:'networkidle'});await expect(p.locator('.industry-scene')).toHaveAttribute('data-horizontal','true');
-await p.locator('#industries-we-serve').evaluate(el=>el.scrollIntoView({block:'start'}));const link=p.locator('#industry-mining-mineral-processing a').first();const href=await link.getAttribute('href');await link.click();console.log({expected:href,actual:p.url(),mode:await p.locator('.industry-scene').getAttribute('data-horizontal')});await expect(p).toHaveURL(href);await b.close();
