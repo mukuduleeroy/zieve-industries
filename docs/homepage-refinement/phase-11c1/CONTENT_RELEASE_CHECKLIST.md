@@ -1,0 +1,25 @@
+# Content and release checklist
+
+Phase 11C.1 · 18 November 2026 · readiness preparation only.
+
+## Source and destinations
+
+Current source-preserved contacts: **46 Van Praagh Avenue, Miton Park, Harare, Zimbabwe**; **+263 78 246 8399** (`tel:+263782468399`); **info@zieveindustries.com**. Profile physical page 3 of 12 is recorded source. “Miton Park” is retained exactly pending owner confirmation; no spelling correction or operational claim is inferred. No call, email delivery test or outside communication occurred.
+
+Current homepage links use root-section anchors. Inventory resolves every rendered hash destination and records no missing hashes. Solutions deep links target existing panels; route-reservation HTTP 200 does not mean inner pages are complete. `/about`, `/solutions`, `/industries`, `/why-zieve`, `/contact` and five known `/solutions/[slug]` paths are unfinished development status pages. Unknown service returns 404. `/development/foundation` remains accessible locally and is not public editorial content.
+
+| ID / priority | Current status / evidence | Owner / approval dependency | Proposed resolution | Risk | Required verification |
+|---|---|---|---|---|---|
+| C01 / P1 | PDF-derived address, telephone and email; current operational validity unconfirmed | Company owner confirms exact address/spelling, phone and inbox | Written current confirmation without inventing corrected address | High: enquiries sent incorrectly | Match all content files/rendered footer/quote/mailto/tel after approval; owner-controlled call/email test separately authorized |
+| C02 / P1 | Inner pages reserved, homepage anchors valid; inventory route statuses retained | Product/content owner defines launch scope | Explicitly approve homepage-only release/defer reserved pages, or commission separate inner-page work; do not build now | Medium: unfinished destinations if promoted | Crawl approved public journeys, direct-route expectations and development-route exclusion; keyboard/hash navigation |
+| C03 / P1 | Mailto-only quotation, client-memory draft, no server delivery | Business owner accepts handoff limits | Document email-client dependency, 1800-character conservative URL budget, copy fallback and reload loss; retain manual send and transport | High: no delivery guarantee; URL size is not universal client support | Long draft, clipboard denial/select-summary, client installed/absent, cancel/return; no send or backend change in checkpoint |
+| C04 / P1 | Title/description/lang en-ZW present; canonical, metadataBase and OG/Twitter assets absent | Owner supplies final verified HTTPS domain and approved sharing artwork | Prepare canonical/social requirements for later approved work. Do not infer hostname from email domain | Medium: incorrect search/share identity | Actual response/head across routes and shared previews after approved implementation |
+| C05 / P1 | `<meta name="robots" content="noindex, nofollow">` verified; no X-Robots header observed | Release owner alone authorizes later indexing | Keep disabled through this checkpoint; future staging/production indexing plan requires explicit approval | High: accidental discovery or wrong environment | Inspect page source/rendered meta and response headers on final host. Noindex is not authentication/access control |
+| C06 / P2 | `/robots.txt` and `/sitemap.xml` return 404; no routes configured | Release/product owner, final domain and page scope | Define future robots policy and sitemap only for approved indexable canonical pages, excluding development/reservations/fragments | Medium: premature indexing or misleading sitemap | Validate future actual responses and URLs; do not enable/generate now |
+| C07 / P2 | No favicon/icon metadata; `/favicon.ico` 404; no approved OG graphic | Brand owner supplies assets/approval | Obtain approved favicon and sharing assets; no logo redraw or invented social artwork | Low–medium: incomplete browser/share identity | Dimensions, crop, MIME/cache, accessible sharing copy, browser tabs and social previews |
+| C08 / P2 | Current credits/provenance retained; four rights holds remain schematic | Rights/brand owner | Review exact source/file/use and approval records on final asset freeze; preserve illustrative captions and do not imply actual facilities | High if rights assumed | Cross-check config, source/derivative filenames, hashes, captions, alt, attribution and licence register |
+| C09 / P2 | No broken homepage hash links; route/system inventory in evidence | QA after final scope/assets/fonts | Repeat link checks and owner-approved mailto/tel handoff on final environment | Medium: routing/environment differences | Hash panel activation, anchor offset/focus, canonical paths, expected404s, no unsupported delivery assertions |
+
+## Unchanged release guardrails
+
+No deployment, indexing change, sitemap creation, favicon generation, inner-page work, new claims, backend or quotation transport change. Absent optional assets and reserved pages are documented dependencies; this report does not silently redefine them as completed content.

@@ -8,7 +8,6 @@ export function QuotationSection() {
     <QuotationMotion>
       <div className="quotation-editorial">
         <div className="quotation-linework" aria-hidden="true" />
-        <p className="eyebrow quotation-eyebrow" data-quotation-reveal>{content.eyebrow}</p>
         <Heading as="h2" id="quotation-title" data-quotation-reveal>{content.heading}</Heading>
         <Text className="quotation-supporting" data-quotation-reveal>{content.supporting}</Text>
         <CorporateContact />

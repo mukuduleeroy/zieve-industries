@@ -1,0 +1,36 @@
+{
+  "assets": {
+    "before": {
+      ".js": {
+        "bytes": 1052366,
+        "gzip": 335728
+      },
+      ".css": {
+        "bytes": 53365,
+        "gzip": 10036
+      }
+    },
+    "after": {
+      ".js": {
+        "bytes": 1052415,
+        "gzip": 335791
+      },
+      ".css": {
+        "bytes": 54088,
+        "gzip": 10166
+      }
+    }
+  },
+  "afterImageTransfer": [
+    [
+      false,
+      134400,
+      253494
+    ],
+    [
+      true,
+      52646,
+      228808
+    ]
+  ]
+}

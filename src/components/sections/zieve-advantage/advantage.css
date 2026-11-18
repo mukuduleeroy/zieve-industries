@@ -3,8 +3,7 @@
   .zieve-advantage :focus-visible { outline-color: var(--color-brand-amber); }
   .advantage-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-section); align-items: start; }
   .advantage-editorial { min-width: 0; max-width: 38rem; }
-  .advantage-eyebrow { color: var(--color-brand-amber); }
-  .advantage-title { margin-top: 1.5rem; }
+  .advantage-title { margin-top: 0; }
   .advantage-title > span { display: block; }
   .advantage-supporting { margin-top: 1.75rem; max-width: 30rem; }
   .advantage-signature { margin-top: 2.5rem; max-width: 28rem; }

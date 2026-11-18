@@ -44,6 +44,5 @@ export type IndustryPanelContent = (typeof industrySectors)[number];
 export type IndustrySlug = IndustryPanelContent['slug'];
 export const industryExperienceContent = {
   id: 'industries-we-serve',
-  eyebrow: '03 / INDUSTRIES WE SERVE',
   heading: 'Built for the industries that build tomorrow.',
 } as const;

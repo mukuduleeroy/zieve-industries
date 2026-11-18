@@ -1,0 +1,347 @@
+[
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "height": 14152,
+    "cls": 0,
+    "figures": [
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative schematic · Approved division photography pending",
+        "image": {
+          "alt": "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+          "position": "80% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Volker Braun / Pexels",
+        "image": {
+          "alt": "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative sector schematic · Approved photography pending",
+        "image": {
+          "alt": "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+          "position": "50% 45%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Psilo Cybe / Pexels",
+        "image": {
+          "alt": "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 13009,
+    "cls": 0.00797608024691358,
+    "figures": [
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative schematic · Approved division photography pending",
+        "image": {
+          "alt": "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+          "position": "80% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Volker Braun / Pexels",
+        "image": {
+          "alt": "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative sector schematic · Approved photography pending",
+        "image": {
+          "alt": "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+          "position": "50% 45%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Psilo Cybe / Pexels",
+        "image": {
+          "alt": "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "scrollWidth": 1024,
+    "height": 9854,
+    "cls": 0.0074597507052951385,
+    "figures": [
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative schematic · Approved division photography pending",
+        "image": {
+          "alt": "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+          "position": "80% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Volker Braun / Pexels",
+        "image": {
+          "alt": "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative sector schematic · Approved photography pending",
+        "image": {
+          "alt": "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+          "position": "50% 45%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Psilo Cybe / Pexels",
+        "image": {
+          "alt": "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "height": 10849,
+    "cls": 0,
+    "figures": [
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative schematic · Approved division photography pending",
+        "image": {
+          "alt": "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+          "position": "80% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Volker Braun / Pexels",
+        "image": {
+          "alt": "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative sector schematic · Approved photography pending",
+        "image": {
+          "alt": "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+          "position": "50% 45%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Psilo Cybe / Pexels",
+        "image": {
+          "alt": "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "height": 10886,
+    "cls": 0,
+    "figures": [
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative schematic · Approved division photography pending",
+        "image": {
+          "alt": "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+          "position": "80% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Volker Braun / Pexels",
+        "image": {
+          "alt": "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "placeholder",
+        "caption": "Illustrative sector schematic · Approved photography pending",
+        "image": {
+          "alt": "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+          "position": "50% 50%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Kateryna Babaieva / Pexels",
+        "image": {
+          "alt": "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+          "position": "50% 45%"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Illustrative stock photo · Psilo Cybe / Pexels",
+        "image": {
+          "alt": "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph.",
+          "loaded": true,
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+          "position": "50% 50%"
+        }
+      }
+    ],
+    "errors": []
+  }
+]

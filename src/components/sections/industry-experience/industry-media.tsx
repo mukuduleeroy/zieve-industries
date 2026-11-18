@@ -2,12 +2,12 @@
 import { useState, type CSSProperties } from 'react';
 import { Image } from '@/components/ui/primitives';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
-export function IndustryMedia({ media, fallback }: { media: EditorialMediaConfig; fallback: EditorialMediaConfig }) {
+export function IndustryMedia({ media, fallback, labelledBy }: { media: EditorialMediaConfig; fallback: EditorialMediaConfig; labelledBy?: string }) {
   const [failed, setFailed] = useState(false);
   const [unavailable, setUnavailable] = useState(false);
   const current = failed ? fallback : media;
   const positions = { '--industry-desktop-position': current.desktopPosition, '--industry-mobile-position': current.mobilePosition } as CSSProperties;
-  return <figure className="industry-figure" style={positions} data-media-failed={failed} data-media-kind={current.kind}>
+  return <figure className="industry-figure" aria-labelledby={labelledBy} style={positions} data-media-failed={failed} data-media-kind={current.kind}>
     <div className="industry-image-mask" data-industry-mask>
       <div className="industry-image-parallax" data-industry-parallax>
         {unavailable ? <div className="industry-media-unavailable" role="img" aria-label="Sector illustration unavailable. Approved photography pending.">Approved sector photography pending</div> :

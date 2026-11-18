@@ -23,7 +23,7 @@ describe('Executive Summary introduction', () => {
     expect(html).toContain('aria-labelledby="introduction-title"');
     expect(html).toMatch(/<h2[^>]*id="introduction-title"/);
     expect(html).not.toContain('<h1');
-    expect(html).toContain(introductionContent.eyebrow);
+    expect(html).not.toMatch(/\d{2} \/ (WHO WE ARE|OUR SOLUTIONS)/);
     for (const paragraph of introductionContent.paragraphs) expect(html).toContain(paragraph);
     expect(html).toContain(introductionContent.closing);
     expect(html).toContain('<figure');
@@ -31,14 +31,14 @@ describe('Executive Summary introduction', () => {
     expect(html).not.toContain('opacity:0');
     expect(html).not.toContain('clip-path:');
   });
-  it('uses the existing local schematic without claiming company facilities', () => {
-    expect(introductionMedia.kind).toBe('placeholder');
+  it('uses approved local photography with explicit stock provenance', () => {
+    expect(introductionMedia.kind).toBe('image');
     expect(existsSync(`public${introductionMedia.src}`)).toBe(true);
-    expect(introductionMedia.alt).toContain('not a Zieve Industries facility');
+    expect(introductionMedia.caption).toContain('Illustrative stock');
     const html = renderToStaticMarkup(createElement(IntroductionMedia, { media: introductionMedia }));
     expect(html).toContain('loading="lazy"');
     expect(html).not.toContain('fetchPriority="high"');
-    expect(html).not.toContain('/_next/image');
+    expect(html).toContain('/_next/image');
     expect(html).toContain(introductionMedia.caption);
   });
   it('supports approved photographs with optimisation and meaningful alt text', () => {

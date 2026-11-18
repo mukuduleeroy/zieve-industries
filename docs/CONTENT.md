@@ -55,3 +55,19 @@ Section 09 uses `src/content/footer.ts` for the exact supplied editorial support
 
 
 Phase 11A retains all canonical route definitions and profile copy but gives homepage discovery a separate derived anchor view. Primary exploration points to existing introduction/solutions/industries/advantage/contact sections; each named division points to its existing solution-panel hash. Request a Quote remains /#request-a-quote. The panel action now reads “Link to this solution” to describe its permalink purpose. No brand assets, business descriptions, claims or source data changed. See the Phase 11A link inventory for the complete old/new mapping.
+
+## Phase 11A.5 photographic provenance
+
+Six conditional stock photographs are now configured in `src/config/industrial-photography.ts`, with business copy unchanged. Their alt text describes the actual subject and excludes Zieve ownership/staff/inventory claims; visible captions identify illustrative stock and credit the contributor/publisher. Company imagery is physically cropped to the component, excluding the worker profile. Chemicals depict process infrastructure, mining depicts extraction/handling without an inferred commodity/location, and agro-processing depicts grain storage/handling rather than a verified milling installation. The cleaner spares alternative shows generic fasteners and makes no stock-availability claim. Source-specific permissions, original filenames/dimensions and final visual holds are documented in `homepage-refinement/phase-11a5/IMAGE_LICENSE_REGISTER.md`. Hero/earthmoving/elution/lubricants/civil still use their original labelled schematics. These are illustrative contexts, never evidence of Zieve facilities, projects, customers or staff.
+
+Final PH01 update: the approved R1 Sunrise Excavator photograph by Metehan Özaras / Pexels now replaces the hero schematic presentation, with the original schematic retained as fallback. It is decorative imagery with empty alt text; the existing visible caption credits the source and disclaims a Zieve site. Hero business copy, location/CTA content and other section content are unchanged. PH03/PH04/PH06/PH09 retain their schematic holds. Final PH01 source/licence/acquisition/crops are recorded in the Phase 11A.5 hero-final evidence and current reports.
+
+
+## Phase 11B.5 — presentation labels and photography holds
+
+Removed only the six decorative numbered section-eyebrow properties/elements from Introduction, Solutions, Industries, Advantage, Purpose and Quotation. Their actual headings/narratives, all sector/division/value/pillar names, government procurement note, links and contact copy remain unchanged. Industry numerals and progress are decorative/functional sequence, not new business claims. PH03/04/06/09 remain schematic because this research did not produce approved, fully cleared replacements. The seven existing photographs and provenance captions are unchanged. See homepage-refinement/phase-11b5/IMAGE_LICENSE_REGISTER.md for new research-only leads; no new original acquired or production asset integrated.
+
+
+## Phase 11B.6 — final scoped refinement
+
+No content/media configuration or business copy changed. The existing editorial headline and narrative now follow the existing figure in the shared DOM. Figures reference their own H3 without duplicate headings/content. PH03/04/06/09 still lack approved replacement image/crops; renewed source research is recorded but no unapproved photo is acquired/integrated.

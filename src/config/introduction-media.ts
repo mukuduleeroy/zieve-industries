@@ -1,3 +1,4 @@
+import { industrialPhotography } from './industrial-photography';
 import { heroPlaceholder } from './hero-media';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
 /** Existing original schematic, not a photograph of company property or operations. */
@@ -10,4 +11,4 @@ export const introductionPlaceholder: Extract<EditorialMediaConfig, { kind: 'pla
   mobilePosition: '78% 50%',
 };
 /** Switch only after image rights/caption/crops are approved. No media is fabricated. */
-export const introductionMedia: EditorialMediaConfig = introductionPlaceholder;
+export const introductionMedia: EditorialMediaConfig = industrialPhotography.company;

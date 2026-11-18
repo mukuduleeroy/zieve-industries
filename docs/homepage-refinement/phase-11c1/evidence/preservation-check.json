@@ -1,0 +1,11 @@
+{
+  "changedOrRemoved": [],
+  "added": [],
+  "trackedScope": [
+    "src/**",
+    "public/**",
+    "tests/**",
+    "root *.json/*.ts/*.mjs"
+  ],
+  "applicationPreserved": true
+}

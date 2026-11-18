@@ -1,3 +1,4 @@
+import { QuotationDraft } from '@/components/sections/quotation/quotation-draft';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
@@ -65,4 +66,15 @@ describe('Quotation validation and email preparation', () => {
     expect(html).toMatch(/novalidate=""/i);
     expect(html).not.toContain('<h1');
   });
+});
+
+// The prepared result is a named group, not a new landmark or a duplicate live region.
+it('groups the prepared draft with its heading while keeping announcements scoped', () => {
+  const draft = prepareEmailQuotation({ ...quotationDefaults, fullName: 'Tariro Moyo', email: 'tariro@example.com', category: 'earthmoving-construction', requirements: 'Excavator filters.' });
+  const html = renderToStaticMarkup(createElement(QuotationDraft, { draft }));
+  expect(html).toContain('class="quotation-draft" role="group" aria-labelledby="quotation-draft-title"');
+  expect(html).toContain('<h4 id="quotation-draft-title"');
+  expect(html.match(/role="status"/g)).toHaveLength(1);
+  expect(html.match(/aria-live="polite"/g)).toHaveLength(1);
+  expect(html).toContain('Nothing has been submitted from this website.');
 });

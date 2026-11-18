@@ -1,0 +1,49 @@
+{
+  "changed": [
+    "src/content/industry-experience.ts",
+    "src/content/introduction.ts",
+    "src/content/solutions-showcase.ts",
+    "src/content/advantage.ts",
+    "src/content/quotation.ts",
+    "src/content/purpose.ts",
+    "src/components/sections/quotation/quotation.css",
+    "src/components/sections/quotation/quotation-section.tsx",
+    "src/components/sections/solutions-showcase/solutions-showcase.tsx",
+    "src/components/sections/solutions-showcase/solutions.css",
+    "src/components/sections/company-introduction/company-introduction.tsx",
+    "src/components/sections/company-introduction/introduction.css",
+    "src/components/sections/zieve-advantage/advantage.css",
+    "src/components/sections/zieve-advantage/zieve-advantage.tsx",
+    "src/components/sections/industry-experience/industries.css",
+    "src/components/sections/industry-experience/industry-motion.tsx",
+    "src/components/sections/industry-experience/industry-experience.tsx",
+    "src/components/sections/industry-experience/sector-panel.tsx",
+    "src/components/sections/corporate-purpose/purpose-vision.tsx",
+    "src/components/sections/corporate-purpose/purpose.css",
+    "src/hooks/use-introduction-motion.ts",
+    "tests/introduction.test.ts",
+    "tests/solutions.test.ts",
+    "tests/e2e/introduction.spec.ts",
+    "tests/e2e/industries.spec.ts",
+    "tests/e2e/phase-11b.spec.ts"
+  ],
+  "added": [
+    "src/hooks/use-industry-scroll.ts",
+    "tests/e2e/phase-11b5.spec.ts"
+  ],
+  "publicAssetChanges": [],
+  "configurationChanges": [],
+  "protectedHashesUnchanged": true,
+  "protectedFiles": [
+    "src/design-system/tokens.css",
+    "src/design-system/typography.css",
+    "src/app/layout.tsx",
+    "package.json",
+    "package-lock.json",
+    "playwright.config.ts",
+    "src/config/hero-media.ts",
+    "src/config/industry-media.ts",
+    "src/config/industrial-photography.ts"
+  ],
+  "headingsMatchBefore": true
+}

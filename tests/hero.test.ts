@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { readFileSync, existsSync } from 'node:fs';
@@ -26,15 +27,15 @@ describe('Hero content and progressive media', () => {
     expect(html).not.toContain('opacity:0');
     expect(html).not.toContain('<video');
   });
-  it('uses a real local schematic, honestly labelled and unrelated to company facilities', () => {
-    expect(heroMedia.kind).toBe('placeholder');
+  it('keeps the real local schematic independently available beneath approved photography', () => {
+    expect(heroMedia.kind).toBe('image');
     expect(existsSync(`public${heroPlaceholder.src}`)).toBe(true);
     expect(readFileSync(`public${heroPlaceholder.src}`, 'utf8')).toContain('not a photograph');
     const html = renderToStaticMarkup(createElement(HeroMedia, { media: heroMedia }));
     expect(html).toContain(heroMedia.caption);
-    expect(html).toContain('data-media-kind="placeholder"');
+    expect(html).toContain('data-media-kind="image"');
     expect(html).toContain('alt=""');
-    expect(html).not.toContain('/_next/image');
+    expect(html).toContain('/_next/image');
   });
   it('optimises configured photography while retaining a placeholder beneath it', () => {
     const html = renderToStaticMarkup(createElement(HeroMedia, { media: {
@@ -46,6 +47,14 @@ describe('Hero content and progressive media', () => {
     expect(html).toContain('<source media="(max-width: 47.999rem)"');
     expect(html).toContain('fetchPriority="high"');
     expect(html).toContain(heroPlaceholder.src);
+  });
+  it('matches both approved local R1 derivatives to the acquisition record', () => {
+    const record: { assets: { path: string; sha256: string }[]; mirrored: boolean } = JSON.parse(readFileSync('docs/homepage-refinement/phase-11a5/evidence/hero-final/acquisition.json', 'utf8'));
+    expect(record.mirrored).toBe(false);
+    expect(record.assets).toHaveLength(2);
+    for (const asset of record.assets) expect(createHash('sha256').update(readFileSync(asset.path)).digest('hex')).toBe(asset.sha256);
+    if (heroMedia.kind !== 'image') throw Error('R1 must be configured');
+    expect(record.assets.map(asset => '/' + asset.path.replace('public/', ''))).toEqual([heroMedia.src, heroMedia.mobileSrc]);
   });
   it('renders poster images but never a video source in the initial server response', () => {
     const html = renderToStaticMarkup(createElement(HeroMedia, { media: {

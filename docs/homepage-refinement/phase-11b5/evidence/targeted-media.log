@@ -1,0 +1,35 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test tests/e2e/industries.spec.ts tests/e2e/phase-11b5.spec.ts --workers=2 --trace=retain-on-failure --output=docs/homepage-refinement/phase-11b5/evidence/targeted-media
+
+[WebServer] (node:88341) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 16 tests using 2 workers
+
+(node:88351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:88352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (788ms)
+  ✓   3 [desktop] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (295ms)
+  ✓   4 [desktop] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (406ms)
+  ✓   2 [desktop] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (2.2s)
+  ✓   6 [desktop] › tests/e2e/industries.spec.ts:141:1 › all sector content and solution links work without JavaScript (296ms)
+  ✓   7 [desktop] › tests/e2e/phase-11b5.spec.ts:3:1 › decorative section eyebrows are removed without losing headings or functional numbering (309ms)
+  ✓   5 [desktop] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (1.6s)
+(node:88378) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [desktop] › tests/e2e/phase-11b5.spec.ts:18:1 › industry lifecycle preserves reading flow for enlarged text, motion changes, keyboard and direct anchors (776ms)
+(node:88409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [mobile] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (557ms)
+  ✓  11 [mobile] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (300ms)
+  ✓  12 [mobile] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (397ms)
+  ✓  13 [mobile] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (401ms)
+  ✓  14 [mobile] › tests/e2e/industries.spec.ts:141:1 › all sector content and solution links work without JavaScript (417ms)
+  ✓  15 [mobile] › tests/e2e/phase-11b5.spec.ts:3:1 › decorative section eyebrows are removed without losing headings or functional numbering (256ms)
+  ✓  16 [mobile] › tests/e2e/phase-11b5.spec.ts:18:1 › industry lifecycle preserves reading flow for enlarged text, motion changes, keyboard and direct anchors (422ms)
+  ✓  10 [mobile] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (4.0s)
+
+  16 passed (9.0s)

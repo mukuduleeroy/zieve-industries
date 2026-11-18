@@ -1,6 +1,7 @@
+import { blockMedia } from './media-routes';
 import { expect, test } from '@playwright/test';
 import { solutionDivisions as divisions } from '../../src/content/solutions-showcase';
-import { solutionPlaceholders } from '../../src/config/solutions-media';
+import { solutionsMedia, solutionPlaceholders } from '../../src/config/solutions-media';
 const section = '#industrial-solutions';
 const activePanel = `${section} .solution-panel[data-active="true"]`;
 
@@ -19,7 +20,7 @@ test.describe('Desktop solutions', () => {
       await expect(panel.getByText(division.description, { exact: true })).toBeVisible();
       await expect(panel.locator('.solution-panel-number')).toHaveText(`Division ${division.number} / 05`);
       await expect(panel.getByRole('link')).toHaveAttribute('href', division.href);
-      await expect(panel.getByRole('img')).toHaveAttribute('alt', solutionPlaceholders[division.slug].alt);
+      await expect(panel.getByRole('img')).toHaveAttribute('alt', solutionsMedia[division.slug].alt);
       await expect(group.getByRole('button', { pressed: true })).toHaveCount(1);
     }
     const first = group.getByRole('button', { name: divisions[0].name, exact: true });
@@ -88,7 +89,7 @@ test('responsive layout, reduced motion and all media fallbacks remain usable', 
     await expect(panel.locator('.solution-panel-copy')).toHaveCSS('transform', 'none');
     if (width === 390 || width === 1440) await page.locator(section).screenshot({ path: testInfo.outputPath(`solutions-${width}.png`), animations: 'disabled', style: '.site-header, .skip-link { visibility: hidden !important; }' });
   }
-  for (const item of Object.values(solutionPlaceholders)) await page.route(`**${item.src}`, route => route.abort());
+  await blockMedia(page, [...Object.values(solutionsMedia), ...Object.values(solutionPlaceholders)].map(media => media.src));
   // A fresh document ensures even the default, already-loaded SVG is requested again.
   await page.reload();
   await page.setViewportSize({ width: 390, height: 844 });

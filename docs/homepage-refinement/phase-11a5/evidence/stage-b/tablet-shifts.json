@@ -1,0 +1,208 @@
+[
+  {
+    "width": 768,
+    "shifts": [
+      {
+        "value": 0.00797608024691358,
+        "start": 190.69999998807907,
+        "sources": [
+          {
+            "element": "<div class=\"hero-editorial\"><p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p><h1 class=\"heading heading-display hero-title\" id=\"hero-title\"><span class=\"hero-hea",
+            "previous": {
+              "x": 29.71875,
+              "y": 309.125,
+              "width": 707.5625,
+              "height": 321.75,
+              "top": 309.125,
+              "right": 737.28125,
+              "bottom": 630.875,
+              "left": 29.71875
+            },
+            "current": {
+              "x": 29.71875,
+              "y": 317.125,
+              "width": 707.5625,
+              "height": 321.75,
+              "top": 317.125,
+              "right": 737.28125,
+              "bottom": 638.875,
+              "left": 29.71875
+            }
+          },
+          {
+            "element": "<div class=\"container-shell hero-footer\"><a href=\"#hero-end\" class=\"hero-scroll\" aria-label=\"Scroll to the end of the hero\"><span class=\"hero-scroll-track\" aria-hidden=\"true\"><span></span></span><span>Scroll</span><svg xmlns=\"http://www.w3.",
+            "previous": {
+              "x": 0,
+              "y": 800,
+              "width": 768,
+              "height": 84,
+              "top": 800,
+              "right": 768,
+              "bottom": 884,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 816,
+              "width": 768,
+              "height": 84,
+              "top": 816,
+              "right": 768,
+              "bottom": 900,
+              "left": 0
+            }
+          },
+          {
+            "element": "<section class=\"section-shell company-introduction\" tabindex=\"-1\" id=\"company-introduction\" aria-labelledby=\"introduction-title\"><div class=\"container-shell\"><div class=\"introduction-grid\"><div class=\"introduction-editorial\"><p class=\"eyebr",
+            "previous": {
+              "x": 0,
+              "y": 884,
+              "width": 768,
+              "height": 16,
+              "top": 884,
+              "right": 768,
+              "bottom": 900,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "element": "<span></span>",
+            "previous": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "current": {
+              "x": 34.71875,
+              "y": 822,
+              "width": 1,
+              "height": 16,
+              "top": 822,
+              "right": 35.71875,
+              "bottom": 838,
+              "left": 34.71875
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "shifts": [
+      {
+        "value": 0.0074597507052951385,
+        "start": 140.5,
+        "sources": [
+          {
+            "element": "<div class=\"hero-editorial\"><p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p><h1 class=\"heading heading-display hero-title\" id=\"hero-title\"><span class=\"hero-hea",
+            "previous": {
+              "x": 39.953125,
+              "y": 294.671875,
+              "width": 943.09375,
+              "height": 350.65625,
+              "top": 294.671875,
+              "right": 983.046875,
+              "bottom": 645.328125,
+              "left": 39.953125
+            },
+            "current": {
+              "x": 39.953125,
+              "y": 302.671875,
+              "width": 943.09375,
+              "height": 350.65625,
+              "top": 302.671875,
+              "right": 983.046875,
+              "bottom": 653.328125,
+              "left": 39.953125
+            }
+          },
+          {
+            "element": "<div class=\"container-shell hero-footer\"><a href=\"#hero-end\" class=\"hero-scroll\" aria-label=\"Scroll to the end of the hero\"><span class=\"hero-scroll-track\" aria-hidden=\"true\"><span></span></span><span>Scroll</span><svg xmlns=\"http://www.w3.",
+            "previous": {
+              "x": 0,
+              "y": 800,
+              "width": 1024,
+              "height": 84,
+              "top": 800,
+              "right": 1024,
+              "bottom": 884,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 816,
+              "width": 1024,
+              "height": 84,
+              "top": 816,
+              "right": 1024,
+              "bottom": 900,
+              "left": 0
+            }
+          },
+          {
+            "element": "<section class=\"section-shell company-introduction\" tabindex=\"-1\" id=\"company-introduction\" aria-labelledby=\"introduction-title\"><div class=\"container-shell\"><div class=\"introduction-grid\"><div class=\"introduction-editorial\"><p class=\"eyebr",
+            "previous": {
+              "x": 0,
+              "y": 884,
+              "width": 1024,
+              "height": 16,
+              "top": 884,
+              "right": 1024,
+              "bottom": 900,
+              "left": 0
+            },
+            "current": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            }
+          },
+          {
+            "element": "<span></span>",
+            "previous": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0,
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0
+            },
+            "current": {
+              "x": 44.953125,
+              "y": 822,
+              "width": 1,
+              "height": 16,
+              "top": 822,
+              "right": 45.953125,
+              "bottom": 838,
+              "left": 44.953125
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1302 @@
+{
+  "browser": "159.0.8154.6",
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": 0,
+      "head": {
+        "title": "Zieve Industries | Equipping Industry. Empowering Growth.",
+        "description": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+        "robots": "noindex, nofollow",
+        "canonical": null,
+        "og": [],
+        "icons": [],
+        "lang": "en-ZW"
+      },
+      "fontFaces": [],
+      "fontRequests": [],
+      "text": {
+        "700/normal": 103,
+        "400/normal": 137,
+        "400/italic": 5
+      },
+      "metrics": [
+        {
+          "text": "Equipping Industry. ",
+          "width": 350,
+          "height": 92,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "40px",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Empowering Growth.",
+          "width": 350,
+          "height": 92,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "40px",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+          "width": 350,
+          "height": 84,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16px",
+          "lineHeight": "28px"
+        },
+        {
+          "text": "Full name (required)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Email address (required)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Company / organisation (optional)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Telephone / WhatsApp (optional)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Product or service category (required)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Industry sector (optional)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Delivery or project location (optional)",
+          "width": 310,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Requirements / project description (required)",
+          "width": 310,
+          "height": 44.78125,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        }
+      ],
+      "logos": [
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 132,
+            "height": 61.890625
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 0,
+            "height": 0
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 158,
+            "height": 74.078125
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "lazy",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        }
+      ],
+      "startup": {
+        "shifts": [],
+        "headerUpdates": [
+          {
+            "time": 186.7000000178814,
+            "value": "96px"
+          }
+        ]
+      },
+      "platformFonts": [
+        {
+          "selector": ".hero-headline-line",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 18
+            }
+          ]
+        },
+        {
+          "selector": ".hero-supporting",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 128
+            }
+          ]
+        },
+        {
+          "selector": ".industry-headline",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "isCustomFont": false,
+              "glyphCount": 43
+            }
+          ]
+        },
+        {
+          "selector": ".header-nav-link",
+          "fonts": []
+        },
+        {
+          "selector": ".quotation-field label",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 10
+            },
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 10
+            }
+          ]
+        }
+      ],
+      "xRobots": null
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "head": {
+        "title": "Zieve Industries | Equipping Industry. Empowering Growth.",
+        "description": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+        "robots": "noindex, nofollow",
+        "canonical": null,
+        "og": [],
+        "icons": [],
+        "lang": "en-ZW"
+      },
+      "fontFaces": [],
+      "fontRequests": [],
+      "text": {
+        "700/normal": 103,
+        "400/normal": 137,
+        "400/italic": 5
+      },
+      "metrics": [
+        {
+          "text": "Equipping Industry. ",
+          "width": 706.5625,
+          "height": 46,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "40px",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "Empowering Growth.",
+          "width": 706.5625,
+          "height": 46,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "40px",
+          "lineHeight": "46px"
+        },
+        {
+          "text": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+          "width": 706.5625,
+          "height": 58.5625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "16.736px",
+          "lineHeight": "29.288px"
+        },
+        {
+          "text": "Full name (required)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Email address (required)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Company / organisation (optional)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Telephone / WhatsApp (optional)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Product or service category (required)",
+          "width": 666.5625,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Industry sector (optional)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Delivery or project location (optional)",
+          "width": 325.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Requirements / project description (required)",
+          "width": 666.5625,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        }
+      ],
+      "logos": [
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 132,
+            "height": 61.890625
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 0,
+            "height": 0
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 158,
+            "height": 74.078125
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "lazy",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        }
+      ],
+      "startup": {
+        "shifts": [
+          {
+            "time": 137.19999998807907,
+            "value": 0.00797608024691358,
+            "sources": [
+              {
+                "node": "hero-editorial",
+                "previous": {
+                  "x": 29.71875,
+                  "y": 309.125,
+                  "width": 707.5625,
+                  "height": 321.75,
+                  "top": 309.125,
+                  "right": 737.28125,
+                  "bottom": 630.875,
+                  "left": 29.71875
+                },
+                "current": {
+                  "x": 29.71875,
+                  "y": 317.125,
+                  "width": 707.5625,
+                  "height": 321.75,
+                  "top": 317.125,
+                  "right": 737.28125,
+                  "bottom": 638.875,
+                  "left": 29.71875
+                }
+              },
+              {
+                "node": "container-shell hero-footer",
+                "previous": {
+                  "x": 0,
+                  "y": 800,
+                  "width": 768,
+                  "height": 84,
+                  "top": 800,
+                  "right": 768,
+                  "bottom": 884,
+                  "left": 0
+                },
+                "current": {
+                  "x": 0,
+                  "y": 816,
+                  "width": 768,
+                  "height": 84,
+                  "top": 816,
+                  "right": 768,
+                  "bottom": 900,
+                  "left": 0
+                }
+              },
+              {
+                "node": "section-shell company-introduction",
+                "previous": {
+                  "x": 0,
+                  "y": 884,
+                  "width": 768,
+                  "height": 16,
+                  "top": 884,
+                  "right": 768,
+                  "bottom": 900,
+                  "left": 0
+                },
+                "current": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                }
+              },
+              {
+                "node": "",
+                "previous": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "current": {
+                  "x": 34.71875,
+                  "y": 822,
+                  "width": 1,
+                  "height": 16,
+                  "top": 822,
+                  "right": 35.71875,
+                  "bottom": 838,
+                  "left": 34.71875
+                }
+              }
+            ]
+          }
+        ],
+        "headerUpdates": [
+          {
+            "time": 130.59999999403954,
+            "value": "96px"
+          }
+        ]
+      },
+      "platformFonts": [
+        {
+          "selector": ".hero-headline-line",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 19
+            }
+          ]
+        },
+        {
+          "selector": ".hero-supporting",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 129
+            }
+          ]
+        },
+        {
+          "selector": ".industry-headline",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "isCustomFont": false,
+              "glyphCount": 44
+            }
+          ]
+        },
+        {
+          "selector": ".header-nav-link",
+          "fonts": []
+        },
+        {
+          "selector": ".quotation-field label",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 10
+            },
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 10
+            }
+          ]
+        }
+      ],
+      "xRobots": null
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "head": {
+        "title": "Zieve Industries | Equipping Industry. Empowering Growth.",
+        "description": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+        "robots": "noindex, nofollow",
+        "canonical": null,
+        "og": [],
+        "icons": [],
+        "lang": "en-ZW"
+      },
+      "fontFaces": [],
+      "fontRequests": [],
+      "text": {
+        "700/normal": 95,
+        "400/normal": 145,
+        "400/italic": 5
+      },
+      "metrics": [
+        {
+          "text": "Equipping Industry. ",
+          "width": 942.09375,
+          "height": 58.875,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "51.2px",
+          "lineHeight": "58.88px"
+        },
+        {
+          "text": "Empowering Growth.",
+          "width": 942.09375,
+          "height": 58.875,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "51.2px",
+          "lineHeight": "58.88px"
+        },
+        {
+          "text": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+          "width": 736,
+          "height": 60.375,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "17.248px",
+          "lineHeight": "30.184px"
+        },
+        {
+          "text": "Full name (required)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Email address (required)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Company / organisation (optional)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Telephone / WhatsApp (optional)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Product or service category (required)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Industry sector (optional)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Delivery or project location (optional)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Requirements / project description (required)",
+          "width": 486.4375,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        }
+      ],
+      "logos": [
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 132,
+            "height": 61.890625
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 0,
+            "height": 0
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 158,
+            "height": 74.078125
+          },
+          "natural": [
+            132,
+            61
+          ],
+          "loading": "lazy",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        }
+      ],
+      "startup": {
+        "shifts": [
+          {
+            "time": 138.19999998807907,
+            "value": 0.0074597507052951385,
+            "sources": [
+              {
+                "node": "hero-editorial",
+                "previous": {
+                  "x": 39.953125,
+                  "y": 294.671875,
+                  "width": 943.09375,
+                  "height": 350.65625,
+                  "top": 294.671875,
+                  "right": 983.046875,
+                  "bottom": 645.328125,
+                  "left": 39.953125
+                },
+                "current": {
+                  "x": 39.953125,
+                  "y": 302.671875,
+                  "width": 943.09375,
+                  "height": 350.65625,
+                  "top": 302.671875,
+                  "right": 983.046875,
+                  "bottom": 653.328125,
+                  "left": 39.953125
+                }
+              },
+              {
+                "node": "container-shell hero-footer",
+                "previous": {
+                  "x": 0,
+                  "y": 800,
+                  "width": 1024,
+                  "height": 84,
+                  "top": 800,
+                  "right": 1024,
+                  "bottom": 884,
+                  "left": 0
+                },
+                "current": {
+                  "x": 0,
+                  "y": 816,
+                  "width": 1024,
+                  "height": 84,
+                  "top": 816,
+                  "right": 1024,
+                  "bottom": 900,
+                  "left": 0
+                }
+              },
+              {
+                "node": "section-shell company-introduction",
+                "previous": {
+                  "x": 0,
+                  "y": 884,
+                  "width": 1024,
+                  "height": 16,
+                  "top": 884,
+                  "right": 1024,
+                  "bottom": 900,
+                  "left": 0
+                },
+                "current": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                }
+              },
+              {
+                "node": "",
+                "previous": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 0,
+                  "height": 0,
+                  "top": 0,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0
+                },
+                "current": {
+                  "x": 44.953125,
+                  "y": 822,
+                  "width": 1,
+                  "height": 16,
+                  "top": 822,
+                  "right": 45.953125,
+                  "bottom": 838,
+                  "left": 44.953125
+                }
+              }
+            ]
+          }
+        ],
+        "headerUpdates": [
+          {
+            "time": 131.69999998807907,
+            "value": "96px"
+          }
+        ]
+      },
+      "platformFonts": [
+        {
+          "selector": ".hero-headline-line",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 19
+            }
+          ]
+        },
+        {
+          "selector": ".hero-supporting",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 129
+            }
+          ]
+        },
+        {
+          "selector": ".industry-headline",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "isCustomFont": false,
+              "glyphCount": 43
+            }
+          ]
+        },
+        {
+          "selector": ".header-nav-link",
+          "fonts": []
+        },
+        {
+          "selector": ".quotation-field label",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 10
+            },
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 10
+            }
+          ]
+        }
+      ],
+      "xRobots": null
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "head": {
+        "title": "Zieve Industries | Equipping Industry. Empowering Growth.",
+        "description": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+        "robots": "noindex, nofollow",
+        "canonical": null,
+        "og": [],
+        "icons": [],
+        "lang": "en-ZW"
+      },
+      "fontFaces": [],
+      "fontRequests": [],
+      "text": {
+        "700/normal": 95,
+        "400/normal": 145,
+        "400/italic": 5
+      },
+      "metrics": [
+        {
+          "text": "Equipping Industry. ",
+          "width": 960,
+          "height": 82.796875,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "72px",
+          "lineHeight": "82.8px"
+        },
+        {
+          "text": "Empowering Growth.",
+          "width": 960,
+          "height": 82.796875,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "72px",
+          "lineHeight": "82.8px"
+        },
+        {
+          "text": "A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.",
+          "width": 736,
+          "height": 63,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "18px",
+          "lineHeight": "31.5px"
+        },
+        {
+          "text": "Full name (required)",
+          "width": 302.265625,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Email address (required)",
+          "width": 302.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Company / organisation (optional)",
+          "width": 302.265625,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Telephone / WhatsApp (optional)",
+          "width": 302.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Product or service category (required)",
+          "width": 620.546875,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Industry sector (optional)",
+          "width": 302.265625,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Delivery or project location (optional)",
+          "width": 302.28125,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        },
+        {
+          "text": "Requirements / project description (required)",
+          "width": 620.546875,
+          "height": 22.390625,
+          "family": "\"Noto Serif\", Georgia, \"Times New Roman\", serif",
+          "size": "14px",
+          "lineHeight": "22.4px"
+        }
+      ],
+      "logos": [
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 158,
+            "height": 74.078125
+          },
+          "natural": [
+            158,
+            74
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 0,
+            "height": 0
+          },
+          "natural": [
+            158,
+            74
+          ],
+          "loading": "auto",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        },
+        {
+          "accessibleName": "Zieve Industries home",
+          "alt": "Zieve Industries",
+          "display": {
+            "width": 158,
+            "height": 74.078125
+          },
+          "natural": [
+            158,
+            74
+          ],
+          "loading": "lazy",
+          "priority": "auto",
+          "sizes": "(min-width: 80rem) 158px, 132px",
+          "src": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75"
+        }
+      ],
+      "startup": {
+        "shifts": [],
+        "headerUpdates": [
+          {
+            "time": 124,
+            "value": "112px"
+          }
+        ]
+      },
+      "platformFonts": [
+        {
+          "selector": ".hero-headline-line",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 19
+            }
+          ]
+        },
+        {
+          "selector": ".hero-supporting",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 129
+            }
+          ]
+        },
+        {
+          "selector": ".industry-headline",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "isCustomFont": false,
+              "glyphCount": 44
+            }
+          ]
+        },
+        {
+          "selector": ".header-nav-link",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 4
+            }
+          ]
+        },
+        {
+          "selector": ".quotation-field label",
+          "fonts": [
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "isCustomFont": false,
+              "glyphCount": 10
+            },
+            {
+              "familyName": "Georgia",
+              "postScriptName": "Georgia",
+              "isCustomFont": false,
+              "glyphCount": 10
+            }
+          ]
+        }
+      ],
+      "xRobots": null
+    }
+  ],
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/industries",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/why-zieve",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/development/foundation",
+      "status": 200,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/earthmoving-construction",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/elution-gold-processing",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/industrial-chemicals",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/lubricants-fluids",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/consumables-spares",
+      "status": 200,
+      "reserved": true,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/solutions/not-a-real-service",
+      "status": 404,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 404,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 404,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 404,
+      "reserved": false,
+      "type": "text/html; charset=utf-8"
+    }
+  ],
+  "linkTargets": [
+    {
+      "href": "#main-content",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/",
+      "scheme": "http:",
+      "hashExists": null
+    },
+    {
+      "href": "/#company-introduction",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#solution-panel-earthmoving-construction",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#solution-panel-elution-gold-processing",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#solution-panel-industrial-chemicals",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#solution-panel-lubricants-fluids",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#solution-panel-consumables-spares",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#industrial-solutions",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#industries-we-serve",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#zieve-advantage",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#partner-with-zieve",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "/#request-a-quote",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "#hero-end",
+      "scheme": "http:",
+      "hashExists": true
+    },
+    {
+      "href": "tel:+263782468399",
+      "scheme": "tel:",
+      "hashExists": null
+    },
+    {
+      "href": "mailto:info@zieveindustries.com",
+      "scheme": "mailto:",
+      "hashExists": null
+    }
+  ],
+  "logoOriginal": {
+    "source": "public/branding/zieve-logo-profile.jpeg",
+    "width": 627,
+    "height": 294,
+    "format": "jpeg",
+    "hasAlpha": false,
+    "bytes": 30554
+  }
+}

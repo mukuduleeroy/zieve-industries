@@ -1,0 +1,20 @@
+[
+  {
+    "id": "R1",
+    "filename": "/private/tmp/zieve-photo-originals/HERO-R1.jpg",
+    "width": 3648,
+    "height": 2736,
+    "bytes": 434451,
+    "sha256": "44da12b266365bf8f0d1db1573e3b88bf73ad83f75821a308ddfbb00de3bf8f5",
+    "scope": "Hero review only; not integrated"
+  },
+  {
+    "id": "R2",
+    "filename": "/private/tmp/zieve-photo-originals/HERO-B.jpg",
+    "width": 5520,
+    "height": 3680,
+    "bytes": 1509284,
+    "sha256": "0f859b03f815e2053c73be345ea5e69f69c5aa03b1fd669151189330bee533e8",
+    "scope": "Hero review only; not integrated"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "baselineFiles": 164,
+  "changedExistingFiles": [
+    "src/config/industry-media.ts",
+    "src/config/solutions-media.ts",
+    "src/config/introduction-media.ts",
+    "tests/introduction.test.ts",
+    "tests/industries.test.ts",
+    "tests/e2e/introduction.spec.ts",
+    "tests/e2e/solutions.spec.ts",
+    "tests/e2e/industries.spec.ts"
+  ],
+  "unexpectedExistingFileChanges": [],
+  "heroLogoTokensComponentsRoutesAndDeploymentPreserved": true,
+  "newApplicationFiles": [
+    "src/config/industrial-photography.ts",
+    "public/images/industrial/industries/grain-handling-silos.webp",
+    "public/images/industrial/industries/open-pit-mineral-handling.webp",
+    "public/images/industrial/industries/heavy-manufacturing-machined-shaft.webp",
+    "public/images/industrial/solutions/neutral-steel-fasteners.webp",
+    "public/images/industrial/solutions/chemical-processing-infrastructure.webp",
+    "public/images/industrial/company/industrial-component-detail.webp",
+    "tests/photography.test.ts",
+    "tests/e2e/photography.spec.ts",
+    "tests/e2e/media-routes.ts"
+  ],
+  "photoFilesMatchRegister": true
+}

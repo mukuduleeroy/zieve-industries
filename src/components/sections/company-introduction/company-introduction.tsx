@@ -9,7 +9,6 @@ export function CompanyIntroduction() {
     <Container>
       <IntroductionMotion>
         <div className="introduction-editorial">
-          <p className="eyebrow introduction-eyebrow" data-intro-eyebrow>{content.eyebrow}</p>
           <Heading as="h2" id="introduction-title" className="introduction-heading" data-intro-heading>{content.heading}</Heading>
           <div className="introduction-narrative">{content.paragraphs.map(paragraph => <Text key={paragraph} data-intro-paragraph>{paragraph}</Text>)}</div>
           <div className="introduction-signature">

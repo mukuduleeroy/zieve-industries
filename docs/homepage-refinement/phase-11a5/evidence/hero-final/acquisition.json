@@ -1,0 +1,49 @@
+{
+  "placement": "PH01",
+  "selection": "R1",
+  "photographer": "Metehan Özaras",
+  "source": "https://www.pexels.com/photo/silhouette-of-excavator-at-sunrise-11562423/",
+  "download": "https://images.pexels.com/photos/11562423/pexels-photo-11562423.jpeg?cs=srgb&dl=pexels-metehan-11562423.jpg&fm=jpg",
+  "license": "https://www.pexels.com/license/",
+  "terms": "https://www.pexels.com/terms-of-service/",
+  "acquired": "2026-11-17T13:49:00.632Z",
+  "localOriginal": "/private/tmp/zieve-photo-originals/PH01-R1-original.jpg",
+  "originalWidth": 3648,
+  "originalHeight": 2736,
+  "originalBytes": 434451,
+  "originalSha256": "44da12b266365bf8f0d1db1573e3b88bf73ad83f75821a308ddfbb00de3bf8f5",
+  "commercialUse": "Combined generic industrial website hero; source-specific Free link and detailed terms verified; no prominent marks or identifiable people observed. No Zieve ownership/endorsement claim.",
+  "downloadPermitted": true,
+  "modificationPermitted": true,
+  "attributionRequired": false,
+  "credit": "Visible photographer / Pexels credit in existing hero caption",
+  "mirrored": false,
+  "assets": [
+    {
+      "path": "public/images/industrial/hero/sunrise-excavator-desktop.webp",
+      "crop": {
+        "left": 0,
+        "top": 650,
+        "width": 2600,
+        "height": 1463
+      },
+      "width": 2600,
+      "height": 1463,
+      "bytes": 71050,
+      "sha256": "1a04c98f134808fd36674e0d02a610e895ba9f036426992aabd349d04de5e44e"
+    },
+    {
+      "path": "public/images/industrial/hero/sunrise-excavator-mobile-focus.webp",
+      "crop": {
+        "left": 1350,
+        "top": 0,
+        "width": 1100,
+        "height": 1750
+      },
+      "width": 1000,
+      "height": 1591,
+      "bytes": 37514,
+      "sha256": "4979b10381370342d0e7a5e9377d287c6b283edde36dc2b139ae1f9e2bf6bf4c"
+    }
+  ]
+}

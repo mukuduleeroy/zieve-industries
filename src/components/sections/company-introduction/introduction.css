@@ -2,8 +2,7 @@
   .company-introduction { position: relative; background: var(--color-surface); color: var(--color-ink); border-top: var(--border-thin) solid var(--color-line); }
   .introduction-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-section); align-items: center; }
   .introduction-editorial { min-width: 0; }
-  .introduction-eyebrow { color: var(--color-muted); }
-  .introduction-heading { color: var(--color-brand-navy); margin-top: 1.5rem; }
+  .introduction-heading { color: var(--color-brand-navy); margin-top: 0; }
   .introduction-narrative { display: grid; gap: 1.25rem; margin-top: 2rem; max-width: 34rem; }
   .introduction-signature { margin-top: 2.5rem; }
   .introduction-divider { display: block; width: 4rem; height: 2px; background: var(--color-brand-amber); }
@@ -15,6 +14,11 @@
   .introduction-figure::before { content: ''; position: absolute; top: -0.5rem; left: -0.5rem; width: 2.5rem; height: 2.5rem; border-top: 2px solid var(--color-brand-amber); border-left: 2px solid var(--color-brand-amber); pointer-events: none; }
   .introduction-figure figcaption { margin-top: 1rem; color: var(--color-muted); font-size: var(--text-label); line-height: 1.7; }
   .introduction-media-unavailable { display: grid; place-items: center; padding: 2rem; height: 100%; color: var(--color-paper); text-align: center; font-size: var(--text-body); line-height: 1.7; }
+  @media (max-width: 63.999rem) {
+    .company-introduction { padding-block: clamp(2.5rem, 5vw, 3.5rem); }
+    .introduction-grid { gap: 2rem; }
+    .introduction-image-mask { aspect-ratio: 4 / 3; }
+  }
   @media (min-width: 64rem) {
     .introduction-grid { grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); column-gap: var(--grid-gap); }
     .introduction-editorial { grid-column: 1 / 7; }

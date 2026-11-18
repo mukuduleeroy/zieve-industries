@@ -11,7 +11,6 @@ export const quotationIndustries = [
 ] as const;
 export const quotationContent = {
   id: 'partner-with-zieve', formId: quotationAnchor.id,
-  eyebrow: '06 / PARTNER WITH ZIEVE',
   heading: 'Your next project starts with the right partner.',
   supporting: "Whether you're commissioning a gold-recovery circuit, mobilising an equipment fleet or sourcing essential industrial consumables, let's discuss what your operation needs.",
   formTitle: 'Prepare a quotation enquiry',
