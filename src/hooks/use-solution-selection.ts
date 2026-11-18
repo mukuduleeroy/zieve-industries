@@ -1,13 +1,16 @@
 'use client';
 import { useEffect, useState } from 'react';
-import type { SolutionDivision } from '@/content/solutions-showcase';
+import { solutionsShowcaseContent, type SolutionDivision } from '@/content/solutions-showcase';
 import { solutionPanelId } from '@/content/homepage-navigation';
 export function useSolutionSelection(divisions: readonly SolutionDivision[]) {
-  const [selection, setSelection] = useState({ slug: divisions[0].slug, anchor: false });
+  const [selection, setSelection] = useState({ slug: divisions[0].slug, anchor: false, eagerMedia: false });
   useEffect(() => {
     const sync = () => {
       const division = divisions.find(item => `#${solutionPanelId(item.slug)}` === window.location.hash);
-      if (division) setSelection({ slug: division.slug, anchor: true });
+      if (division) setSelection({ slug: division.slug, anchor: true, eagerMedia: true });
+      else if (window.location.hash === `#${solutionsShowcaseContent.id}`) {
+        setSelection(current => ({ ...current, anchor: false, eagerMedia: true }));
+      }
     };
     const frame = requestAnimationFrame(sync);
     window.addEventListener('hashchange', sync); window.addEventListener('popstate', sync);
@@ -43,9 +46,9 @@ export function useSolutionSelection(divisions: readonly SolutionDivision[]) {
   const select = (slug: string) => {
     const division = divisions.find(item => item.slug === slug);
     if (!division) return;
-    setSelection({ slug: division.slug, anchor: false });
+    setSelection({ slug: division.slug, anchor: false, eagerMedia: true });
     // Replace context without adding history entries, scrolling or moving selector focus.
     window.history.replaceState(window.history.state, '', `#${solutionPanelId(division.slug)}`);
   };
-  return { activeSlug: selection.slug, select };
+  return { activeSlug: selection.slug, eagerMedia: selection.eagerMedia, select };
 }

@@ -1,4 +1,5 @@
 import { industrialPhotography } from './industrial-photography';
+import { approvedPhotography } from './approved-photography';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
 import type { SolutionSlug } from '@/content/solutions-showcase';
 import { heroPlaceholder } from './hero-media';
@@ -18,7 +19,8 @@ export const solutionPlaceholders = {
 /** Replace individual entries only with rights-approved local photographs and truthful captions. */
 export const solutionsMedia: Record<SolutionSlug, EditorialMediaConfig> = {
   ...solutionPlaceholders,
-  // Earthmoving is held because the approved-direction original contains JCB branding.
+  'earthmoving-construction': approvedPhotography.earthmoving,
+  'lubricants-fluids': approvedPhotography.lubricants,
   'industrial-chemicals': industrialPhotography.chemicals,
   'consumables-spares': industrialPhotography.spares,
 };

@@ -1,0 +1,13 @@
+
+> zieve-industries@0.1.0 test
+> vitest run tests/photography.test.ts tests/industries.test.ts tests/solutions.test.ts
+
+
+ RUN  v4.1.12 /Users/user/Documents/zieve_web
+
+
+ Test Files  3 passed (3)
+      Tests  13 passed (13)
+   Start at  14:32:09
+   Duration  556ms (transform 211ms, setup 0ms, import 633ms, tests 57ms, environment 0ms)
+
