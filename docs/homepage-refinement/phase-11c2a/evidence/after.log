@@ -1,0 +1,173 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test tests/e2e/phase-11b.spec.ts --grep mobile editorial rhythm|introduction resize geometry --repeat-each=20 --workers=2 --output=docs/homepage-refinement/phase-11c2a/evidence/after
+
+[WebServer] (node:65760) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 80 tests using 2 workers
+
+(node:65764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65765) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+(node:65788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓   2 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.5s)
+(node:65801) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   5 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.9s)
+  ✓   4 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (6.1s)
+(node:65838) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   7 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓   6 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.9s)
+(node:65859) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.8s)
+  ✓   8 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (6.2s)
+(node:65881) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.4s)
+  ✓  10 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.9s)
+(node:65933) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  12 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.2s)
+(node:65963) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (2.1s)
+  ✓  14 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.9s)
+(node:66000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  17 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  16 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.0s)
+(node:66025) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  19 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (971ms)
+  ✓  18 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.8s)
+(node:66041) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.4s)
+  ✓  20 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.4s)
+(node:66060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (981ms)
+  ✓  22 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.9s)
+(node:66081) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.1s)
+  ✓  24 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.6s)
+(node:66101) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  27 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (873ms)
+  ✓  26 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.7s)
+(node:66113) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  29 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (998ms)
+  ✓  28 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.1s)
+(node:66131) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  31 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (882ms)
+  ✓  30 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.1s)
+(node:66150) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  33 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.1s)
+  ✓  32 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.4s)
+(node:66162) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  35 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  34 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.6s)
+(node:66185) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  37 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  36 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.9s)
+(node:66216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  39 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (927ms)
+  ✓  38 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.7s)
+(node:66238) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  41 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  40 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.0s)
+(node:66249) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  43 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  42 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.1s)
+(node:66280) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  45 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.8s)
+  ✓  44 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (6.1s)
+(node:66308) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  47 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (2.8s)
+  ✓  46 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (8.9s)
+(node:66345) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  49 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.4s)
+  ✓  48 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (6.9s)
+(node:66372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  51 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  50 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.3s)
+(node:66398) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  53 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.4s)
+  ✓  52 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.3s)
+(node:66419) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  55 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (2.3s)
+  ✓  54 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (6.3s)
+(node:66441) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  57 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (980ms)
+  ✓  56 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.2s)
+(node:66466) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  59 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.0s)
+  ✓  58 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.2s)
+(node:66477) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  61 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.5s)
+  ✓  60 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.6s)
+(node:66497) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  63 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.4s)
+  ✓  62 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.8s)
+(node:66520) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  65 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.1s)
+  ✓  64 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.8s)
+(node:66544) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  67 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  66 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.9s)
+(node:66555) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  69 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.2s)
+  ✓  68 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.5s)
+(node:66576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  71 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.1s)
+  ✓  70 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.9s)
+(node:66596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  73 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  72 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.3s)
+(node:66617) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  75 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  74 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.4s)
+(node:66645) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  77 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (2.5s)
+  ✓  76 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (7.5s)
+(node:66679) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  79 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.1s)
+  ✓  78 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (5.6s)
+  ✓  80 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.2s)
+
+  80 passed (2.6m)

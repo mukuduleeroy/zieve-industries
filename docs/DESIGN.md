@@ -99,3 +99,17 @@ The footer uses the established white paper/navy/amber palette and original JPEG
 ## Phase 11A — reflow only
 
 AUD-01 adds emergency word wrapping, wrapping header/modal controls and bounded dropdown space without changing type sizes, brand tokens or breakpoints. The hero caption/scroll footer now participates in normal flow to avoid enlarged-text collisions. Accordion labels/indents adapt through a text-relative container rule only when reading width is insufficient. No photography, fonts or logo assets were replaced. See homepage-refinement/phase-11a for measured normal/enlarged comparisons.
+
+## Phase 11B targeted refinement
+
+Below the existing 64rem breakpoint, the Introduction uses a 4:3 detail frame (desktop remains 5:6), a 2rem text/media gap and restrained 2.5–3.5rem section padding. Industries retains its 4:3 photography, with the same smaller-screen padding rhythm and tighter numeral/context spacing. All reading sizes, image files and brand tokens remain unchanged. Decorative numerals use navy on light surfaces and retain amber on navy. A 2px existing-amber boundary separates Advantage from Vision. The mobile hero keeps the approved crop and changes only gradient alpha/stops and credit tracking; sampled contrast and visual comparison are documented in phase-11b. The form uses an available-width auto-fit grid with text-relative 18rem minimum tracks and a 100% narrow-width bound, rather than viewport-driven pairs or fixed label heights.
+
+
+## Phase 11B.5 — targeted homepage experience
+
+Six numbered section-eyebrow nodes are removed; all actual titles, business copy and functional numbering remain. Former eyebrow-to-H2 margins are removed. Industries now uses one navy stage with paper text and amber accents, preserving all four sector narratives and existing approved images/civil schematic. At capable, sufficiently large fine-pointer viewports, a measured horizontal track progresses with native vertical scrolling under a CSS-sticky stage. Stage-local heading scales use the existing serif/tokens; no global typography or colour tokens change. Reduced motion, touch, enlarged text, insufficient content fit, no JavaScript and keyboard/AT reading retain normal flow. See homepage-refinement/phase-11b5 for current architecture/evidence; earlier four-background/no-pinning descriptions are historical.
+
+
+## Phase 11B.6 — final scoped refinement
+
+The shared sector markup now follows heading→figure→supporting copy/links, matching the mobile visual sequence. Desktop places the figure beside the two-row editorial column. A text-free amber boundary marks actual horizontal panel edges, with no snapping, extra motion, token or content change. Existing photos/crops and four schematic holds remain.

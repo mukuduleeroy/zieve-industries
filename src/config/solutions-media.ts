@@ -1,3 +1,4 @@
+import { industrialPhotography } from './industrial-photography';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
 import type { SolutionSlug } from '@/content/solutions-showcase';
 import { heroPlaceholder } from './hero-media';
@@ -15,4 +16,9 @@ export const solutionPlaceholders = {
   'consumables-spares': schematic('/images/solutions/consumables-placeholder.svg', 'filters, fittings and protective equipment'),
 } satisfies Record<SolutionSlug, EditorialMediaConfig>;
 /** Replace individual entries only with rights-approved local photographs and truthful captions. */
-export const solutionsMedia: Record<SolutionSlug, EditorialMediaConfig> = solutionPlaceholders;
+export const solutionsMedia: Record<SolutionSlug, EditorialMediaConfig> = {
+  ...solutionPlaceholders,
+  // Earthmoving is held because the approved-direction original contains JCB branding.
+  'industrial-chemicals': industrialPhotography.chemicals,
+  'consumables-spares': industrialPhotography.spares,
+};

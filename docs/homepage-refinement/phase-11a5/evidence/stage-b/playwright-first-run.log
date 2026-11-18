@@ -1,0 +1,263 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test --workers=2 --output=docs/homepage-refinement/phase-11a5/evidence/stage-b/test-results
+
+[WebServer] (node:21240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 126 tests using 2 workers
+
+(node:21256) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21255) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    1 [desktop] › tests/e2e/advantage.spec.ts:6:1 › five official pillars have correct relationships and a consistent initial state (1.5s)
+  ✓    3 [desktop] › tests/e2e/advantage.spec.ts:47:1 › keyboard navigation and rapid changes preserve a single latest state (794ms)
+  ✓    4 [desktop] › tests/e2e/advantage.spec.ts:76:1 › desktop columns and mobile content-first stacking fit every viewport (1.7s)
+  ✓    2 [desktop] › tests/e2e/advantage.spec.ts:26:1 › pointer interactions expand, replace and collapse while retaining button focus (4.3s)
+  ✓    6 [desktop] › tests/e2e/advantage.spec.ts:115:1 › all operating pillar descriptions remain available without JavaScript (170ms)
+  ✓    5 [desktop] › tests/e2e/advantage.spec.ts:93:1 › reduced motion supports immediate expansion and cleans up entrance effects (507ms)
+  ✓    7 [desktop] › tests/e2e/footer.spec.ts:6:1 › footer preserves the original brand, canonical links, official contacts and current year (340ms)
+  ✓    8 [desktop] › tests/e2e/footer.spec.ts:30:1 › footer quotation anchor preserves the enquiry and avoids automatic field focus (347ms)
+  ✓    9 [desktop] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects reduced motion and returns focus (227ms)
+  ✓   11 [desktop] › tests/e2e/footer.spec.ts:60:1 › footer responds without overflow, exposes touch targets and stays static with reduced motion (1.6s)
+  ✓   12 [desktop] › tests/e2e/footer.spec.ts:81:1 › footer remains readable and navigable without JavaScript (209ms)
+  ✓   10 [desktop] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects normal motion and returns focus (2.1s)
+  ✓   13 [desktop] › tests/e2e/footer.spec.ts:93:1 › footer entrance cleans up on preference changes and keeps its layout stable (502ms)
+  ✓   14 [desktop] › tests/e2e/foundation.spec.ts:2:1 › foundation is accessible by keyboard and fits the viewport (417ms)
+  ✓   15 [desktop] › tests/e2e/foundation.spec.ts:19:1 › reduced motion preserves visible content (153ms)
+  ✓   17 [desktop] › tests/e2e/header.spec.ts:45:3 › Desktop header › scroll changes surface without moving content or changing header dimensions (888ms)
+  ✓   16 [desktop] › tests/e2e/header.spec.ts:8:3 › Desktop header › dropdown supports keyboard, dismissal and canonical destinations (2.0s)
+  ✓   18 [desktop] › tests/e2e/header.spec.ts:66:3 › Mobile header › modal traps focus, expands solutions, restores focus and unlocks scrolling (1.3s)
+  ✓   20 [desktop] › tests/e2e/header.spec.ts:122:1 › all registered navigation routes resolve, unknown services remain 404 (132ms)
+  ✓   19 [desktop] › tests/e2e/header.spec.ts:105:3 › Mobile header › touch submenu navigation and desktop resize release the modal (802ms)
+  ✓   22 [desktop] › tests/e2e/hero.spec.ts:5:1 › hero provides the exact heading, copy, usable CTAs and end marker (638ms)
+  ✓   21 [desktop] › tests/e2e/header.spec.ts:127:1 › header fits narrow, tablet, desktop and zoom-equivalent widths with reduced motion (1.6s)
+  ✓   24 [desktop] › tests/e2e/hero.spec.ts:56:1 › reduced motion stays static and preference changes clean up entrance styles (739ms)
+  ✓   25 [desktop] › tests/e2e/hero.spec.ts:77:1 › missing placeholder still provides a readable stable navy hero (457ms)
+  ✓   26 [desktop] › tests/e2e/hero.spec.ts:88:1 › hero content and navigation work without JavaScript (160ms)
+  ✓   23 [desktop] › tests/e2e/hero.spec.ts:26:1 › hero fits desktop, mobile and short landscape screens without clipped actions (2.9s)
+  ✓   28 [desktop] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (467ms)
+  ✓   27 [desktop] › tests/e2e/hero.spec.ts:99:1 › hero and header keep geometry through animation, dropdown and mobile modal (1.7s)
+  ✓   30 [desktop] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (432ms)
+  ✓   31 [desktop] › tests/e2e/industries.spec.ts:79:1 › each missing illustration has an accessible fallback without collapsed frames (433ms)
+  ✓   32 [desktop] › tests/e2e/industries.spec.ts:94:1 › desktop parallax remains small and navigation disposes the sector effects (730ms)
+  ✓   29 [desktop] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (2.1s)
+  ✓   33 [desktop] › tests/e2e/industries.spec.ts:119:1 › all sector content and solution links work without JavaScript (380ms)
+  ✓   34 [desktop] › tests/e2e/introduction.spec.ts:8:1 › introduction preserves the approved narrative and hero boundary (538ms)
+  ✓   36 [desktop] › tests/e2e/introduction.spec.ts:59:1 › reduced motion reveals content and removes desktop parallax on preference change (520ms)
+  ✓   35 [desktop] › tests/e2e/introduction.spec.ts:34:1 › editorial columns become an ordered mobile stack without overflow (1.2s)
+  ✓   37 [desktop] › tests/e2e/introduction.spec.ts:79:1 › missing photograph and schematic retain accessible media fallback and stable dimensions (368ms)
+  ✓   39 [desktop] › tests/e2e/introduction.spec.ts:121:1 › introduction remains readable without JavaScript (230ms)
+  ✓   40 [desktop] › tests/e2e/photography.spec.ts:6:1 › approved photographs load through Next Image while held placements stay schematic (1.2s)
+  ✓   38 [desktop] › tests/e2e/introduction.spec.ts:94:1 › entrance and desktop parallax preserve layout and clean up across navigation (2.1s)
+  ✓   42 [desktop] › tests/e2e/purpose.spec.ts:5:1 › official vision, mission and five values follow the correct reading order (279ms)
+  ✓   43 [desktop] › tests/e2e/purpose.spec.ts:25:1 › three editorial movements remain readable at mobile, tablet and desktop widths (879ms)
+  ✓   44 [desktop] › tests/e2e/purpose.spec.ts:54:1 › reduced motion restores all purpose text, values and divider styles (441ms)
+  ✓   45 [desktop] › tests/e2e/purpose.spec.ts:70:1 › purpose entrances preserve document geometry and clean up after navigation (517ms)
+  ✓   46 [desktop] › tests/e2e/purpose.spec.ts:87:1 › purpose stays fully readable without JavaScript (234ms)
+  ✓   47 [desktop] › tests/e2e/quotation.spec.ts:12:1 › official contacts and eight labelled fields render without premature errors (253ms)
+  ✓   48 [desktop] › tests/e2e/quotation.spec.ts:27:1 › required and email validation preserves entries and focuses the first invalid field (390ms)
+  ✓   49 [desktop] › tests/e2e/quotation.spec.ts:45:1 › valid data prepares a real mailto draft, never claims delivery or clears the form (731ms)
+  ✓   50 [desktop] › tests/e2e/quotation.spec.ts:73:1 › long enquiries offer complete copy/manual fallback even if clipboard access fails (550ms)
+  ✘   41 [desktop] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame (5.4s)
+(node:21403) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   51 [desktop] › tests/e2e/quotation.spec.ts:89:1 › header, mobile menu and hero quote links reach the accessible shared anchor (824ms)
+  ✓   53 [desktop] › tests/e2e/quotation.spec.ts:130:1 › without JavaScript personal-data fields stay disabled and direct contact remains usable (119ms)
+  ✓   52 [desktop] › tests/e2e/quotation.spec.ts:111:1 › responsive form and reduced motion remain usable on narrow and short screens (1.5s)
+  ✓   54 [desktop] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 100% root text reflows at all required widths (2.3s)
+  ✓   56 [desktop] › tests/e2e/refinement.spec.ts:52:1 › AUD-02 generic discovery anchors focus implemented sections below the sticky header (2.6s)
+  ✓   55 [desktop] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 200% root text reflows at all required widths (4.4s)
+  ✓   57 [desktop] › tests/e2e/refinement.spec.ts:68:1 › AUD-02 solution links support direct entry, refresh, history and selection focus (1.9s)
+  ✓   58 [desktop] › tests/e2e/refinement.spec.ts:85:1 › AUD-01 narrow viewport reflow and normal-motion keyboard discovery remain operable (2.4s)
+  ✓   60 [desktop] › tests/e2e/solutions.spec.ts:43:3 › Desktop solutions › rapid changes settle on the latest choice without changing section dimensions (630ms)
+  ✓   61 [desktop] › tests/e2e/solutions.spec.ts:60:1 › mobile selector preserves content, focus and stable dimensions (782ms)
+  ✓   62 [desktop] › tests/e2e/solutions.spec.ts:79:1 › responsive layout, reduced motion and all media fallbacks remain usable (1.9s)
+  ✓   63 [desktop] › tests/e2e/solutions.spec.ts:106:1 › active state survives layout changes and exposes only one panel to keyboard users (417ms)
+(node:21459) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   64 [mobile] › tests/e2e/advantage.spec.ts:6:1 › five official pillars have correct relationships and a consistent initial state (343ms)
+  ✘   59 [desktop] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links (7.1s)
+(node:21478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   66 [mobile] › tests/e2e/advantage.spec.ts:47:1 › keyboard navigation and rapid changes preserve a single latest state (1.0s)
+  ✓   65 [mobile] › tests/e2e/advantage.spec.ts:26:1 › pointer interactions expand, replace and collapse while retaining button focus (3.2s)
+  ✓   68 [mobile] › tests/e2e/advantage.spec.ts:93:1 › reduced motion supports immediate expansion and cleans up entrance effects (979ms)
+  ✓   67 [mobile] › tests/e2e/advantage.spec.ts:76:1 › desktop columns and mobile content-first stacking fit every viewport (1.6s)
+  ✓   69 [mobile] › tests/e2e/advantage.spec.ts:115:1 › all operating pillar descriptions remain available without JavaScript (175ms)
+  ✓   70 [mobile] › tests/e2e/footer.spec.ts:6:1 › footer preserves the original brand, canonical links, official contacts and current year (532ms)
+  ✓   71 [mobile] › tests/e2e/footer.spec.ts:30:1 › footer quotation anchor preserves the enquiry and avoids automatic field focus (548ms)
+  ✓   72 [mobile] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects reduced motion and returns focus (243ms)
+  ✓   74 [mobile] › tests/e2e/footer.spec.ts:60:1 › footer responds without overflow, exposes touch targets and stays static with reduced motion (1.8s)
+  ✓   75 [mobile] › tests/e2e/footer.spec.ts:81:1 › footer remains readable and navigable without JavaScript (204ms)
+  ✓   73 [mobile] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects normal motion and returns focus (2.2s)
+  ✓   76 [mobile] › tests/e2e/footer.spec.ts:93:1 › footer entrance cleans up on preference changes and keeps its layout stable (515ms)
+  ✓   78 [mobile] › tests/e2e/foundation.spec.ts:19:1 › reduced motion preserves visible content (149ms)
+  ✓   77 [mobile] › tests/e2e/foundation.spec.ts:2:1 › foundation is accessible by keyboard and fits the viewport (583ms)
+  ✓   80 [mobile] › tests/e2e/header.spec.ts:45:3 › Desktop header › scroll changes surface without moving content or changing header dimensions (1.5s)
+  ✓   81 [mobile] › tests/e2e/header.spec.ts:66:3 › Mobile header › modal traps focus, expands solutions, restores focus and unlocks scrolling (4.4s)
+  ✓   82 [mobile] › tests/e2e/header.spec.ts:105:3 › Mobile header › touch submenu navigation and desktop resize release the modal (1.0s)
+  ✓   83 [mobile] › tests/e2e/header.spec.ts:122:1 › all registered navigation routes resolve, unknown services remain 404 (122ms)
+  ✓   84 [mobile] › tests/e2e/header.spec.ts:127:1 › header fits narrow, tablet, desktop and zoom-equivalent widths with reduced motion (1.4s)
+  ✓   85 [mobile] › tests/e2e/hero.spec.ts:5:1 › hero provides the exact heading, copy, usable CTAs and end marker (493ms)
+  ✓   79 [mobile] › tests/e2e/header.spec.ts:8:3 › Desktop header › dropdown supports keyboard, dismissal and canonical destinations (10.8s)
+  ✓   87 [mobile] › tests/e2e/hero.spec.ts:56:1 › reduced motion stays static and preference changes clean up entrance styles (376ms)
+  ✓   88 [mobile] › tests/e2e/hero.spec.ts:77:1 › missing placeholder still provides a readable stable navy hero (231ms)
+  ✓   89 [mobile] › tests/e2e/hero.spec.ts:88:1 › hero content and navigation work without JavaScript (162ms)
+  ✓   90 [mobile] › tests/e2e/hero.spec.ts:99:1 › hero and header keep geometry through animation, dropdown and mobile modal (2.1s)
+  ✓   91 [mobile] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (912ms)
+  ✓   86 [mobile] › tests/e2e/hero.spec.ts:26:1 › hero fits desktop, mobile and short landscape screens without clipped actions (11.2s)
+  ✓   93 [mobile] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (557ms)
+  ✓   92 [mobile] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (6.6s)
+  ✓   94 [mobile] › tests/e2e/industries.spec.ts:79:1 › each missing illustration has an accessible fallback without collapsed frames (515ms)
+  ✓   96 [mobile] › tests/e2e/industries.spec.ts:119:1 › all sector content and solution links work without JavaScript (281ms)
+  ✓   95 [mobile] › tests/e2e/industries.spec.ts:94:1 › desktop parallax remains small and navigation disposes the sector effects (616ms)
+  ✓   97 [mobile] › tests/e2e/introduction.spec.ts:8:1 › introduction preserves the approved narrative and hero boundary (488ms)
+  ✓   99 [mobile] › tests/e2e/introduction.spec.ts:59:1 › reduced motion reveals content and removes desktop parallax on preference change (549ms)
+  ✓  100 [mobile] › tests/e2e/introduction.spec.ts:79:1 › missing photograph and schematic retain accessible media fallback and stable dimensions (393ms)
+  ✓  101 [mobile] › tests/e2e/introduction.spec.ts:94:1 › entrance and desktop parallax preserve layout and clean up across navigation (681ms)
+  ✓  102 [mobile] › tests/e2e/introduction.spec.ts:121:1 › introduction remains readable without JavaScript (162ms)
+  ✓   98 [mobile] › tests/e2e/introduction.spec.ts:34:1 › editorial columns become an ordered mobile stack without overflow (2.3s)
+  ✓  103 [mobile] › tests/e2e/photography.spec.ts:6:1 › approved photographs load through Next Image while held placements stay schematic (1.1s)
+  ✓  105 [mobile] › tests/e2e/purpose.spec.ts:5:1 › official vision, mission and five values follow the correct reading order (231ms)
+  ✓  106 [mobile] › tests/e2e/purpose.spec.ts:25:1 › three editorial movements remain readable at mobile, tablet and desktop widths (1.6s)
+  ✓  107 [mobile] › tests/e2e/purpose.spec.ts:54:1 › reduced motion restores all purpose text, values and divider styles (416ms)
+  ✓  108 [mobile] › tests/e2e/purpose.spec.ts:70:1 › purpose entrances preserve document geometry and clean up after navigation (497ms)
+  ✓  109 [mobile] › tests/e2e/purpose.spec.ts:87:1 › purpose stays fully readable without JavaScript (216ms)
+  ✓  110 [mobile] › tests/e2e/quotation.spec.ts:12:1 › official contacts and eight labelled fields render without premature errors (229ms)
+  ✓  111 [mobile] › tests/e2e/quotation.spec.ts:27:1 › required and email validation preserves entries and focuses the first invalid field (351ms)
+  ✓  112 [mobile] › tests/e2e/quotation.spec.ts:45:1 › valid data prepares a real mailto draft, never claims delivery or clears the form (304ms)
+  ✓  113 [mobile] › tests/e2e/quotation.spec.ts:73:1 › long enquiries offer complete copy/manual fallback even if clipboard access fails (403ms)
+  ✘  104 [mobile] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame (5.5s)
+(node:21642) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  114 [mobile] › tests/e2e/quotation.spec.ts:89:1 › header, mobile menu and hero quote links reach the accessible shared anchor (846ms)
+  ✓  116 [mobile] › tests/e2e/quotation.spec.ts:130:1 › without JavaScript personal-data fields stay disabled and direct contact remains usable (127ms)
+  ✓  115 [mobile] › tests/e2e/quotation.spec.ts:111:1 › responsive form and reduced motion remain usable on narrow and short screens (1.5s)
+  ✓  117 [mobile] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 100% root text reflows at all required widths (1.6s)
+  ✓  119 [mobile] › tests/e2e/refinement.spec.ts:52:1 › AUD-02 generic discovery anchors focus implemented sections below the sticky header (2.8s)
+  ✓  118 [mobile] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 200% root text reflows at all required widths (4.8s)
+  ✓  120 [mobile] › tests/e2e/refinement.spec.ts:68:1 › AUD-02 solution links support direct entry, refresh, history and selection focus (2.1s)
+  ✓  121 [mobile] › tests/e2e/refinement.spec.ts:85:1 › AUD-01 narrow viewport reflow and normal-motion keyboard discovery remain operable (2.3s)
+  ✓  123 [mobile] › tests/e2e/solutions.spec.ts:43:3 › Desktop solutions › rapid changes settle on the latest choice without changing section dimensions (584ms)
+  ✓  124 [mobile] › tests/e2e/solutions.spec.ts:60:1 › mobile selector preserves content, focus and stable dimensions (427ms)
+  ✓  125 [mobile] › tests/e2e/solutions.spec.ts:79:1 › responsive layout, reduced motion and all media fallbacks remain usable (2.2s)
+  ✓  126 [mobile] › tests/e2e/solutions.spec.ts:106:1 › active state survives layout changes and exposes only one panel to keyboard users (408ms)
+  ✘  122 [mobile] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links (7.2s)
+
+
+  1) [desktop] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('.introduction-figure').getByRole('img')
+    Expected: "/images/hero/industrial-placeholder.svg"
+    Received: "http://127.0.0.1:3100/images/hero/industrial-placeholder.svg"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.introduction-figure').getByRole('img') with timeout 5000ms
+      - waiting for locator('.introduction-figure').getByRole('img')
+        14 × locator resolved to <img loading="lazy" decoding="async" data-nimg="fill" class="media-image introduction-image" src="http://127.0.0.1:3100/images/hero/industrial-placeholder.svg" alt="Illustrative excavator schematic; a visual placeholder, not a Zieve Industries facility."/>
+           - unexpected value "http://127.0.0.1:3100/images/hero/industrial-placeholder.svg"
+
+
+      40 |   await expect(figure).toHaveAttribute('data-media-failed', 'true');
+      41 |   await expect(figure).toHaveAttribute('data-media-kind', 'placeholder');
+    > 42 |   await expect(figure.getByRole('img')).toHaveAttribute('src', introductionPlaceholder.src);
+         |                                         ^
+      43 |   await expect(figure.locator('figcaption')).toHaveText(introductionPlaceholder.caption);
+      44 |   const bounds = await figure.locator('.introduction-image-mask').boundingBox();
+      45 |   expect(bounds!.height / bounds!.width).toBeCloseTo(6 / 5, 1);
+        at /Users/user/Documents/zieve_web/tests/e2e/photography.spec.ts:42:41
+
+    Error Context: docs/homepage-refinement/phase-11a5/evidence/stage-b/test-results/photography-failed-optimiz-012a4--without-resizing-its-frame-desktop/error-context.md
+
+  2) [desktop] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img')
+    Expected: "Illustrative industrial chemical vessels schematic. Not a Zieve facility or inventory photograph."
+    Received: "Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph."
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img') with timeout 5000ms
+      - waiting for locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img')
+        14 × locator resolved to <img loading="lazy" decoding="async" data-nimg="fill" class="media-image solution-media-image" sizes="(min-width: 80rem) 720px, (min-width: 64rem) 58vw, 100vw" alt="Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph." src="http://127.0.0.1:3100/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=3840&q=75" srcset="/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processi…/>
+           - unexpected value "Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph."
+
+
+      21 |       await expect(panel.locator('.solution-panel-number')).toHaveText(`Division ${division.number} / 05`);
+      22 |       await expect(panel.getByRole('link')).toHaveAttribute('href', division.href);
+    > 23 |       await expect(panel.getByRole('img')).toHaveAttribute('alt', solutionPlaceholders[division.slug].alt);
+         |                                            ^
+      24 |       await expect(group.getByRole('button', { pressed: true })).toHaveCount(1);
+      25 |     }
+      26 |     const first = group.getByRole('button', { name: divisions[0].name, exact: true });
+        at /Users/user/Documents/zieve_web/tests/e2e/solutions.spec.ts:23:44
+
+    Error Context: docs/homepage-refinement/phase-11a5/evidence/stage-b/test-results/solutions-Desktop-solution-f2e66-ronize-text-media-and-links-desktop/error-context.md
+
+  3) [mobile] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('.introduction-figure').getByRole('img')
+    Expected: "/images/hero/industrial-placeholder.svg"
+    Received: "http://127.0.0.1:3100/images/hero/industrial-placeholder.svg"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.introduction-figure').getByRole('img') with timeout 5000ms
+      - waiting for locator('.introduction-figure').getByRole('img')
+        14 × locator resolved to <img loading="lazy" decoding="async" data-nimg="fill" class="media-image introduction-image" src="http://127.0.0.1:3100/images/hero/industrial-placeholder.svg" alt="Illustrative excavator schematic; a visual placeholder, not a Zieve Industries facility."/>
+           - unexpected value "http://127.0.0.1:3100/images/hero/industrial-placeholder.svg"
+
+
+      40 |   await expect(figure).toHaveAttribute('data-media-failed', 'true');
+      41 |   await expect(figure).toHaveAttribute('data-media-kind', 'placeholder');
+    > 42 |   await expect(figure.getByRole('img')).toHaveAttribute('src', introductionPlaceholder.src);
+         |                                         ^
+      43 |   await expect(figure.locator('figcaption')).toHaveText(introductionPlaceholder.caption);
+      44 |   const bounds = await figure.locator('.introduction-image-mask').boundingBox();
+      45 |   expect(bounds!.height / bounds!.width).toBeCloseTo(6 / 5, 1);
+        at /Users/user/Documents/zieve_web/tests/e2e/photography.spec.ts:42:41
+
+    Error Context: docs/homepage-refinement/phase-11a5/evidence/stage-b/test-results/photography-failed-optimiz-012a4--without-resizing-its-frame-mobile/error-context.md
+
+  4) [mobile] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img')
+    Expected: "Illustrative industrial chemical vessels schematic. Not a Zieve facility or inventory photograph."
+    Received: "Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph."
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img') with timeout 5000ms
+      - waiting for locator('#industrial-solutions .solution-panel[data-active="true"]').getByRole('img')
+        14 × locator resolved to <img loading="lazy" decoding="async" data-nimg="fill" class="media-image solution-media-image" sizes="(min-width: 80rem) 720px, (min-width: 64rem) 58vw, 100vw" alt="Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph." src="http://127.0.0.1:3100/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=3840&q=75" srcset="/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processi…/>
+           - unexpected value "Industrial process towers and vessels connected by pipes and access platforms. Not a Zieve facility or inventory photograph."
+
+
+      21 |       await expect(panel.locator('.solution-panel-number')).toHaveText(`Division ${division.number} / 05`);
+      22 |       await expect(panel.getByRole('link')).toHaveAttribute('href', division.href);
+    > 23 |       await expect(panel.getByRole('img')).toHaveAttribute('alt', solutionPlaceholders[division.slug].alt);
+         |                                            ^
+      24 |       await expect(group.getByRole('button', { pressed: true })).toHaveCount(1);
+      25 |     }
+      26 |     const first = group.getByRole('button', { name: divisions[0].name, exact: true });
+        at /Users/user/Documents/zieve_web/tests/e2e/solutions.spec.ts:23:44
+
+    Error Context: docs/homepage-refinement/phase-11a5/evidence/stage-b/test-results/solutions-Desktop-solution-f2e66-ronize-text-media-and-links-mobile/error-context.md
+
+  4 failed
+    [desktop] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame 
+    [desktop] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links 
+    [mobile] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame 
+    [mobile] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links 
+  122 passed (1.6m)

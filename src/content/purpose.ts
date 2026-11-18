@@ -5,7 +5,7 @@ export const purposeValues: readonly PurposeValue[] = company.values.map((value,
   ...value, id: value.name.toLowerCase(), number: String(index + 1).padStart(2, '0'),
 }));
 export const purposeContent = {
-  id: 'our-purpose', eyebrow: '05 / OUR PURPOSE', heading: 'The standard we operate by.',
+  id: 'our-purpose', heading: 'The standard we operate by.',
   vision: { label: 'Our Vision', statement: company.vision },
   mission: { label: 'Our Mission', statement: company.mission },
   valuesLabel: 'Our Core Values',

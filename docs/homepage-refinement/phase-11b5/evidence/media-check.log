@@ -1,0 +1,24 @@
+200 http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75
+200 http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75
+200 http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75
+200 http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75
+{
+  kind: 'image',
+  failed: 'false',
+  html: 'en-pit-mineral-handling.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&amp;w=3840&amp;q=75 3840w" src="http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&amp;w=3840&amp;q=75"></div></div><figcaption>Illustrative stock photo · Volker Braun / Pexels</figcaption>'
+}
+{
+  kind: 'placeholder',
+  failed: 'false',
+  html: 'image-parallax" data-industry-parallax="true"><img alt="Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph." loading="lazy" decoding="async" data-nimg="fill" class="media-image industry-image" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="http://127.0.0.1:3102/images/industries/civil-placeholder.svg"></div></div><figcaption>Illustrative sector schematic · Approved photography pending</figcaption>'
+}
+{
+  kind: 'image',
+  failed: 'false',
+  html: ';w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&amp;w=3840&amp;q=75 3840w" src="http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&amp;w=3840&amp;q=75"></div></div><figcaption>Illustrative stock photo · Kateryna Babaieva / Pexels</figcaption>'
+}
+{
+  kind: 'image',
+  failed: 'false',
+  html: 'rial%2Findustries%2Fgrain-handling-silos.webp&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&amp;w=3840&amp;q=75 3840w" src="http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&amp;w=3840&amp;q=75"></div></div><figcaption>Illustrative stock photo · Psilo Cybe / Pexels</figcaption>'
+}

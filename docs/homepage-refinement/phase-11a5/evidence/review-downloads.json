@@ -1,0 +1,142 @@
+[
+  {
+    "id": "hero-built",
+    "url": "https://images.unsplash.com/photo-1649807438813-acc4489bcf0a?auto=format&fit=max&w=1200&q=80",
+    "status": 200,
+    "bytes": 166052,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "hero-alternative",
+    "url": "https://images.pexels.com/photos/31762068/pexels-photo-31762068.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 116718,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "company",
+    "url": "https://images.pexels.com/photos/9241775/pexels-photo-9241775.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 77346,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "earthmoving",
+    "url": "https://images.pexels.com/photos/95687/pexels-photo-95687.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 144862,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "chemicals",
+    "url": "https://images.unsplash.com/photo-1780752849375-fd8df4632dae?auto=format&fit=max&w=1200&q=80",
+    "status": 200,
+    "bytes": 235877,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "spares",
+    "url": "https://images.pexels.com/photos/7568430/pexels-photo-7568430.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 294604,
+    "width": 1200,
+    "height": 1800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "mining",
+    "url": "https://images.pexels.com/photos/33122148/pexels-photo-33122148.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 305838,
+    "width": 1200,
+    "height": 900,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "construction",
+    "url": "https://images.pexels.com/photos/33189476/pexels-photo-33189476.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 234507,
+    "width": 1200,
+    "height": 900,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "manufacturing",
+    "url": "https://images.pexels.com/photos/18631420/pexels-photo-18631420.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 139779,
+    "width": 1200,
+    "height": 801,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "agro",
+    "url": "https://images.pexels.com/photos/36514665/pexels-photo-36514665.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 149308,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only; existing preview reused"
+  },
+  {
+    "id": "company-engineering",
+    "url": "https://images.pexels.com/photos/2965258/pexels-photo-2965258.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 151116,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only, not approved production asset"
+  },
+  {
+    "id": "manufacturing-engineering",
+    "url": "https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 131832,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only, not approved production asset"
+  },
+  {
+    "id": "spares-new",
+    "url": "https://images.unsplash.com/photo-1724069479773-9e3bfa494896?auto=format&fit=max&w=1200&q=80",
+    "status": 200,
+    "bytes": 211742,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only, not approved production asset"
+  },
+  {
+    "id": "company-alternative",
+    "url": "https://images.pexels.com/photos/3862635/pexels-photo-3862635.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "status": 200,
+    "bytes": 116850,
+    "width": 1200,
+    "height": 800,
+    "format": "jpeg",
+    "scope": "Review copy only, not approved production asset"
+  }
+]

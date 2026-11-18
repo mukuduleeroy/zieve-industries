@@ -1,0 +1,15 @@
+{
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "projectFontFiles": [],
+  "applications": {
+    "/Applications/Safari.app": true,
+    "/System/Applications/Utilities/VoiceOver Utility.app": true,
+    "/Applications/Google Chrome.app": true,
+    "/Applications/Firefox.app": false
+  },
+  "commands": {
+    "osascript": "/usr/bin/osascript",
+    "safaridriver": "/System/Cryptexes/App/usr/bin/safaridriver",
+    "firefox": null
+  }
+}

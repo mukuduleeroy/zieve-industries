@@ -1,0 +1,15 @@
+import json
+from pathlib import Path
+r=json.loads(Path('docs/homepage-refinement/phase-11a5/evidence/stage-b/integrated-images.json').read_text())
+keys={'PH02':'company','PH05':'chemicals','PH07-B':'spares','PH08':'mining','PH10':'manufacturing','PH11':'agro'}
+records={}
+for i in r:
+ publisher='Unsplash' if 'unsplash' in i['source'] else 'Pexels'
+ alt=i['alt']
+ if 'Not a Zieve' not in alt:alt+=(' Not a Zieve facility or inventory photograph.' if i['id']=='PH05' else ' Not a Zieve facility or employee photograph.')
+ records[keys[i['id']]]={'kind':'image','src':'/'+i['localFilename'].removeprefix('public/'),'alt':alt,'caption':f"Illustrative stock photo · {i['owner']} / {publisher}",'desktopPosition':i['desktop'],'mobilePosition':i['mobile'],'approval':f"{i['id']} — conditional Stage B direction approved; source/file and intended use reviewed 2026-11-17. See docs/homepage-refinement/phase-11a5/IMAGE_LICENSE_REGISTER.md. Final visual review pending."}
+s="import type { EditorialMediaConfig } from '@/types/editorial-media';\n\n/** Local stock photographs only. Source-specific rights and file hashes live in the Phase 11A.5 registers.\n * These scenes never represent Zieve staff, stock, clients or facilities. Schematics remain independent. */\nexport const industrialPhotography = "+json.dumps(records,indent=2,ensure_ascii=False)+" satisfies Record<string, Extract<EditorialMediaConfig, { kind: 'image' }>>;\n"
+Path('src/config/industrial-photography.ts').write_text(s)
+p=Path('src/config/introduction-media.ts');s=p.read_text();s="import { industrialPhotography } from './industrial-photography';\n"+s;s=s.replace('export const introductionMedia: EditorialMediaConfig = introductionPlaceholder;', 'export const introductionMedia: EditorialMediaConfig = industrialPhotography.company;');p.write_text(s)
+p=Path('src/config/solutions-media.ts');s=p.read_text();s="import { industrialPhotography } from './industrial-photography';\n"+s;s=s.replace('export const solutionsMedia: Record<SolutionSlug, EditorialMediaConfig> = solutionPlaceholders;', "export const solutionsMedia: Record<SolutionSlug, EditorialMediaConfig> = {\n  ...solutionPlaceholders,\n  // Earthmoving is held because the approved-direction original contains JCB branding.\n  'industrial-chemicals': industrialPhotography.chemicals,\n  'consumables-spares': industrialPhotography.spares,\n};");p.write_text(s)
+p=Path('src/config/industry-media.ts');s=p.read_text();s="import { industrialPhotography } from './industrial-photography';\n"+s;s=s.replace('export const industryMedia: Record<IndustrySlug, EditorialMediaConfig> = { ...industryPlaceholders };', "export const industryMedia: Record<IndustrySlug, EditorialMediaConfig> = {\n  ...industryPlaceholders,\n  'mining-mineral-processing': industrialPhotography.mining,\n  // Civil stays schematic: branded machinery and recognizable workers are not cleared.\n  manufacturing: industrialPhotography.manufacturing,\n  'agro-processing': industrialPhotography.agro,\n};");p.write_text(s)

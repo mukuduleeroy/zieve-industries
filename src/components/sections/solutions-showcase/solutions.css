@@ -2,8 +2,7 @@
   .solutions-showcase { background: var(--color-brand-navy); color: var(--color-paper); }
   .solutions-showcase :focus-visible { outline-color: var(--color-brand-amber); }
   .solutions-section-header { max-width: var(--container-reading); margin-bottom: clamp(2.5rem, 5vw, 4rem); }
-  .solutions-eyebrow { color: var(--color-brand-amber); }
-  .solutions-title { margin-top: 1.5rem; }
+  .solutions-title { margin-top: 0; }
   .solutions-title > span { display: block; }
   .solutions-title > span + span { color: var(--color-brand-amber); }
   .solutions-supporting { margin-top: 1.5rem; max-width: 38rem; }

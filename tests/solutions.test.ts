@@ -29,7 +29,8 @@ describe('Industrial solutions showcase', () => {
   });
   it('server-renders one default selection, accessible controls and all reserved panel text', () => {
     const html = renderToStaticMarkup(createElement(SolutionsShowcase));
-    expect(html).toContain(solutionsShowcaseContent.eyebrow);
+    expect(html).not.toMatch(/\d{2} \/ (WHO WE ARE|OUR SOLUTIONS)/);
+    for (const line of solutionsShowcaseContent.headline) expect(html).toContain(line);
     expect(html).not.toContain('<h1');
     expect(html).toContain('<h2');
     expect(html.match(/aria-pressed="true"/g)).toHaveLength(1);

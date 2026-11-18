@@ -1,6 +1,7 @@
+import { blockMedia } from './media-routes';
 import { expect, test } from '@playwright/test';
 import { heroContent } from '../../src/content/hero';
-import { heroPlaceholder } from '../../src/config/hero-media';
+import { heroMedia, heroPlaceholder } from '../../src/config/hero-media';
 
 test('hero provides the exact heading, copy, usable CTAs and end marker', async ({ page }) => {
   const errors: string[] = [];
@@ -74,8 +75,8 @@ test('reduced motion stays static and preference changes clean up entrance style
   expect(videos).toEqual([]);
 });
 
-test('missing placeholder still provides a readable stable navy hero', async ({ page }) => {
-  await page.route(`**${heroPlaceholder.src}`, route => route.abort());
+test('missing photo and placeholder still provide a readable stable navy hero', async ({ page }) => {
+  await blockMedia(page, [heroPlaceholder.src, ...heroMedia.kind === 'image' ? [heroMedia.src, heroMedia.mobileSrc ?? heroMedia.src] : []]);
   await page.goto('/');
   await expect(page.locator('.hero-visual')).toHaveAttribute('data-media-failed', 'true');
   await expect(page.locator('#hero')).toHaveCSS('background-color', 'rgb(11, 34, 51)');

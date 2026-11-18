@@ -2,8 +2,7 @@
   .quotation-section { background: var(--color-brand-navy); color: var(--color-paper); }
   .quotation-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--spacing-section); align-items: start; }
   .quotation-editorial { position: relative; min-width: 0; max-width: 38rem; }
-  .quotation-editorial > h2 { position: relative; margin-top: 1.5rem; }
-  .quotation-eyebrow { color: var(--color-brand-amber); }
+  .quotation-editorial > h2 { position: relative; margin-top: 0; }
   .quotation-supporting { position: relative; margin-top: 1.75rem; }
   .quotation-linework { position: absolute; top: 2rem; right: 0; width: 35%; aspect-ratio: 1; border-top: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 12%, transparent); border-right: var(--border-thin) solid color-mix(in srgb, var(--color-paper) 12%, transparent); pointer-events: none; }
   .quotation-contact { position: relative; margin-top: 3rem; font-style: normal; }
@@ -17,7 +16,9 @@
   .quotation-form-surface form:focus { outline: none; }
   .quotation-form-surface fieldset { margin: 0; padding: 0; min-width: 0; border: 0; }
   .quotation-instructions { margin-block: 1rem 1.75rem; font-size: 0.875rem; line-height: 1.7; }
-  .quotation-fields { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0.75rem 1rem; }
+  /* Respond to the form's available width, including enlarged text, not the viewport. */
+  .quotation-fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 0.75rem 1rem; }
+  .quotation-field-wide { grid-column: 1 / -1; }
   .quotation-field { min-width: 0; }
   .quotation-field label, .quotation-draft > label { display: block; margin-bottom: 0.5rem; font-size: 0.875rem; font-weight: 700; line-height: 1.6; }
   .quotation-field label > span { font-weight: 400; }
@@ -40,10 +41,6 @@
   .quotation-draft-actions .button { white-space: normal; }
   .quotation-draft .quotation-copy-status { min-height: 1.5rem; font-size: 0.875rem; font-weight: 700; }
   .quotation-draft-note { font-size: 0.8125rem; }
-  @media (min-width: 40rem) {
-    .quotation-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .quotation-field-wide { grid-column: 1 / -1; }
-  }
   @media (min-width: 64rem) {
     .quotation-grid { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--grid-gap); }
   }

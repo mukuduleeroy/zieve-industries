@@ -9,7 +9,7 @@ export function QuotationDraft({ draft }: { draft: PreparedQuotation }) {
     try { await navigator.clipboard.writeText(draft.summary); setCopyStatus('Summary copied. Paste it into your email application and send it manually.'); }
     catch { setCopyStatus('Clipboard access is unavailable. Use Select summary, then copy the text manually.'); }
   };
-  return <div className="quotation-draft" aria-labelledby="quotation-draft-title">
+  return <div className="quotation-draft" role="group" aria-labelledby="quotation-draft-title">
     <h4 id="quotation-draft-title" className="heading heading-subtitle">Your enquiry draft</h4>
     <p role="status">{draft.kind === 'email' ? 'Your draft is ready to review. Open your email application below and send it manually.' : 'This enquiry is too long for a reliable email link. Copy the complete summary below into a new email instead.'} Nothing has been submitted from this website.</p>
     <p className="quotation-draft-destination"><strong>To:</strong> {draft.to}<br /><strong>Subject:</strong> {draft.subject}</p>

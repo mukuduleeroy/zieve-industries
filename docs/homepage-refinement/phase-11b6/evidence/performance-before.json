@@ -1,0 +1,4270 @@
+{
+  "environment": {
+    "time": "2026-11-18T12:02:01.774Z",
+    "node": "v26.13.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 8,
+    "cpu": "Apple M3",
+    "ramGiB": 16,
+    "browser": "159.0.8154.6",
+    "base": "http://127.0.0.1:3102",
+    "dpr": 1,
+    "notes": "Headless Chromium on local production server. Fresh context, cache disabled each run. Desktop unthrottled; mobile 4x CPU, 150ms latency, 1.6Mbps down/750Kbps up CDP emulation. No Lighthouse or real-user metrics."
+  },
+  "runs": [
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 60,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": []
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 73.40000000596046,
+          "navigationId": 1339,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.19999998807907104,
+          "domainLookupStart": 1.300000011920929,
+          "domainLookupEnd": 1.5,
+          "connectStart": 1.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 1.699999988079071,
+          "requestStart": 1.9000000059604645,
+          "responseStart": 6.4000000059604645,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.4000000059604645,
+          "responseEnd": 7,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 40.80000001192093,
+          "domContentLoadedEventStart": 40.80000001192093,
+          "domContentLoadedEventEnd": 40.80000001192093,
+          "domComplete": 73.40000000596046,
+          "loadEventStart": 73.40000000596046,
+          "loadEventEnd": 73.40000000596046,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 3.899999976158142
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 5.4000000059604645
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 6.0999999940395355
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 7.4000000059604645
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 8.199999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 9.400000005960464
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 13.200000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 14.800000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 10
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 9.900000005960464
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 10.700000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 20.200000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646,
+            "duration": 4.199999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 3.7999999821186066
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124,
+            "duration": 4.699999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 4
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 2.5999999940395355
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 3
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 3.300000011920929
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 60,
+            "duration": 0,
+            "navigationId": 1339,
+            "paintTime": 36.900000005960464,
+            "presentationTime": 60
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 60,
+            "duration": 0,
+            "navigationId": 1339,
+            "paintTime": 36.900000005960464,
+            "presentationTime": 60
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 454360,
+      "automationRoundTripMs": 105.43554200000017,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 60,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4870.300000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 4871.5,
+              "duration": 64,
+              "interactionId": 1501,
+              "name": "pointerdown"
+            },
+            {
+              "start": 4871.5,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mousedown"
+            },
+            {
+              "start": 4871.5999999940395,
+              "duration": 64,
+              "interactionId": 1501,
+              "name": "pointerup"
+            },
+            {
+              "start": 4871.5999999940395,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mouseup"
+            },
+            {
+              "start": 4871.5999999940395,
+              "duration": 64,
+              "interactionId": 1501,
+              "name": "click"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5410.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5710,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5926.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6126.699999988079,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6343.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6443.4000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            }
+          ],
+          "longTasks": []
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=750&q=75",
+            "type": "img",
+            "transfer": 53856,
+            "encoded": 53556,
+            "decoded": 53556
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 68,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": []
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 79.80000001192093,
+          "navigationId": 8647,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000002384185791,
+          "domainLookupStart": 0.6000000238418579,
+          "domainLookupEnd": 0.800000011920929,
+          "connectStart": 0.800000011920929,
+          "secureConnectionStart": 0,
+          "connectEnd": 1,
+          "requestStart": 1,
+          "responseStart": 7.100000023841858,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 7.100000023841858,
+          "responseEnd": 7.600000023841858,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 44.20000001788139,
+          "domContentLoadedEventStart": 44.20000001788139,
+          "domContentLoadedEventEnd": 44.20000001788139,
+          "domComplete": 79.80000001192093,
+          "loadEventStart": 79.80000001192093,
+          "loadEventEnd": 79.80000001192093,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 3.100000023841858
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 5.699999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 6.299999982118607
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 6.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 8
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 10.400000005960464
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 15.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 17.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 10.700000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 11.200000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 12.099999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 21.80000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646,
+            "duration": 4.600000023841858
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 6.300000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124,
+            "duration": 6.299999982118607
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 3.800000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 4.699999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 4
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 68,
+            "duration": 0,
+            "navigationId": 8647,
+            "paintTime": 40,
+            "presentationTime": 68
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 68,
+            "duration": 0,
+            "navigationId": 8647,
+            "paintTime": 40,
+            "presentationTime": 68
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 454360,
+      "automationRoundTripMs": 94.59775000000081,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 68,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 3211,
+              "name": "pointerdown"
+            },
+            {
+              "start": 4883.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mousedown"
+            },
+            {
+              "start": 4884.100000023842,
+              "duration": 56,
+              "interactionId": 3211,
+              "name": "pointerup"
+            },
+            {
+              "start": 4884.100000023842,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mouseup"
+            },
+            {
+              "start": 4884.100000023842,
+              "duration": 56,
+              "interactionId": 3211,
+              "name": "click"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5411.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5927.700000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6128.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6345.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6445.100000023842,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            }
+          ],
+          "longTasks": []
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=750&q=75",
+            "type": "img",
+            "transfer": 53856,
+            "encoded": 53556,
+            "decoded": 53556
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": false,
+      "run": 3,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 60,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": []
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 65.5,
+          "navigationId": 5763,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.800000011920929,
+          "connectStart": 0.800000011920929,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.9000000059604645,
+          "requestStart": 1,
+          "responseStart": 3.9000000059604645,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 3.9000000059604645,
+          "responseEnd": 4.5,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 38.70000001788139,
+          "domContentLoadedEventStart": 38.70000001788139,
+          "domContentLoadedEventEnd": 38.70000001788139,
+          "domComplete": 65.5,
+          "loadEventStart": 65.5,
+          "loadEventEnd": 65.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 3.199999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 5.300000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 5.800000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 5.9000000059604645
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 7.0999999940395355
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 8.599999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 8.899999976158142
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 12.899999976158142
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 15.699999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646,
+            "duration": 4.299999982118607
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 9.699999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 10.099999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 19.599999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 3.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124,
+            "duration": 3.4000000059604645
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 3.7999999821186066
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 2.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 2.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 3.2999999821186066
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 60,
+            "duration": 0,
+            "navigationId": 5763,
+            "paintTime": 34.599999994039536,
+            "presentationTime": 60
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 60,
+            "duration": 0,
+            "navigationId": 5763,
+            "paintTime": 34.599999994039536,
+            "presentationTime": 60
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 454360,
+      "automationRoundTripMs": 96.92445800000132,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 60,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" fetchpriority=\"high\" loading=\"eager\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"100vw\" srcset=\"/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise"
+            }
+          ],
+          "shifts": [],
+          "events": [
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4863.800000011921,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 4863.9000000059605,
+              "duration": 64,
+              "interactionId": 4261,
+              "name": "pointerdown"
+            },
+            {
+              "start": 4863.9000000059605,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mousedown"
+            },
+            {
+              "start": 4864,
+              "duration": 64,
+              "interactionId": 4261,
+              "name": "pointerup"
+            },
+            {
+              "start": 4864,
+              "duration": 64,
+              "interactionId": 0,
+              "name": "mouseup"
+            },
+            {
+              "start": 4864,
+              "duration": 64,
+              "interactionId": 4261,
+              "name": "click"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5390.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5691.5,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5908.200000017881,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6108.0999999940395,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6323.9000000059605,
+              "duration": 24,
+              "interactionId": 0,
+              "name": "mouseover"
+            }
+          ],
+          "longTasks": []
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-desktop.webp&w=1920&q=75",
+            "type": "img",
+            "transfer": 24946,
+            "encoded": 24646,
+            "decoded": 24646
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=750&q=75",
+            "type": "img",
+            "transfer": 53856,
+            "encoded": 53556,
+            "decoded": 53556
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 604,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1754.7000000178814,
+              "duration": 106,
+              "name": "self"
+            },
+            {
+              "start": 2077.5999999940395,
+              "duration": 84,
+              "name": "self"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1987.9000000059605,
+          "navigationId": 9286,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999999403953552,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.800000011920929,
+          "connectStart": 0.800000011920929,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.9000000059604645,
+          "requestStart": 0.9000000059604645,
+          "responseStart": 150.90000000596046,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 150.90000000596046,
+          "responseEnd": 252.2000000178814,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 596,
+          "domContentLoadedEventStart": 596,
+          "domContentLoadedEventEnd": 596.5,
+          "domComplete": 1987.9000000059605,
+          "loadEventStart": 1987.9000000059605,
+          "loadEventEnd": 1987.9000000059605,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 243.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 166.40000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 218.80000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 316.09999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 332.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 1577.800000011921
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 474.39999997615814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 616.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 1283.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 608.4000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 727.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 1801.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316,
+            "duration": 403.30000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 1080.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 362.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 316.30000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 170.09999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 191.59999999403954
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 604,
+            "duration": 0,
+            "navigationId": 9286,
+            "paintTime": 583,
+            "presentationTime": 604
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 604,
+            "duration": 0,
+            "navigationId": 9286,
+            "paintTime": 583,
+            "presentationTime": 604
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 372606,
+      "automationRoundTripMs": 94.2777500000011,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 604,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1754.7000000178814,
+              "duration": 106,
+              "name": "self"
+            },
+            {
+              "start": 2077.5999999940395,
+              "duration": 84,
+              "name": "self"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 41500,
+            "encoded": 41200,
+            "decoded": 41200
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 596,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1747.699999988079,
+              "duration": 110,
+              "name": "self"
+            },
+            {
+              "start": 2088,
+              "duration": 85,
+              "name": "self"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1980.2999999821186,
+          "navigationId": 490,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999999403953552,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.699999988079071,
+          "connectStart": 0.699999988079071,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.7999999821186066,
+          "requestStart": 0.7999999821186066,
+          "responseStart": 150.89999997615814,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 150.89999997615814,
+          "responseEnd": 244.59999999403954,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 590.0999999940395,
+          "domContentLoadedEventStart": 590.1999999880791,
+          "domContentLoadedEventEnd": 590.1999999880791,
+          "domComplete": 1980.2999999821186,
+          "loadEventStart": 1980.2999999821186,
+          "loadEventEnd": 1980.2999999821186,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 245.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 170.40000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 335.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 214.7000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 319.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 1579.7000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 476.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 626.4000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 1286.4000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 731.8000000119209
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 619.0999999940395
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 1802.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316,
+            "duration": 412.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 1093.7000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 345.7000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 158.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 299
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 192.30000001192093
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 490,
+            "paintTime": 576.5,
+            "presentationTime": 596
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 490,
+            "paintTime": 576.5,
+            "presentationTime": 596
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 372606,
+      "automationRoundTripMs": 50.47037499999715,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 596,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1747.699999988079,
+              "duration": 110,
+              "name": "self"
+            },
+            {
+              "start": 2088,
+              "duration": 85,
+              "name": "self"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 41500,
+            "encoded": 41200,
+            "decoded": 41200
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "run": 3,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 584,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1746.7999999821186,
+              "duration": 104,
+              "name": "self"
+            },
+            {
+              "start": 2070.9000000059605,
+              "duration": 85,
+              "name": "self"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1981,
+          "navigationId": 3064,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.699999988079071,
+          "connectStart": 0.699999988079071,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.7999999821186066,
+          "requestStart": 0.9000000059604645,
+          "responseStart": 151,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 151,
+          "responseEnd": 250.90000000596046,
+          "transferSize": 18598,
+          "encodedBodySize": 18298,
+          "decodedBodySize": 119029,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 574.6999999880791,
+          "domContentLoadedEventStart": 574.6999999880791,
+          "domContentLoadedEventEnd": 574.6999999880791,
+          "domComplete": 1981,
+          "loadEventStart": 1981,
+          "loadEventEnd": 1981,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 236.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 160.59999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365,
+            "duration": 318.80000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 214.2000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 311.40000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 1299.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 1570.9000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 460.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 603.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 715.4000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 609.4000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459,
+            "duration": 1795.300000011921
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316,
+            "duration": 404.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 1108.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 347.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164,
+            "duration": 157.80000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 299.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592,
+            "duration": 195.2000000178814
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 584,
+            "duration": 0,
+            "navigationId": 3064,
+            "paintTime": 562.1999999880791,
+            "presentationTime": 584
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 584,
+            "duration": 0,
+            "navigationId": 3064,
+            "paintTime": 562.1999999880791,
+            "presentationTime": 584
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 372606,
+      "automationRoundTripMs": 55.331624999998894,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 584,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1746.7999999821186,
+              "duration": 104,
+              "name": "self"
+            },
+            {
+              "start": 2070.9000000059605,
+              "duration": 85,
+              "name": "self"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1omy0fx50pdp8.css",
+            "type": "link",
+            "transfer": 10336,
+            "encoded": 10036,
+            "decoded": 53365
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3e3-jmqs7lqm3.js",
+            "type": "script",
+            "transfer": 97924,
+            "encoded": 97624,
+            "decoded": 314459
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fhero%2Fsunrise-excavator-mobile-focus.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 12616,
+            "encoded": 12316,
+            "decoded": 12316
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 464,
+            "encoded": 164,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8282,
+            "encoded": 7982,
+            "decoded": 40592
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 41500,
+            "encoded": 41200,
+            "decoded": 41200
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    }
+  ],
+  "buildAssets": [
+    {
+      "path": ".next/static/7814WUrAan2nABSyuDV76/_buildManifest.js",
+      "bytes": 219,
+      "gzipBytes": 154
+    },
+    {
+      "path": ".next/static/7814WUrAan2nABSyuDV76/_clientMiddlewareManifest.js",
+      "bytes": 96,
+      "gzipBytes": 66
+    },
+    {
+      "path": ".next/static/7814WUrAan2nABSyuDV76/_ssgManifest.js",
+      "bytes": 109,
+      "gzipBytes": 89
+    },
+    {
+      "path": ".next/static/chunks/04s0sdy-i_vwo.js",
+      "bytes": 43477,
+      "gzipBytes": 17510
+    },
+    {
+      "path": ".next/static/chunks/092r-mewpaf3q.js",
+      "bytes": 229052,
+      "gzipBytes": 71681
+    },
+    {
+      "path": ".next/static/chunks/0c1ad7rcpjghx.js",
+      "bytes": 169437,
+      "gzipBytes": 46446
+    },
+    {
+      "path": ".next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 112594,
+      "gzipBytes": 39627
+    },
+    {
+      "path": ".next/static/chunks/1kld_7f-bm0r4.js",
+      "bytes": 22174,
+      "gzipBytes": 6009
+    },
+    {
+      "path": ".next/static/chunks/1omy0fx50pdp8.css",
+      "bytes": 53365,
+      "gzipBytes": 10036
+    },
+    {
+      "path": ".next/static/chunks/1pcw6gskne7pf.js",
+      "bytes": 5600,
+      "gzipBytes": 2030
+    },
+    {
+      "path": ".next/static/chunks/1ua2kfq9s-me6.js",
+      "bytes": 13994,
+      "gzipBytes": 3514
+    },
+    {
+      "path": ".next/static/chunks/1wnov70f88xjy.js",
+      "bytes": 29127,
+      "gzipBytes": 7650
+    },
+    {
+      "path": ".next/static/chunks/2a3iml0rheide.js",
+      "bytes": 70998,
+      "gzipBytes": 27459
+    },
+    {
+      "path": ".next/static/chunks/2xyyopyalchzg.js",
+      "bytes": 1884,
+      "gzipBytes": 954
+    },
+    {
+      "path": ".next/static/chunks/396khnsrz0ocn.js",
+      "bytes": 417,
+      "gzipBytes": 247
+    },
+    {
+      "path": ".next/static/chunks/3d2uj3r6c3n0m.js",
+      "bytes": 28755,
+      "gzipBytes": 10763
+    },
+    {
+      "path": ".next/static/chunks/3e3-jmqs7lqm3.js",
+      "bytes": 314459,
+      "gzipBytes": 97624
+    },
+    {
+      "path": ".next/static/chunks/turbopack-2u1d16houkiyo.js",
+      "bytes": 9974,
+      "gzipBytes": 3905
+    }
+  ]
+}

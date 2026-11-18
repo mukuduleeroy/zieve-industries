@@ -1,6 +1,7 @@
+import { blockMedia } from './media-routes';
 import { expect, test } from '@playwright/test';
 import { industryExperienceContent as content, industrySectors } from '../../src/content/industry-experience';
-import { industryPlaceholders } from '../../src/config/industry-media';
+import { industryMedia, industryPlaceholders } from '../../src/config/industry-media';
 const sectionId = '#industries-we-serve';
 
 test('four sectors preserve content, hierarchy, solutions links and transitions', async ({ page }) => {
@@ -19,11 +20,11 @@ test('four sectors preserve content, hierarchy, solutions links and transitions'
     await expect(panel.getByText(sector.headline, { exact: true })).toBeVisible();
     await expect(panel.getByText(sector.description, { exact: true })).toBeVisible();
     if (sector.procurementNote) await expect(panel.getByText(sector.procurementNote)).toBeVisible();
-    await expect(panel.getByRole('img')).toHaveAttribute('alt', industryPlaceholders[sector.slug].alt);
+    await expect(panel.getByRole('img')).toHaveAttribute('alt', industryMedia[sector.slug].alt);
     for (const link of sector.solutions) await expect(panel.getByRole('link', { name: link.label, exact: true })).toHaveAttribute('href', link.href);
   }
   expect(await page.evaluate(() => document.querySelector('#industries-we-serve')!.getBoundingClientRect().top - document.querySelector('#industrial-solutions')!.getBoundingClientRect().bottom)).toBe(0);
-  await expect(section).toHaveCSS('background-color', 'rgb(255, 255, 255)');
+  await expect(section).toHaveCSS('background-color', 'rgb(11, 34, 51)');
   await expect(page.getByRole('banner')).toHaveAttribute('data-scrolled', 'true');
   const link = section.getByRole('article', { name: industrySectors[3].name }).getByRole('link').first();
   await link.focus();
@@ -65,7 +66,8 @@ test('reduced motion is static and clears mask, number and parallax styles', asy
   await expect(first.locator('[data-industry-mask]')).toHaveCSS('clip-path', 'none');
   await expect(first.locator('[data-industry-parallax]')).toHaveCSS('transform', 'none');
   await page.emulateMedia({ reducedMotion: 'no-preference' });
-  await expect.poll(() => first.locator('[data-industry-mask]').getAttribute('style')).toMatch(/clip-path/);
+  // The redesigned stage owns horizontal motion; fallback media stays static.
+  await expect(first.locator('[data-industry-mask]')).toHaveCSS('clip-path', 'none');
   await page.emulateMedia({ reducedMotion: 'reduce' });
   for (const panel of await page.locator(`${sectionId} .industry-panel`).all()) {
     await expect(panel.locator('[data-industry-mask]')).toHaveCSS('clip-path', 'none');
@@ -77,7 +79,7 @@ test('reduced motion is static and clears mask, number and parallax styles', asy
 
 test('each missing illustration has an accessible fallback without collapsed frames', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  for (const media of Object.values(industryPlaceholders)) await page.route(`**${media.src}`, route => route.abort());
+  await blockMedia(page, [...Object.values(industryMedia), ...Object.values(industryPlaceholders)].map(media => media.src));
   await page.goto('/');
   for (const sector of industrySectors) {
     const panel = page.locator(`#industry-${sector.slug}`);
@@ -90,25 +92,51 @@ test('each missing illustration has an accessible fallback without collapsed fra
   }
 });
 
-test('desktop parallax remains small and navigation disposes the sector effects', async ({ page }, testInfo) => {
+test('horizontal stage progresses, reverses, releases and disposes across navigation', async ({ page }, testInfo) => {
+  await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/');
+  const scene = page.locator('.industry-scene');
   const first = page.locator(`#industry-${industrySectors[0].slug}`);
-  await first.scrollIntoViewIfNeeded();
-  const before = await first.boundingBox();
-  await expect(first.locator('[data-industry-mask]')).toHaveCSS('clip-path', 'none');
   if (testInfo.project.name === 'desktop') {
-    const image = first.locator('[data-industry-parallax]');
-    await expect(image).not.toHaveCSS('transform', 'none');
-    const offset = () => image.evaluate(element => new DOMMatrix(getComputedStyle(element).transform).m42);
-    const initial = await offset();
-    await page.evaluate(() => scrollBy(0, 100));
-    await expect.poll(offset).not.toBe(initial);
-    expect(Math.abs(await offset())).toBeLessThanOrEqual(10.1);
-  } else await expect(first.locator('[data-industry-parallax]')).toHaveCSS('transform', 'none');
-  expect((await first.boundingBox())!.height).toBe(before!.height);
+    await expect(scene).toHaveAttribute('data-horizontal', 'true');
+    const geometry = () => scene.evaluate(el => ({ top: el.getBoundingClientRect().top + scrollY, travel: parseFloat((el as HTMLElement).style.getPropertyValue('--industry-travel')), header: document.querySelector('header')!.getBoundingClientRect().height }));
+    const scroll = async (fraction: number) => {
+      const g = await geometry();
+      await page.evaluate(({ g, fraction }) => scrollTo(0, g.top - g.header + g.travel * fraction), { g, fraction });
+      await expect.poll(() => page.locator('.industry-sector-list').evaluate(el => new DOMMatrix(getComputedStyle(el).transform).m41)).toBeCloseTo(-g.travel * fraction, 0);
+    };
+    await scroll(0);
+    const top = (await page.locator('.industry-stage').boundingBox())!.y;
+    for (const [index, sector] of industrySectors.entries()) {
+      await scroll(index / 3);
+      const panel = page.locator(`#industry-${sector.slug}`);
+      await expect(panel.getByRole('heading')).toBeInViewport();
+      await expect.poll(() => panel.locator('img').evaluate(image => image instanceof HTMLImageElement && image.complete && image.naturalWidth > 0)).toBe(true);
+      await expect(panel.locator('.industry-figure')).toHaveAttribute('data-media-failed', 'false');
+    }
+    await scroll(0.5);
+    expect((await page.locator('.industry-stage').boundingBox())!.y).toBeCloseTo(top, 0);
+    await scroll(1);
+    await expect(scene).toHaveAttribute('data-active-index', '3');
+    await expect(page.locator('#industry-agro-processing .industry-name')).toBeInViewport();
+    await scroll(0.25);
+    await expect(scene).toHaveAttribute('data-active-index', '1');
+    await scroll(0);
+    await first.getByRole('link').first().click();
+    await expect(page).toHaveURL(industrySectors[0].solutions[0].href);
+    await page.goto('/');
+    await expect(scene).toHaveAttribute('data-horizontal', 'true');
+    const g = await geometry();
+    await page.evaluate(g => scrollTo(0, g.top - g.header + g.travel + 250), g);
+    await expect.poll(async () => (await page.locator('.industry-stage').boundingBox())!.y).toBeLessThan(top - 200);
+  } else await expect(scene).not.toHaveAttribute('data-horizontal', 'true');
+  await first.getByRole('link').first().focus();
+  await expect(first.getByRole('link').first()).toBeFocused();
+  await expect(scene).not.toHaveAttribute('data-horizontal', 'true');
   await first.getByRole('link').first().click();
   await expect(page).toHaveURL(industrySectors[0].solutions[0].href);
   await page.goto('/solutions');
+  await expect(page.locator('.industry-scene')).toHaveCount(0);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Our Solutions');
   await page.goBack();
   await first.scrollIntoViewIfNeeded();

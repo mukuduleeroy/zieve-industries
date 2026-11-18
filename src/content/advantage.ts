@@ -10,7 +10,6 @@ export const operatingPillars = [
 ] as const satisfies readonly OperatingPillar[];
 export const advantageContent = {
   id: 'zieve-advantage',
-  eyebrow: '04 / THE ZIEVE ADVANTAGE',
   headline: ['Built on reliability.', 'Driven by performance.'],
   supporting: 'More than a supplier. A dependable partner for the operations that cannot afford to stand still.',
   closing: 'Supply. Support. Quality. Convenience. Specialisation.',

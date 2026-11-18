@@ -1,0 +1,3385 @@
+[
+  {
+    "width": 390,
+    "state": "default",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">01</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(1) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">02</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(2) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">03</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(3) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">04</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(4) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">05</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(5) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  },
+  {
+    "width": 390,
+    "state": "draft",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">01</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(1) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">02</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(2) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">03</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(3) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">04</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(4) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">05</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(5) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "visibleLabelSingular",
+                  "prohibited": [
+                    "aria-labelledby"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"quotation-draft\" aria-labelledby=\"quotation-draft-title\">",
+            "target": [
+              ".quotation-draft"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "30.0pt (40px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": "emptyValue",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no value; test color contrast with a value entered"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<input id=\"quotation-telephone\" aria-invalid=\"false\" aria-describedby=\"quotation-telephone-error\" type=\"tel\" autocomplete=\"tel\" maxlength=\"60\" name=\"telephone\">",
+            "target": [
+              "#quotation-telephone"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has no value; test color contrast with a value entered"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<label for=\"quotation-category\">Product or service category<!-- --> <span>(<!-- -->required<!-- -->)</span></label>",
+            "target": [
+              "label[for=\"quotation-category\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>(<!-- -->required<!-- -->)</span>",
+            "target": [
+              "label[for=\"quotation-category\"] > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  },
+  {
+    "width": 1024,
+    "state": "default",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 38.4pt (51.2px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 38.4pt (51.2px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">01</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(1) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">02</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(2) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">03</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(3) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">04</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(4) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">05</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(5) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.9pt (17.248px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  },
+  {
+    "width": 1024,
+    "state": "draft",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 38.4pt (51.2px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 38.4pt (51.2px), font weight: normal). Expected contrast ratio of 3:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">01</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(1) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">02</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(2) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">03</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(3) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">04</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(4) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.14,
+                  "fontSize": "15.4pt (20.48px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"purpose-values\" id=\"purpose-values\">",
+                    "target": [
+                      "#purpose-values"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"purpose-value-number\" aria-hidden=\"true\">05</span>",
+            "target": [
+              ".purpose-value[data-purpose-value=\"true\"]:nth-child(5) > .purpose-value-number"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.14 (foreground color: #c98210, background color: #ffffff, font size: 15.4pt (20.48px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "visibleLabelSingular",
+                  "prohibited": [
+                    "aria-labelledby"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"quotation-draft\" aria-labelledby=\"quotation-draft-title\">",
+            "target": [
+              ".quotation-draft"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "38.4pt (51.2px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.9pt (17.248px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.9pt (17.248px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text quotation-supporting\" data-quotation-reveal=\"true\">Whether you're commissioning a gold-recovery circuit, mobilising an equipment fleet or sourcing essential industrial consumables, let's discuss what your operation needs.</p>",
+            "target": [
+              ".quotation-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<label for=\"quotation-company\">Company / organisation<!-- --> <span>(<!-- -->optional<!-- -->)</span></label>",
+            "target": [
+              "label[for=\"quotation-company\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>(<!-- -->optional<!-- -->)</span>",
+            "target": [
+              "label[for=\"quotation-company\"] > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<label for=\"quotation-telephone\">Telephone / WhatsApp<!-- --> <span>(<!-- -->optional<!-- -->)</span></label>",
+            "target": [
+              "label[for=\"quotation-telephone\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>(<!-- -->optional<!-- -->)</span>",
+            "target": [
+              "label[for=\"quotation-telephone\"] > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  },
+  {
+    "width": 1440,
+    "state": "default",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 54.0pt (72px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 54.0pt (72px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  },
+  {
+    "width": 1440,
+    "state": "draft",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#c98210",
+                  "bgColor": "#f5f7f8",
+                  "contrastRatio": 2.92,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<article class=\"industry-panel\" data-surface=\"surface\" data-reverse=\"true\" id=\"industry-civil-infrastructure\" aria-labelledby=\"industry-title-civil-infrastructure\">",
+                    "target": [
+                      "#industry-civil-infrastructure"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 54.0pt (72px), font weight: normal). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"industry-number\" data-industry-number=\"true\" aria-hidden=\"true\">02</span>",
+            "target": [
+              "#industry-civil-infrastructure > .container-shell > .industry-panel-grid > .industry-editorial > .industry-number[data-industry-number=\"true\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #c98210, background color: #f5f7f8, font size: 54.0pt (72px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ],
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axeAPI",
+        "nodes": [
+          {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "div",
+                  "messageKey": "visibleLabelSingular",
+                  "prohibited": [
+                    "aria-labelledby"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+              }
+            ],
+            "impact": "serious",
+            "html": "<div class=\"quotation-draft\" aria-labelledby=\"quotation-draft-title\">",
+            "target": [
+              ".quotation-draft"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-labelledby attribute is not well supported, but the elements referenced by aria-labelledby are visible in the page. Verify the label is not necessary."
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ],
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "nodes": [
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"eyebrow hero-eyebrow\" data-hero-eyebrow=\"true\"><span aria-hidden=\"true\"></span>ZIEVE INDUSTRIES · HARARE, ZIMBABWE</p>",
+            "target": [
+              ".hero-eyebrow"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Equipping Industry.<!-- --> </span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "54.0pt (72px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "3:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>",
+            "target": [
+              ".hero-headline-line[data-hero-headline=\"true\"]:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text hero-supporting\" data-hero-copy=\"true\">A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.</p>",
+            "target": [
+              ".hero-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "11.3pt (15px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+                    "target": [
+                      ".hero-action-secondary"
+                    ]
+                  },
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"/#request-a-quote\" class=\"text-link button hero-action hero-action-secondary\" data-hero-action=\"true\">",
+            "target": [
+              ".hero-action-secondary"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>Scroll</span>",
+            "target": [
+              ".hero-scroll > span:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgGradient",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"hero-overlay\" aria-hidden=\"true\"></div>",
+                    "target": [
+                      ".hero-overlay"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element's background color could not be determined due to a background gradient"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"hero-media-caption\">Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site</p>",
+            "target": [
+              ".hero-media-caption"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p class=\"body-text quotation-supporting\" data-quotation-reveal=\"true\">Whether you're commissioning a gold-recovery circuit, mobilising an equipment fleet or sourcing essential industrial consumables, let's discuss what your operation needs.</p>",
+            "target": [
+              ".quotation-supporting"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<input id=\"quotation-fullName\" aria-invalid=\"false\" aria-describedby=\"quotation-fullName-error\" type=\"text\" autocomplete=\"name\" maxlength=\"120\" required=\"\" name=\"fullName\">",
+            "target": [
+              "#quotation-fullName"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<input id=\"quotation-email\" aria-invalid=\"false\" aria-describedby=\"quotation-email-error\" type=\"email\" autocomplete=\"email\" maxlength=\"254\" required=\"\" name=\"email\">",
+            "target": [
+              "#quotation-email"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<label for=\"quotation-company\">Company / organisation<!-- --> <span>(<!-- -->optional<!-- -->)</span></label>",
+            "target": [
+              "label[for=\"quotation-company\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>(<!-- -->optional<!-- -->)</span>",
+            "target": [
+              "label[for=\"quotation-company\"] > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "bold",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<label for=\"quotation-telephone\">Telephone / WhatsApp<!-- --> <span>(<!-- -->optional<!-- -->)</span></label>",
+            "target": [
+              "label[for=\"quotation-telephone\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          },
+          {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "contrastRatio": 0,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": "bgOverlap",
+                  "expectedContrastRatio": "4.5:1"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element's background color could not be determined because it is overlapped by another element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<span>(<!-- -->optional<!-- -->)</span>",
+            "target": [
+              "label[for=\"quotation-telephone\"] > span"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+          }
+        ]
+      }
+    ],
+    "passes": [
+      "aria-allowed-attr",
+      "aria-allowed-role",
+      "aria-conditional-attr",
+      "aria-deprecated-role",
+      "aria-hidden-body",
+      "aria-hidden-focus",
+      "aria-prohibited-attr",
+      "aria-required-attr",
+      "aria-required-children",
+      "aria-roles",
+      "aria-valid-attr-value",
+      "aria-valid-attr",
+      "autocomplete-valid",
+      "avoid-inline-spacing",
+      "button-name",
+      "bypass",
+      "color-contrast",
+      "definition-list",
+      "dlitem",
+      "document-title",
+      "duplicate-id-aria",
+      "empty-heading",
+      "form-field-multiple-labels",
+      "heading-order",
+      "html-has-lang",
+      "html-lang-valid",
+      "image-alt",
+      "image-redundant-alt",
+      "label-content-name-mismatch",
+      "label-title-only",
+      "label",
+      "landmark-banner-is-top-level",
+      "landmark-contentinfo-is-top-level",
+      "landmark-main-is-top-level",
+      "landmark-no-duplicate-banner",
+      "landmark-no-duplicate-contentinfo",
+      "landmark-no-duplicate-main",
+      "landmark-one-main",
+      "landmark-unique",
+      "link-name",
+      "list",
+      "listitem",
+      "meta-viewport-large",
+      "meta-viewport",
+      "nested-interactive",
+      "page-has-heading-one",
+      "region",
+      "select-name",
+      "skip-link",
+      "tabindex"
+    ]
+  }
+]

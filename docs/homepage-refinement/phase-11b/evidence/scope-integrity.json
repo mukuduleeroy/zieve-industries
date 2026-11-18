@@ -1,0 +1,18 @@
+{
+  "changedExistingFiles": [
+    "src/components/sections/quotation/quotation.css",
+    "src/components/sections/quotation/quotation-draft.tsx",
+    "src/components/sections/company-introduction/introduction.css",
+    "src/components/sections/industry-experience/industries.css",
+    "src/components/sections/hero/hero.css",
+    "src/components/sections/corporate-purpose/purpose.css",
+    "tests/quotation.test.ts",
+    "tests/e2e/introduction.spec.ts",
+    "tests/e2e/photography.spec.ts"
+  ],
+  "unexpectedChanges": [],
+  "allPublicAssetsUnchanged": true,
+  "mediaContentTokensNavigationRoutesTransportAndMotionPreserved": true,
+  "allDefaultContentHashesMatch": true,
+  "draftBodiesMatch": true
+}

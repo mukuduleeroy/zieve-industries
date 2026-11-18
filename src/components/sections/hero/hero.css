@@ -40,7 +40,8 @@
   @media (max-width: 39.999rem) {
     .hero-actions { flex-direction: column; align-items: stretch; max-width: 24rem; }
     .hero .hero-action { justify-content: space-between; }
-    .hero-overlay { background: linear-gradient(90deg, color-mix(in srgb, var(--color-brand-navy) 94%, transparent), color-mix(in srgb, var(--color-brand-navy) 72%, transparent)), linear-gradient(0deg, var(--color-brand-navy), transparent); }
+    .hero-overlay { background: linear-gradient(90deg, color-mix(in srgb, var(--color-brand-navy) 88%, transparent), color-mix(in srgb, var(--color-brand-navy) 62%, transparent)), linear-gradient(0deg, color-mix(in srgb, var(--color-brand-navy) 92%, transparent), color-mix(in srgb, var(--color-brand-navy) 70%, transparent) 12%, transparent 45%); }
+    .hero-media-caption { letter-spacing: 0.025em; }
   }
   @media (prefers-reduced-motion: no-preference) {
     .hero-scroll-track > span { animation: hero-scroll-hint var(--duration-image) var(--ease-reveal) 1s 2; }

@@ -1,0 +1,71 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test tests/e2e/phase-11b.spec.ts --grep mobile editorial rhythm --repeat-each=10 --workers=2 --output=docs/homepage-refinement/phase-11b6/evidence/resize-repeat
+
+[WebServer] (node:18556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 20 tests using 2 workers
+
+(node:18564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18565) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (763ms)
+  ✓   2 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (765ms)
+(node:18581) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   3 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (859ms)
+  ✓   4 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (864ms)
+(node:18607) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18606) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (805ms)
+  ✓   5 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (811ms)
+(node:18620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (872ms)
+  ✓   7 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (906ms)
+(node:18636) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18637) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (920ms)
+  ✓  10 [desktop] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (920ms)
+(node:18660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (934ms)
+  ✓  11 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (934ms)
+(node:18675) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (925ms)
+  ✓  14 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (930ms)
+(node:18688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18689) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (965ms)
+  ✓  16 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (971ms)
+(node:18714) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18715) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  18 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+  ✓  17 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (1.3s)
+(node:18728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18729) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (868ms)
+  ✓  19 [mobile] › tests/e2e/phase-11b.spec.ts:83:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (873ms)
+
+  20 passed (15.3s)

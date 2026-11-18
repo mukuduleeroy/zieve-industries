@@ -1,3 +1,4 @@
+import { industrialPhotography } from './industrial-photography';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
 import type { IndustrySlug } from '@/content/industry-experience';
 const illustration = (src: string, subject: string): Extract<EditorialMediaConfig, { kind: 'placeholder' }> => ({
@@ -13,4 +14,10 @@ export const industryPlaceholders = {
   'agro-processing': illustration('/images/industries/agro-placeholder.svg', 'grain storage and processing scene'),
 } satisfies Record<IndustrySlug, EditorialMediaConfig>;
 /** Replace entries with approved local photography; keep illustrative fallbacks independent. */
-export const industryMedia: Record<IndustrySlug, EditorialMediaConfig> = { ...industryPlaceholders };
+export const industryMedia: Record<IndustrySlug, EditorialMediaConfig> = {
+  ...industryPlaceholders,
+  'mining-mineral-processing': industrialPhotography.mining,
+  // Civil stays schematic: branded machinery and recognizable workers are not cleared.
+  manufacturing: industrialPhotography.manufacturing,
+  'agro-processing': industrialPhotography.agro,
+};

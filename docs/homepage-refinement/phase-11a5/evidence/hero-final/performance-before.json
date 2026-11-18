@@ -1,0 +1,2279 @@
+{
+  "environment": {
+    "time": "2026-11-17T13:43:24.274Z",
+    "node": "v26.13.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpus": 8,
+    "cpu": "Apple M3",
+    "ramGiB": 16,
+    "browser": "159.0.8154.6",
+    "base": "http://127.0.0.1:3102",
+    "dpr": 1,
+    "notes": "Headless Chromium on local production server. Fresh context, cache disabled each run. Desktop unthrottled; mobile 4x CPU, 150ms latency, 1.6Mbps down/750Kbps up CDP emulation. No Lighthouse or real-user metrics."
+  },
+  "runs": [
+    {
+      "mobile": false,
+      "run": 1,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 192,
+              "duration": 0,
+              "name": "",
+              "element": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": []
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 218,
+          "navigationId": 5605,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.10000002384185791,
+          "domainLookupStart": 5.300000011920929,
+          "domainLookupEnd": 5.600000023841858,
+          "connectStart": 5.600000023841858,
+          "secureConnectionStart": 0,
+          "connectEnd": 6.100000023841858,
+          "requestStart": 6.4000000059604645,
+          "responseStart": 42.60000002384186,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 42.60000002384186,
+          "responseEnd": 45,
+          "transferSize": 18539,
+          "encodedBodySize": 18239,
+          "decodedBodySize": 117086,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 217.40000000596046,
+          "domContentLoadedEventStart": 217.40000000596046,
+          "domContentLoadedEventEnd": 217.80000001192093,
+          "domComplete": 218,
+          "loadEventStart": 218,
+          "loadEventEnd": 218,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 73.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 38.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575,
+            "duration": 39.30000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 40.30000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 42.29999998211861
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 46.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 52
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 53.79999998211861
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 46.79999998211861
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 48.900000005960464
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 50.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700,
+            "duration": 64.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 7.5999999940395355
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124,
+            "duration": 8.299999982118607
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 4.4000000059604645
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 26.900000005960464
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164,
+            "duration": 32.29999998211861
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649,
+            "duration": 8.799999982118607
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 192,
+            "duration": 0,
+            "navigationId": 5605,
+            "paintTime": 154.2000000178814,
+            "presentationTime": 192
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 192,
+            "duration": 0,
+            "navigationId": 5605,
+            "paintTime": 154.2000000178814,
+            "presentationTime": 192
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 427884,
+      "automationRoundTripMs": 119.48879099999976,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 192,
+              "duration": 0,
+              "name": "",
+              "element": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>"
+            }
+          ],
+          "shifts": [],
+          "events": [
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5082.200000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 5083.600000023842,
+              "duration": 72,
+              "interactionId": 5603,
+              "name": "pointerdown"
+            },
+            {
+              "start": 5083.600000023842,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "mousedown"
+            },
+            {
+              "start": 5083.700000017881,
+              "duration": 72,
+              "interactionId": 5603,
+              "name": "pointerup"
+            },
+            {
+              "start": 5083.700000017881,
+              "duration": 72,
+              "interactionId": 0,
+              "name": "mouseup"
+            },
+            {
+              "start": 5083.700000017881,
+              "duration": 72,
+              "interactionId": 5603,
+              "name": "click"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5622.300000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 6972.800000011921,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            }
+          ],
+          "longTasks": []
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=750&q=75",
+            "type": "img",
+            "transfer": 53856,
+            "encoded": 53556,
+            "decoded": 53556
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": false,
+      "run": 2,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 64,
+              "duration": 0,
+              "name": "",
+              "element": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": []
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 79.5,
+          "navigationId": 8922,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0.09999999403953552,
+          "domainLookupStart": 0.9000000059604645,
+          "domainLookupEnd": 1,
+          "connectStart": 1,
+          "secureConnectionStart": 0,
+          "connectEnd": 1.0999999940395355,
+          "requestStart": 1.2000000178813934,
+          "responseStart": 6.5,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 6.5,
+          "responseEnd": 7.0999999940395355,
+          "transferSize": 18539,
+          "encodedBodySize": 18239,
+          "decodedBodySize": 117086,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 45.400000005960464,
+          "domContentLoadedEventStart": 45.400000005960464,
+          "domContentLoadedEventEnd": 45.400000005960464,
+          "domComplete": 79.5,
+          "loadEventStart": 79.5,
+          "loadEventEnd": 79.5,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 5
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 8.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575,
+            "duration": 9.099999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 10.199999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 11.299999982118607
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 14.099999994039536
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 19
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 23.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 15.800000011920929
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 15.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 16.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700,
+            "duration": 28.30000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 5.700000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124,
+            "duration": 5.5999999940395355
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 4.199999988079071
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 7.200000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164,
+            "duration": 5.700000017881393
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649,
+            "duration": 3.600000023841858
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 64,
+            "duration": 0,
+            "navigationId": 8922,
+            "paintTime": 41.5,
+            "presentationTime": 64
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 64,
+            "duration": 0,
+            "navigationId": 8922,
+            "paintTime": 41.5,
+            "presentationTime": 64
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 427884,
+      "automationRoundTripMs": 42.11674999999923,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 64,
+              "duration": 0,
+              "name": "",
+              "element": "<span class=\"hero-headline-line\" data-hero-headline=\"true\">Empowering Growth.</span>"
+            }
+          ],
+          "shifts": [],
+          "events": [
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mouseover"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 5636,
+              "name": "pointerdown"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mousedown"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 5636,
+              "name": "pointerup"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 0,
+              "name": "mouseup"
+            },
+            {
+              "start": 4862.9000000059605,
+              "duration": 56,
+              "interactionId": 5636,
+              "name": "click"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerout"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerleave"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerover"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "pointerenter"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseout"
+            },
+            {
+              "start": 5344.9000000059605,
+              "duration": 16,
+              "interactionId": 0,
+              "name": "mouseover"
+            }
+          ],
+          "longTasks": []
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=750&q=75",
+            "type": "img",
+            "transfer": 53856,
+            "encoded": 53556,
+            "decoded": 53556
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "run": 1,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 596,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1665.300000011921,
+              "duration": 108,
+              "name": "self"
+            },
+            {
+              "start": 2007.300000011921,
+              "duration": 94,
+              "name": "self"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1915.1000000238419,
+          "navigationId": 6168,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.5,
+          "domainLookupEnd": 0.6000000238418579,
+          "connectStart": 0.6000000238418579,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.800000011920929,
+          "requestStart": 0.800000011920929,
+          "responseStart": 150.90000000596046,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 150.90000000596046,
+          "responseEnd": 252.2000000178814,
+          "transferSize": 18539,
+          "encodedBodySize": 18239,
+          "decodedBodySize": 117086,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 592.7000000178814,
+          "domContentLoadedEventStart": 592.7000000178814,
+          "domContentLoadedEventEnd": 593.5,
+          "domComplete": 1915,
+          "loadEventStart": 1915.1000000238419,
+          "loadEventEnd": 1915.1000000238419,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 241
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 164.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575,
+            "duration": 329.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 216.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 322.19999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 1484.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 1221.800000011921
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 441.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 531.3000000119209
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 702.6999999880791
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 515.1999999880791
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700,
+            "duration": 1722.9000000059605
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 1014.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 344
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164,
+            "duration": 162.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 294.90000000596046
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649,
+            "duration": 201.40000000596046
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 6168,
+            "paintTime": 582.3000000119209,
+            "presentationTime": 596
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 596,
+            "duration": 0,
+            "navigationId": 6168,
+            "paintTime": 582.3000000119209,
+            "presentationTime": 596
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 358460,
+      "automationRoundTripMs": 59.491957999998704,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 596,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1665.300000011921,
+              "duration": 108,
+              "name": "self"
+            },
+            {
+              "start": 2007.300000011921,
+              "duration": 94,
+              "name": "self"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 41500,
+            "encoded": 41200,
+            "decoded": 41200
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    },
+    {
+      "mobile": true,
+      "run": 2,
+      "initial": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 604,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1663.9000000059605,
+              "duration": 112,
+              "name": "self"
+            },
+            {
+              "start": 2008.9000000059605,
+              "duration": 84,
+              "name": "self"
+            }
+          ]
+        },
+        "navigation": {
+          "name": "http://127.0.0.1:3102/",
+          "entryType": "navigation",
+          "startTime": 0,
+          "duration": 1914.0999999940395,
+          "navigationId": 7948,
+          "initiatorType": "navigation",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "text/html",
+          "contentEncoding": "gzip",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedRouterSource": "",
+          "workerFinalRouterSource": "",
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 0,
+          "domainLookupStart": 0.4000000059604645,
+          "domainLookupEnd": 0.7000000178813934,
+          "connectStart": 0.7000000178813934,
+          "secureConnectionStart": 0,
+          "connectEnd": 0.800000011920929,
+          "requestStart": 0.800000011920929,
+          "responseStart": 150.90000000596046,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 150.90000000596046,
+          "responseEnd": 250.7000000178814,
+          "transferSize": 18539,
+          "encodedBodySize": 18239,
+          "decodedBodySize": 117086,
+          "responseStatus": 200,
+          "serverTiming": [],
+          "unloadEventStart": 0,
+          "unloadEventEnd": 0,
+          "domInteractive": 600.9000000059605,
+          "domContentLoadedEventStart": 601,
+          "domContentLoadedEventEnd": 601.0999999940395,
+          "domComplete": 1914.0999999940395,
+          "loadEventStart": 1914.0999999940395,
+          "loadEventEnd": 1914.0999999940395,
+          "type": "navigate",
+          "redirectCount": 0,
+          "activationStart": 0,
+          "criticalCHRestart": 0,
+          "notRestoredReasons": null,
+          "confidence": {
+            "randomizedTriggerRate": 0.4994798,
+            "value": "high"
+          }
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368,
+            "duration": 244
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569,
+            "duration": 167
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575,
+            "duration": 331.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600,
+            "duration": 220.09999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127,
+            "duration": 324.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052,
+            "duration": 1486.7999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974,
+            "duration": 445.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437,
+            "duration": 1224.300000011921
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417,
+            "duration": 510.80000001192093
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174,
+            "duration": 534.5
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755,
+            "duration": 706.7000000178814
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700,
+            "duration": 1726.199999988079
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730,
+            "duration": 1006.2999999821186
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998,
+            "duration": 358.09999999403954
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477,
+            "duration": 310.69999998807907
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164,
+            "duration": 165
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649,
+            "duration": 194.30000001192093
+          }
+        ],
+        "paint": [
+          {
+            "name": "first-paint",
+            "entryType": "paint",
+            "startTime": 604,
+            "duration": 0,
+            "navigationId": 7948,
+            "paintTime": 587.2000000178814,
+            "presentationTime": 604
+          },
+          {
+            "name": "first-contentful-paint",
+            "entryType": "paint",
+            "startTime": 604,
+            "duration": 0,
+            "navigationId": 7948,
+            "paintTime": 587.2000000178814,
+            "presentationTime": 604
+          }
+        ]
+      },
+      "initialResourceTransferBytes": 358460,
+      "automationRoundTripMs": 53.527125000000524,
+      "final": {
+        "metrics": {
+          "lcp": [
+            {
+              "start": 604,
+              "duration": 0,
+              "name": "",
+              "element": "<img alt=\"\" decoding=\"async\" data-nimg=\"fill\" class=\"media-image hero-background-image hero-placeholder-image\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" src=\"/images/hero/industrial-placeholder.svg\">"
+            }
+          ],
+          "shifts": [],
+          "events": [],
+          "longTasks": [
+            {
+              "start": 1663.9000000059605,
+              "duration": 112,
+              "name": "self"
+            },
+            {
+              "start": 2008.9000000059605,
+              "duration": 84,
+              "name": "self"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fbranding%2Fzieve-logo-profile.jpeg&w=256&q=75",
+            "type": "link",
+            "transfer": 4668,
+            "encoded": 4368,
+            "decoded": 4368
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/hero/industrial-placeholder.svg",
+            "type": "link",
+            "transfer": 1416,
+            "encoded": 1116,
+            "decoded": 2569
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1tk89rjbbrko-.css",
+            "type": "link",
+            "transfer": 9867,
+            "encoded": 9567,
+            "decoded": 50575
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1pcw6gskne7pf.js",
+            "type": "link",
+            "transfer": 2330,
+            "encoded": 2030,
+            "decoded": 5600
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1wnov70f88xjy.js",
+            "type": "script",
+            "transfer": 7950,
+            "encoded": 7650,
+            "decoded": 29127
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/092r-mewpaf3q.js",
+            "type": "script",
+            "transfer": 71981,
+            "encoded": 71681,
+            "decoded": 229052
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+            "type": "script",
+            "transfer": 4205,
+            "encoded": 3905,
+            "decoded": 9974
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/0c1ad7rcpjghx.js",
+            "type": "script",
+            "transfer": 46746,
+            "encoded": 46446,
+            "decoded": 169437
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/396khnsrz0ocn.js",
+            "type": "script",
+            "transfer": 717,
+            "encoded": 417,
+            "decoded": 417
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/1kld_7f-bm0r4.js",
+            "type": "script",
+            "transfer": 6309,
+            "encoded": 6009,
+            "decoded": 22174
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3d2uj3r6c3n0m.js",
+            "type": "script",
+            "transfer": 11063,
+            "encoded": 10763,
+            "decoded": 28755
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/3zwjkfq40n25i.js",
+            "type": "script",
+            "transfer": 96844,
+            "encoded": 96544,
+            "decoded": 311700
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fcompany%2Findustrial-component-detail.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 40030,
+            "encoded": 39730,
+            "decoded": 39730
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/2a3iml0rheide.js",
+            "type": "script",
+            "transfer": 27759,
+            "encoded": 27459,
+            "decoded": 70998
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/static/chunks/04s0sdy-i_vwo.js",
+            "type": "script",
+            "transfer": 17810,
+            "encoded": 17510,
+            "decoded": 43477
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=5CB68i4pnAekjehf",
+            "type": "fetch",
+            "transfer": 463,
+            "encoded": 163,
+            "decoded": 164
+          },
+          {
+            "name": "http://127.0.0.1:3102/?_rsc=8nTjltbQWvg6NcbE",
+            "type": "fetch",
+            "transfer": 8302,
+            "encoded": 8002,
+            "decoded": 40649
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fopen-pit-mineral-handling.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 69424,
+            "encoded": 69124,
+            "decoded": 69124
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Fsolutions%2Fchemical-processing-infrastructure.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 41500,
+            "encoded": 41200,
+            "decoded": 41200
+          },
+          {
+            "name": "http://127.0.0.1:3102/images/industries/civil-placeholder.svg",
+            "type": "img",
+            "transfer": 1100,
+            "encoded": 800,
+            "decoded": 1526
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fheavy-manufacturing-machined-shaft.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 30262,
+            "encoded": 29962,
+            "decoded": 29962
+          },
+          {
+            "name": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Findustrial%2Findustries%2Fgrain-handling-silos.webp&w=640&q=75",
+            "type": "img",
+            "transfer": 33876,
+            "encoded": 33576,
+            "decoded": 33576
+          }
+        ],
+        "fonts": []
+      },
+      "errors": []
+    }
+  ],
+  "buildAssets": [
+    {
+      "path": ".next/static/chunks/04s0sdy-i_vwo.js",
+      "bytes": 43477,
+      "gzipBytes": 17510
+    },
+    {
+      "path": ".next/static/chunks/092r-mewpaf3q.js",
+      "bytes": 229052,
+      "gzipBytes": 71681
+    },
+    {
+      "path": ".next/static/chunks/0c1ad7rcpjghx.js",
+      "bytes": 169437,
+      "gzipBytes": 46446
+    },
+    {
+      "path": ".next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 112594,
+      "gzipBytes": 39627
+    },
+    {
+      "path": ".next/static/chunks/1kld_7f-bm0r4.js",
+      "bytes": 22174,
+      "gzipBytes": 6009
+    },
+    {
+      "path": ".next/static/chunks/1pcw6gskne7pf.js",
+      "bytes": 5600,
+      "gzipBytes": 2030
+    },
+    {
+      "path": ".next/static/chunks/1tk89rjbbrko-.css",
+      "bytes": 50575,
+      "gzipBytes": 9567
+    },
+    {
+      "path": ".next/static/chunks/1ua2kfq9s-me6.js",
+      "bytes": 13994,
+      "gzipBytes": 3514
+    },
+    {
+      "path": ".next/static/chunks/1wnov70f88xjy.js",
+      "bytes": 29127,
+      "gzipBytes": 7650
+    },
+    {
+      "path": ".next/static/chunks/2a3iml0rheide.js",
+      "bytes": 70998,
+      "gzipBytes": 27459
+    },
+    {
+      "path": ".next/static/chunks/2xyyopyalchzg.js",
+      "bytes": 1884,
+      "gzipBytes": 954
+    },
+    {
+      "path": ".next/static/chunks/396khnsrz0ocn.js",
+      "bytes": 417,
+      "gzipBytes": 247
+    },
+    {
+      "path": ".next/static/chunks/3d2uj3r6c3n0m.js",
+      "bytes": 28755,
+      "gzipBytes": 10763
+    },
+    {
+      "path": ".next/static/chunks/3zwjkfq40n25i.js",
+      "bytes": 311700,
+      "gzipBytes": 96544
+    },
+    {
+      "path": ".next/static/chunks/turbopack-2u1d16houkiyo.js",
+      "bytes": 9974,
+      "gzipBytes": 3905
+    },
+    {
+      "path": ".next/static/nkSAIinzO4FxgphPKF2NH/_buildManifest.js",
+      "bytes": 219,
+      "gzipBytes": 154
+    },
+    {
+      "path": ".next/static/nkSAIinzO4FxgphPKF2NH/_clientMiddlewareManifest.js",
+      "bytes": 96,
+      "gzipBytes": 66
+    },
+    {
+      "path": ".next/static/nkSAIinzO4FxgphPKF2NH/_ssgManifest.js",
+      "bytes": 109,
+      "gzipBytes": 89
+    }
+  ]
+}

@@ -1,6 +1,7 @@
+import { blockMedia } from './media-routes';
 import { expect, test } from '@playwright/test';
 import { introductionContent as content } from '../../src/content/introduction';
-import { introductionMedia } from '../../src/config/introduction-media';
+import { introductionMedia, introductionPlaceholder } from '../../src/config/introduction-media';
 
 const sectionSelector = '#company-introduction';
 
@@ -13,7 +14,7 @@ test('introduction preserves the approved narrative and hero boundary', async ({
   await expect(section.getByRole('heading', { level: 2 })).toHaveText(content.heading);
   await page.getByRole('link', { name: 'Scroll to the end of the hero' }).click();
   await expect(page.locator('#hero-end')).toBeFocused();
-  await expect(section.getByText(content.eyebrow)).toBeVisible();
+  await expect(section.locator('.introduction-eyebrow')).toHaveCount(0);
   for (const paragraph of content.paragraphs) await expect(section.getByText(paragraph, { exact: true })).toBeVisible();
   await expect(section.getByText(content.closing, { exact: true })).toBeVisible();
   await expect(section.getByRole('img', { name: introductionMedia.alt })).toBeVisible();
@@ -49,7 +50,7 @@ test('editorial columns become an ordered mobile stack without overflow', async 
       expect(figure!.y).toBeGreaterThan(editorial!.y + editorial!.height);
     }
     const frame = await page.locator('.introduction-image-mask').boundingBox();
-    expect(frame!.height / frame!.width).toBeCloseTo(6 / 5, 1);
+    expect(frame!.height / frame!.width).toBeCloseTo(viewport.width >= 1024 ? 6 / 5 : 3 / 4, 1);
     if (viewport.width === 1440) await page.locator(sectionSelector).screenshot({ path: testInfo.outputPath('introduction-desktop.png'), animations: 'disabled', style: '.site-header, .skip-link { visibility: hidden !important; }' });
     if (viewport.width === 390) await page.locator(sectionSelector).screenshot({ path: testInfo.outputPath('introduction-mobile.png'), animations: 'disabled', style: '.site-header, .skip-link { visibility: hidden !important; }' });
   }
@@ -75,9 +76,9 @@ test('reduced motion reveals content and removes desktop parallax on preference 
   await expect(page.locator('[data-intro-divider]')).toHaveCSS('transform', 'none');
 });
 
-test('missing schematic retains accessible media fallback and stable dimensions', async ({ page }) => {
+test('missing photograph and schematic retain accessible media fallback and stable dimensions', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.route(`**${introductionMedia.src}`, route => route.abort());
+  await blockMedia(page, [introductionMedia.src, introductionPlaceholder.src]);
   await page.goto('/');
   await page.locator(sectionSelector).scrollIntoViewIfNeeded();
   const figure = page.locator('.introduction-figure');
@@ -86,7 +87,7 @@ test('missing schematic retains accessible media fallback and stable dimensions'
   await expect(figure.locator('img')).toHaveCount(0);
   await expect(figure.locator('figcaption')).toHaveText('Visual placeholder unavailable · Approved photography pending');
   const mask = await figure.locator('.introduction-image-mask').boundingBox();
-  expect(mask!.height / mask!.width).toBeCloseTo(6 / 5, 1);
+  expect(mask!.height / mask!.width).toBeCloseTo(page.viewportSize()!.width >= 1024 ? 6 / 5 : 3 / 4, 1);
   await expect(page.getByRole('heading', { name: content.heading })).toBeVisible();
 });
 

@@ -110,3 +110,17 @@ The implementation notes document backend validation, security, transport/result
 The canonical routes/navigation registry remains for reserved inner pages. `content/homepage-navigation.ts` is the derived destination view consumed by header/mobile/footer and homepage discovery. It references existing section and solution-panel IDs. Native Anchor primitives preserve document hash events/refresh/history, while the bare Home route retains Next Link. Focusable section wrappers work with the existing measured sticky-header offset. The solution selection hook validates URL hashes, retains selector focus on local choice and completes anchor focus only when the selected article is non-inert and visibly rendered; pending work/listeners clean up and user interaction cancels delayed focus.
 
 Earlier boundary notes describing email quote actions, later sections as unimplemented or a development footer are historical checkpoint context. The current homepage includes Sections 01–09, a Section 08 form quote anchor and the corporate footer. No inner-page implementation or submission architecture was added in 11A.
+
+## Phase 11B boundaries
+
+Targeted refinement is confined to existing section styles and the quotation draft wrapper. The prepared draft is an explicitly named `group`, using its existing H4 label without adding a landmark or live wrapper. Existing status/copy announcements, focus, schema and transport are unchanged. Quotation columns now use CSS auto-fit based on available form width and text-relative minimum tracks; there is no responsive JavaScript or additional package. Small-screen Introduction proportions/industry pacing, decorative numeral colour, Vision boundary and mobile hero overlay/credit tracking are CSS changes only. All media assets/configs, navigation architecture and GSAP/Motion lifecycles are preserved. Current evidence: docs/homepage-refinement/phase-11b/FINAL_READINESS_REPORT.md.
+
+
+## Phase 11B.5 — Industries progressive horizontal stage
+
+IndustryExperience retains server content/H2/ordered articles; IndustryMotion is the client stage boundary, with useIndustryScroll owning one GSAP context/ScrollTrigger. CSS sticky supplies pinning geometry without a ScrollTrigger spacer; actual track width and header/viewport measurements supply travel, scene height and refresh. Fine-pointer/hover/size/motion/content-fit gates, native flow fallback, keyboard versus pointer focus, hash navigation and generation/observer/listener cleanup are documented in homepage-refinement/phase-11b5/HORIZONTAL_SCROLL_ARCHITECTURE.md. Native lazy media is warmed current/next only near the stage; existing IndustryMedia error/caption/optimized-image configuration remains. This supersedes older per-panel reveal/parallax architecture. No wheel hijacker, new animation package, backend or public route.
+
+
+## Phase 11B.6 — final scoped refinement
+
+SectorPanel uses one heading, one labelled IndustryMedia figure and one copy wrapper; desktop grid placement preserves the mobile DOM reading sequence. useIndustryScroll only adds the copy wrapper to its existing ResizeObserver targets. Its GSAP timeline, measured travel, sticky lifecycle, pointer/keyboard fallback and navigation remain. See homepage-refinement/phase-11b6 for matched evidence and final verification.

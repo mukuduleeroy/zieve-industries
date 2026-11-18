@@ -1,0 +1,245 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test --workers=2 --trace=retain-on-failure --output=docs/homepage-refinement/phase-11b5/evidence/full
+
+[WebServer] (node:88644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 146 tests using 2 workers
+
+(node:88646) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:88647) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    2 [desktop] › tests/e2e/advantage.spec.ts:6:1 › five official pillars have correct relationships and a consistent initial state (398ms)
+  ✓    3 [desktop] › tests/e2e/advantage.spec.ts:47:1 › keyboard navigation and rapid changes preserve a single latest state (456ms)
+  ✓    4 [desktop] › tests/e2e/advantage.spec.ts:76:1 › desktop columns and mobile content-first stacking fit every viewport (851ms)
+  ✓    5 [desktop] › tests/e2e/advantage.spec.ts:93:1 › reduced motion supports immediate expansion and cleans up entrance effects (521ms)
+  ✓    6 [desktop] › tests/e2e/advantage.spec.ts:115:1 › all operating pillar descriptions remain available without JavaScript (185ms)
+  ✓    7 [desktop] › tests/e2e/footer.spec.ts:6:1 › footer preserves the original brand, canonical links, official contacts and current year (304ms)
+  ✓    1 [desktop] › tests/e2e/advantage.spec.ts:26:1 › pointer interactions expand, replace and collapse while retaining button focus (2.9s)
+  ✓    8 [desktop] › tests/e2e/footer.spec.ts:30:1 › footer quotation anchor preserves the enquiry and avoids automatic field focus (284ms)
+  ✓    9 [desktop] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects reduced motion and returns focus (234ms)
+  ✓   11 [desktop] › tests/e2e/footer.spec.ts:60:1 › footer responds without overflow, exposes touch targets and stays static with reduced motion (1.3s)
+  ✓   12 [desktop] › tests/e2e/footer.spec.ts:81:1 › footer remains readable and navigable without JavaScript (217ms)
+  ✓   13 [desktop] › tests/e2e/footer.spec.ts:93:1 › footer entrance cleans up on preference changes and keeps its layout stable (388ms)
+  ✓   10 [desktop] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects normal motion and returns focus (2.2s)
+  ✓   15 [desktop] › tests/e2e/foundation.spec.ts:19:1 › reduced motion preserves visible content (123ms)
+  ✓   14 [desktop] › tests/e2e/foundation.spec.ts:2:1 › foundation is accessible by keyboard and fits the viewport (309ms)
+  ✓   17 [desktop] › tests/e2e/header.spec.ts:45:3 › Desktop header › scroll changes surface without moving content or changing header dimensions (511ms)
+  ✓   18 [desktop] › tests/e2e/header.spec.ts:66:3 › Mobile header › modal traps focus, expands solutions, restores focus and unlocks scrolling (1.2s)
+  ✓   16 [desktop] › tests/e2e/header.spec.ts:8:3 › Desktop header › dropdown supports keyboard, dismissal and canonical destinations (2.0s)
+  ✓   20 [desktop] › tests/e2e/header.spec.ts:122:1 › all registered navigation routes resolve, unknown services remain 404 (345ms)
+  ✓   19 [desktop] › tests/e2e/header.spec.ts:105:3 › Mobile header › touch submenu navigation and desktop resize release the modal (879ms)
+  ✓   21 [desktop] › tests/e2e/header.spec.ts:127:1 › header fits narrow, tablet, desktop and zoom-equivalent widths with reduced motion (1.5s)
+  ✓   22 [desktop] › tests/e2e/hero-photography.spec.ts:5:1 › R1 selects one optimized crop, stays decorative and preserves all hero content (1.2s)
+  ✓   23 [desktop] › tests/e2e/hero-photography.spec.ts:28:1 › failed R1 photograph reveals the retained schematic and accurate fallback caption (469ms)
+  ✓   24 [desktop] › tests/e2e/hero-photography.spec.ts:41:1 › enlarged text and visual magnification keep the hero actions available (825ms)
+  ✓   25 [desktop] › tests/e2e/hero.spec.ts:6:1 › hero provides the exact heading, copy, usable CTAs and end marker (1.9s)
+  ✓   27 [desktop] › tests/e2e/hero.spec.ts:57:1 › reduced motion stays static and preference changes clean up entrance styles (614ms)
+  ✓   28 [desktop] › tests/e2e/hero.spec.ts:78:1 › missing photo and placeholder still provide a readable stable navy hero (411ms)
+  ✓   29 [desktop] › tests/e2e/hero.spec.ts:89:1 › hero content and navigation work without JavaScript (302ms)
+  ✓   26 [desktop] › tests/e2e/hero.spec.ts:27:1 › hero fits desktop, mobile and short landscape screens without clipped actions (3.0s)
+  ✓   31 [desktop] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (859ms)
+  ✓   30 [desktop] › tests/e2e/hero.spec.ts:100:1 › hero and header keep geometry through animation, dropdown and mobile modal (1.8s)
+  ✓   33 [desktop] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (394ms)
+  ✓   34 [desktop] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (534ms)
+  ✓   32 [desktop] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (2.5s)
+  ✓   35 [desktop] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (1.1s)
+  ✓   36 [desktop] › tests/e2e/industries.spec.ts:141:1 › all sector content and solution links work without JavaScript (465ms)
+  ✓   37 [desktop] › tests/e2e/introduction.spec.ts:8:1 › introduction preserves the approved narrative and hero boundary (660ms)
+  ✓   39 [desktop] › tests/e2e/introduction.spec.ts:59:1 › reduced motion reveals content and removes desktop parallax on preference change (555ms)
+  ✓   40 [desktop] › tests/e2e/introduction.spec.ts:79:1 › missing photograph and schematic retain accessible media fallback and stable dimensions (294ms)
+  ✓   38 [desktop] › tests/e2e/introduction.spec.ts:34:1 › editorial columns become an ordered mobile stack without overflow (1.3s)
+  ✓   42 [desktop] › tests/e2e/introduction.spec.ts:121:1 › introduction remains readable without JavaScript (291ms)
+  ✓   41 [desktop] › tests/e2e/introduction.spec.ts:94:1 › entrance and desktop parallax preserve layout and clean up across navigation (2.1s)
+  ✓   44 [desktop] › tests/e2e/phase-11b.spec.ts:44:1 › AUD-12 draft is one named group with the existing keyboard and copy workflow (635ms)
+  ✘   45 [desktop] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition (403ms)
+(node:88847) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   46 [desktop] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (885ms)
+  ✓   43 [desktop] › tests/e2e/phase-11b.spec.ts:4:1 › AUD-06 form columns align or reflow naturally with normal and enlarged labels (5.5s)
+  ✓   48 [desktop] › tests/e2e/phase-11b5.spec.ts:3:1 › decorative section eyebrows are removed without losing headings or functional numbering (362ms)
+  ✓   49 [desktop] › tests/e2e/phase-11b5.spec.ts:18:1 › industry lifecycle preserves reading flow for enlarged text, motion changes, keyboard and direct anchors (997ms)
+  ✓   50 [desktop] › tests/e2e/photography.spec.ts:6:1 › approved photographs load through Next Image while held placements stay schematic (743ms)
+  ✓   51 [desktop] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame (310ms)
+  ✓   52 [desktop] › tests/e2e/purpose.spec.ts:5:1 › official vision, mission and five values follow the correct reading order (223ms)
+  ✓   47 [desktop] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (4.4s)
+  ✓   53 [desktop] › tests/e2e/purpose.spec.ts:25:1 › three editorial movements remain readable at mobile, tablet and desktop widths (978ms)
+  ✓   54 [desktop] › tests/e2e/purpose.spec.ts:54:1 › reduced motion restores all purpose text, values and divider styles (517ms)
+  ✓   56 [desktop] › tests/e2e/purpose.spec.ts:87:1 › purpose stays fully readable without JavaScript (324ms)
+  ✓   55 [desktop] › tests/e2e/purpose.spec.ts:70:1 › purpose entrances preserve document geometry and clean up after navigation (530ms)
+  ✓   57 [desktop] › tests/e2e/quotation.spec.ts:12:1 › official contacts and eight labelled fields render without premature errors (385ms)
+  ✓   58 [desktop] › tests/e2e/quotation.spec.ts:27:1 › required and email validation preserves entries and focuses the first invalid field (526ms)
+  ✓   59 [desktop] › tests/e2e/quotation.spec.ts:45:1 › valid data prepares a real mailto draft, never claims delivery or clears the form (416ms)
+  ✓   60 [desktop] › tests/e2e/quotation.spec.ts:73:1 › long enquiries offer complete copy/manual fallback even if clipboard access fails (439ms)
+  ✓   61 [desktop] › tests/e2e/quotation.spec.ts:89:1 › header, mobile menu and hero quote links reach the accessible shared anchor (928ms)
+  ✓   63 [desktop] › tests/e2e/quotation.spec.ts:130:1 › without JavaScript personal-data fields stay disabled and direct contact remains usable (110ms)
+  ✓   62 [desktop] › tests/e2e/quotation.spec.ts:111:1 › responsive form and reduced motion remain usable on narrow and short screens (1.2s)
+  ✓   64 [desktop] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 100% root text reflows at all required widths (2.3s)
+  ✓   65 [desktop] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 200% root text reflows at all required widths (3.0s)
+  ✓   66 [desktop] › tests/e2e/refinement.spec.ts:52:1 › AUD-02 generic discovery anchors focus implemented sections below the sticky header (1.8s)
+  ✓   67 [desktop] › tests/e2e/refinement.spec.ts:68:1 › AUD-02 solution links support direct entry, refresh, history and selection focus (1.1s)
+  ✓   68 [desktop] › tests/e2e/refinement.spec.ts:85:1 › AUD-01 narrow viewport reflow and normal-motion keyboard discovery remain operable (1.4s)
+  ✓   69 [desktop] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links (1.1s)
+  ✓   70 [desktop] › tests/e2e/solutions.spec.ts:43:3 › Desktop solutions › rapid changes settle on the latest choice without changing section dimensions (474ms)
+  ✓   71 [desktop] › tests/e2e/solutions.spec.ts:60:1 › mobile selector preserves content, focus and stable dimensions (467ms)
+  ✓   73 [desktop] › tests/e2e/solutions.spec.ts:106:1 › active state survives layout changes and exposes only one panel to keyboard users (401ms)
+(node:88972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   72 [desktop] › tests/e2e/solutions.spec.ts:79:1 › responsive layout, reduced motion and all media fallbacks remain usable (1.6s)
+  ✓   74 [mobile] › tests/e2e/advantage.spec.ts:6:1 › five official pillars have correct relationships and a consistent initial state (384ms)
+(node:88977) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   75 [mobile] › tests/e2e/advantage.spec.ts:47:1 › keyboard navigation and rapid changes preserve a single latest state (521ms)
+  ✓   77 [mobile] › tests/e2e/advantage.spec.ts:76:1 › desktop columns and mobile content-first stacking fit every viewport (1.1s)
+  ✓   78 [mobile] › tests/e2e/advantage.spec.ts:93:1 › reduced motion supports immediate expansion and cleans up entrance effects (522ms)
+  ✓   79 [mobile] › tests/e2e/advantage.spec.ts:115:1 › all operating pillar descriptions remain available without JavaScript (182ms)
+  ✓   80 [mobile] › tests/e2e/footer.spec.ts:6:1 › footer preserves the original brand, canonical links, official contacts and current year (359ms)
+  ✓   81 [mobile] › tests/e2e/footer.spec.ts:30:1 › footer quotation anchor preserves the enquiry and avoids automatic field focus (286ms)
+  ✓   82 [mobile] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects reduced motion and returns focus (202ms)
+  ✓   76 [mobile] › tests/e2e/advantage.spec.ts:26:1 › pointer interactions expand, replace and collapse while retaining button focus (2.8s)
+  ✓   84 [mobile] › tests/e2e/footer.spec.ts:60:1 › footer responds without overflow, exposes touch targets and stays static with reduced motion (1.7s)
+  ✓   85 [mobile] › tests/e2e/footer.spec.ts:81:1 › footer remains readable and navigable without JavaScript (189ms)
+  ✓   83 [mobile] › tests/e2e/footer.spec.ts:41:38 › keyboard back to top respects normal motion and returns focus (2.2s)
+  ✓   86 [mobile] › tests/e2e/footer.spec.ts:93:1 › footer entrance cleans up on preference changes and keeps its layout stable (449ms)
+  ✓   88 [mobile] › tests/e2e/foundation.spec.ts:19:1 › reduced motion preserves visible content (130ms)
+  ✓   87 [mobile] › tests/e2e/foundation.spec.ts:2:1 › foundation is accessible by keyboard and fits the viewport (342ms)
+  ✓   90 [mobile] › tests/e2e/header.spec.ts:45:3 › Desktop header › scroll changes surface without moving content or changing header dimensions (1.3s)
+  ✓   91 [mobile] › tests/e2e/header.spec.ts:66:3 › Mobile header › modal traps focus, expands solutions, restores focus and unlocks scrolling (2.1s)
+  ✓   92 [mobile] › tests/e2e/header.spec.ts:105:3 › Mobile header › touch submenu navigation and desktop resize release the modal (840ms)
+  ✓   93 [mobile] › tests/e2e/header.spec.ts:122:1 › all registered navigation routes resolve, unknown services remain 404 (64ms)
+  ✓   94 [mobile] › tests/e2e/header.spec.ts:127:1 › header fits narrow, tablet, desktop and zoom-equivalent widths with reduced motion (1.4s)
+  ✓   95 [mobile] › tests/e2e/hero-photography.spec.ts:5:1 › R1 selects one optimized crop, stays decorative and preserves all hero content (1.1s)
+  ✓   96 [mobile] › tests/e2e/hero-photography.spec.ts:28:1 › failed R1 photograph reveals the retained schematic and accurate fallback caption (288ms)
+  ✓   97 [mobile] › tests/e2e/hero-photography.spec.ts:41:1 › enlarged text and visual magnification keep the hero actions available (310ms)
+  ✓   98 [mobile] › tests/e2e/hero.spec.ts:6:1 › hero provides the exact heading, copy, usable CTAs and end marker (445ms)
+  ✓   89 [mobile] › tests/e2e/header.spec.ts:8:3 › Desktop header › dropdown supports keyboard, dismissal and canonical destinations (10.9s)
+  ✓  100 [mobile] › tests/e2e/hero.spec.ts:57:1 › reduced motion stays static and preference changes clean up entrance styles (449ms)
+  ✓  101 [mobile] › tests/e2e/hero.spec.ts:78:1 › missing photo and placeholder still provide a readable stable navy hero (238ms)
+  ✓  102 [mobile] › tests/e2e/hero.spec.ts:89:1 › hero content and navigation work without JavaScript (337ms)
+  ✓  103 [mobile] › tests/e2e/hero.spec.ts:100:1 › hero and header keep geometry through animation, dropdown and mobile modal (1.8s)
+  ✓  104 [mobile] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (518ms)
+  ✓  105 [mobile] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (5.2s)
+  ✓  106 [mobile] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (428ms)
+  ✓  107 [mobile] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (458ms)
+  ✓   99 [mobile] › tests/e2e/hero.spec.ts:27:1 › hero fits desktop, mobile and short landscape screens without clipped actions (12.6s)
+  ✓  108 [mobile] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (751ms)
+  ✓  109 [mobile] › tests/e2e/industries.spec.ts:141:1 › all sector content and solution links work without JavaScript (480ms)
+  ✓  110 [mobile] › tests/e2e/introduction.spec.ts:8:1 › introduction preserves the approved narrative and hero boundary (449ms)
+  ✓  112 [mobile] › tests/e2e/introduction.spec.ts:59:1 › reduced motion reveals content and removes desktop parallax on preference change (566ms)
+  ✓  113 [mobile] › tests/e2e/introduction.spec.ts:79:1 › missing photograph and schematic retain accessible media fallback and stable dimensions (477ms)
+  ✓  114 [mobile] › tests/e2e/introduction.spec.ts:94:1 › entrance and desktop parallax preserve layout and clean up across navigation (856ms)
+  ✓  111 [mobile] › tests/e2e/introduction.spec.ts:34:1 › editorial columns become an ordered mobile stack without overflow (2.4s)
+  ✓  115 [mobile] › tests/e2e/introduction.spec.ts:121:1 › introduction remains readable without JavaScript (346ms)
+  ✓  117 [mobile] › tests/e2e/phase-11b.spec.ts:44:1 › AUD-12 draft is one named group with the existing keyboard and copy workflow (654ms)
+  ✘  118 [mobile] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition (545ms)
+(node:89219) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  119 [mobile] › tests/e2e/phase-11b.spec.ts:81:1 › mobile editorial rhythm preserves photographs and hero credit, including reduced motion (3.7s)
+  ✓  120 [mobile] › tests/e2e/phase-11b.spec.ts:109:1 › introduction resize geometry settles in both directions with enlarged text and motion preferences (16.1s)
+  ✓  121 [mobile] › tests/e2e/phase-11b5.spec.ts:3:1 › decorative section eyebrows are removed without losing headings or functional numbering (1.7s)
+  ✓  122 [mobile] › tests/e2e/phase-11b5.spec.ts:18:1 › industry lifecycle preserves reading flow for enlarged text, motion changes, keyboard and direct anchors (4.9s)
+  ✓  116 [mobile] › tests/e2e/phase-11b.spec.ts:4:1 › AUD-06 form columns align or reflow naturally with normal and enlarged labels (31.4s)
+  ✓  124 [mobile] › tests/e2e/photography.spec.ts:34:1 › failed optimized photograph recovers to the original labelled schematic without resizing its frame (2.2s)
+  ✓  123 [mobile] › tests/e2e/photography.spec.ts:6:1 › approved photographs load through Next Image while held placements stay schematic (3.6s)
+  ✓  125 [mobile] › tests/e2e/purpose.spec.ts:5:1 › official vision, mission and five values follow the correct reading order (936ms)
+  ✓  127 [mobile] › tests/e2e/purpose.spec.ts:54:1 › reduced motion restores all purpose text, values and divider styles (1.9s)
+  ✓  126 [mobile] › tests/e2e/purpose.spec.ts:25:1 › three editorial movements remain readable at mobile, tablet and desktop widths (6.8s)
+  ✓  128 [mobile] › tests/e2e/purpose.spec.ts:70:1 › purpose entrances preserve document geometry and clean up after navigation (5.4s)
+  ✓  129 [mobile] › tests/e2e/purpose.spec.ts:87:1 › purpose stays fully readable without JavaScript (1.7s)
+  ✓  130 [mobile] › tests/e2e/quotation.spec.ts:12:1 › official contacts and eight labelled fields render without premature errors (1.1s)
+  ✓  132 [mobile] › tests/e2e/quotation.spec.ts:45:1 › valid data prepares a real mailto draft, never claims delivery or clears the form (1.0s)
+  ✓  131 [mobile] › tests/e2e/quotation.spec.ts:27:1 › required and email validation preserves entries and focuses the first invalid field (1.0s)
+  ✓  133 [mobile] › tests/e2e/quotation.spec.ts:73:1 › long enquiries offer complete copy/manual fallback even if clipboard access fails (1.2s)
+  ✓  134 [mobile] › tests/e2e/quotation.spec.ts:89:1 › header, mobile menu and hero quote links reach the accessible shared anchor (1.8s)
+  ✓  136 [mobile] › tests/e2e/quotation.spec.ts:130:1 › without JavaScript personal-data fields stay disabled and direct contact remains usable (304ms)
+  ✓  135 [mobile] › tests/e2e/quotation.spec.ts:111:1 › responsive form and reduced motion remain usable on narrow and short screens (3.8s)
+  ✓  137 [mobile] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 100% root text reflows at all required widths (6.2s)
+  ✓  138 [mobile] › tests/e2e/refinement.spec.ts:5:31 › AUD-01 200% root text reflows at all required widths (7.4s)
+  ✓  139 [mobile] › tests/e2e/refinement.spec.ts:52:1 › AUD-02 generic discovery anchors focus implemented sections below the sticky header (5.4s)
+  ✓  140 [mobile] › tests/e2e/refinement.spec.ts:68:1 › AUD-02 solution links support direct entry, refresh, history and selection focus (9.4s)
+  ✓  141 [mobile] › tests/e2e/refinement.spec.ts:85:1 › AUD-01 narrow viewport reflow and normal-motion keyboard discovery remain operable (8.3s)
+  ✓  143 [mobile] › tests/e2e/solutions.spec.ts:43:3 › Desktop solutions › rapid changes settle on the latest choice without changing section dimensions (5.3s)
+  ✓  142 [mobile] › tests/e2e/solutions.spec.ts:10:3 › Desktop solutions › default, pointer and keyboard selection synchronize text, media and links (9.5s)
+  ✓  144 [mobile] › tests/e2e/solutions.spec.ts:60:1 › mobile selector preserves content, focus and stable dimensions (4.6s)
+  ✓  146 [mobile] › tests/e2e/solutions.spec.ts:106:1 › active state survives layout changes and exposes only one panel to keyboard users (2.0s)
+  ✓  145 [mobile] › tests/e2e/solutions.spec.ts:79:1 › responsive layout, reduced motion and all media fallbacks remain usable (5.3s)
+
+
+  1) [desktop] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition 
+
+    Error: expect(locator).toHaveCSS(expected) failed
+
+    Locator: locator('.industry-panel[data-surface=navy] .industry-number')
+    Expected: "rgb(242, 162, 26)"
+    Error: strict mode violation: locator('.industry-panel[data-surface=navy] .industry-number') resolved to 4 elements:
+        1) <span aria-hidden="true" class="industry-number" data-industry-number="true">01</span> aka locator('#industry-mining-mineral-processing').getByText('01')
+        2) <span aria-hidden="true" class="industry-number" data-industry-number="true">02</span> aka locator('#industry-civil-infrastructure').getByText('02')
+        3) <span aria-hidden="true" class="industry-number" data-industry-number="true">03</span> aka locator('#industry-manufacturing').getByText('03')
+        4) <span aria-hidden="true" class="industry-number" data-industry-number="true">04</span> aka locator('#industry-agro-processing').getByText('04')
+
+    Call log:
+      - Expect "toHaveCSS" locator('.industry-panel[data-surface=navy] .industry-number') with timeout 5000ms
+      - waiting for locator('.industry-panel[data-surface=navy] .industry-number')
+
+
+      72 |   for (const number of await numbers.all()) await expect(number).toHaveAttribute('aria-hidden', 'true');
+      73 |   for (const number of await page.locator('.purpose-value-number').all()) await expect(number).toHaveCSS('color', navy);
+    > 74 |   await expect(page.locator('.industry-panel[data-surface=navy] .industry-number')).toHaveCSS('color', amber);
+         |                                                                                     ^
+      75 |   await expect(page.locator('#purpose-vision')).toHaveCSS('border-top-color', amber);
+      76 |   await expect(page.locator('#purpose-vision')).toHaveCSS('border-top-width', '2px');
+      77 |   expect(await page.evaluate(() => document.querySelector('#purpose-vision')!.getBoundingClientRect().top - document.querySelector('#zieve-advantage')!.getBoundingClientRect().bottom)).toBe(0);
+        at /Users/user/Documents/zieve_web/tests/e2e/phase-11b.spec.ts:74:85
+
+    Error Context: docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition 
+
+    Error: expect(locator).toHaveCSS(expected) failed
+
+    Locator: locator('.industry-panel[data-surface=navy] .industry-number')
+    Expected: "rgb(242, 162, 26)"
+    Error: strict mode violation: locator('.industry-panel[data-surface=navy] .industry-number') resolved to 4 elements:
+        1) <span aria-hidden="true" class="industry-number" data-industry-number="true">01</span> aka locator('#industry-mining-mineral-processing').getByText('01')
+        2) <span aria-hidden="true" class="industry-number" data-industry-number="true">02</span> aka locator('#industry-civil-infrastructure').getByText('02')
+        3) <span aria-hidden="true" class="industry-number" data-industry-number="true">03</span> aka locator('#industry-manufacturing').getByText('03')
+        4) <span aria-hidden="true" class="industry-number" data-industry-number="true">04</span> aka locator('#industry-agro-processing').getByText('04')
+
+    Call log:
+      - Expect "toHaveCSS" locator('.industry-panel[data-surface=navy] .industry-number') with timeout 5000ms
+      - waiting for locator('.industry-panel[data-surface=navy] .industry-number')
+
+
+      72 |   for (const number of await numbers.all()) await expect(number).toHaveAttribute('aria-hidden', 'true');
+      73 |   for (const number of await page.locator('.purpose-value-number').all()) await expect(number).toHaveCSS('color', navy);
+    > 74 |   await expect(page.locator('.industry-panel[data-surface=navy] .industry-number')).toHaveCSS('color', amber);
+         |                                                                                     ^
+      75 |   await expect(page.locator('#purpose-vision')).toHaveCSS('border-top-color', amber);
+      76 |   await expect(page.locator('#purpose-vision')).toHaveCSS('border-top-width', '2px');
+      77 |   expect(await page.evaluate(() => document.querySelector('#purpose-vision')!.getBoundingClientRect().top - document.querySelector('#zieve-advantage')!.getBoundingClientRect().bottom)).toBe(0);
+        at /Users/user/Documents/zieve_web/tests/e2e/phase-11b.spec.ts:74:85
+
+    Error Context: docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace docs/homepage-refinement/phase-11b5/evidence/full/phase-11b-AUD-05-and-AUD-1-4a6a4-rchy-and-a-clear-transition-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [desktop] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition 
+    [mobile] › tests/e2e/phase-11b.spec.ts:66:1 › AUD-05 and AUD-16 retain decorative semantics with stronger hierarchy and a clear transition 
+  144 passed (2.5m)

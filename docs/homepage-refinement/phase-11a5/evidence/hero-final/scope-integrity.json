@@ -1,0 +1,15 @@
+{
+  "changedExistingFiles": [
+    "src/config/hero-media.ts",
+    "tests/hero.test.ts",
+    "tests/photography.test.ts",
+    "tests/e2e/hero.spec.ts"
+  ],
+  "unexpectedExistingChanges": [],
+  "newFiles": [
+    "public/images/industrial/hero/sunrise-excavator-mobile-focus.webp",
+    "public/images/industrial/hero/sunrise-excavator-desktop.webp",
+    "tests/e2e/hero-photography.spec.ts"
+  ],
+  "otherMediaAndSourcePreserved": true
+}

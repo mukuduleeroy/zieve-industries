@@ -29,7 +29,6 @@ export const solutionDivisions = services.map((service, index) => ({
 export type SolutionDivision = (typeof solutionDivisions)[number];
 export const solutionsShowcaseContent = {
   id: 'industrial-solutions',
-  eyebrow: '02 / OUR SOLUTIONS',
   headline: ['One accountable partner.', 'Five core divisions.'],
   supporting: 'Everything a heavy-industry client needs to acquire, run and maintain their plant and fleet.',
   exploreLabel: 'Link to this solution',

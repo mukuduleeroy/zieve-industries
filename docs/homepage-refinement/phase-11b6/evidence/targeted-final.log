@@ -1,0 +1,37 @@
+
+> zieve-industries@0.1.0 test:e2e
+> playwright test tests/e2e/phase-11b6.spec.ts tests/e2e/industries.spec.ts --workers=2 --trace=retain-on-failure --output=docs/homepage-refinement/phase-11b6/evidence/targeted-final
+
+[WebServer] (node:18356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 2 workers
+
+(node:18358) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18357) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 [desktop] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (1.5s)
+  ✓   3 [desktop] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (828ms)
+  ✓   4 [desktop] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (914ms)
+  ✓   1 [desktop] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (4.4s)
+  ✓   6 [desktop] › tests/e2e/industries.spec.ts:146:1 › all sector content and solution links work without JavaScript (652ms)
+  ✓   5 [desktop] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (3.5s)
+  ✓   7 [desktop] › tests/e2e/phase-11b6.spec.ts:6:1 › industry media follows its heading in DOM and mobile layout before all supporting copy (7.4s)
+  ✓   9 [desktop] › tests/e2e/phase-11b6.spec.ts:72:1 › no-JavaScript industry anchors retain one heading, labelled photograph and following copy (565ms)
+(node:18452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  10 [mobile] › tests/e2e/industries.spec.ts:7:1 › four sectors preserve content, hierarchy, solutions links and transitions (865ms)
+  ✓   8 [desktop] › tests/e2e/phase-11b6.spec.ts:34:1 › continuous panel containment and boundaries survive intermediate progress, reversal and resize (9.0s)
+(node:18473) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [mobile] › tests/e2e/industries.spec.ts:61:1 › reduced motion is static and clears mask, number and parallax styles (585ms)
+  ✓  13 [mobile] › tests/e2e/industries.spec.ts:80:1 › each missing illustration has an accessible fallback without collapsed frames (660ms)
+  ✓  14 [mobile] › tests/e2e/industries.spec.ts:95:1 › horizontal stage progresses, reverses, releases and disposes across navigation (990ms)
+  ✓  15 [mobile] › tests/e2e/industries.spec.ts:146:1 › all sector content and solution links work without JavaScript (682ms)
+  ✓  11 [mobile] › tests/e2e/industries.spec.ts:37:1 › desktop alternates visuals while tablet and mobile keep content first (7.1s)
+  ✓  17 [mobile] › tests/e2e/phase-11b6.spec.ts:34:1 › continuous panel containment and boundaries survive intermediate progress, reversal and resize (522ms)
+  ✓  18 [mobile] › tests/e2e/phase-11b6.spec.ts:72:1 › no-JavaScript industry anchors retain one heading, labelled photograph and following copy (612ms)
+  ✓  16 [mobile] › tests/e2e/phase-11b6.spec.ts:6:1 › industry media follows its heading in DOM and mobile layout before all supporting copy (5.2s)
+
+  18 passed (25.9s)

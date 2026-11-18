@@ -1,0 +1,229 @@
+{
+  expected: '/#solution-panel-earthmoving-construction',
+  actual: 'http://127.0.0.1:3100/',
+  mode: null
+}
+node:internal/modules/run_main:111
+    triggerUncaughtException(
+    ^
+
+ExpectError: expect(page).toHaveURL(expected) failed
+
+Expected: "/#solution-panel-earthmoving-construction"
+Received: "http://127.0.0.1:3100/"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    13 × locator resolved to <html lang="en-ZW">…</html>
+       - unexpected value "http://127.0.0.1:3100/"
+
+    at captureRawStack (/Users/user/Documents/zieve_web/node_modules/playwright-core/lib/coreBundle.js:9551:17)
+    at callMatcherAsStep (/Users/user/Documents/zieve_web/node_modules/playwright/lib/matchers/expect.js:13342:57)
+    at Object.toHaveURL (/Users/user/Documents/zieve_web/node_modules/playwright/lib/matchers/expect.js:13334:23)
+    at /Users/user/Documents/zieve_web/docs/homepage-refinement/phase-11b5/evidence/pointer-check.mjs:3:354 {
+  matcherResult: {
+    name: 'toHaveURL',
+    expected: '/#solution-panel-earthmoving-construction',
+    message: 'expect(page).toHaveURL(expected) failed\n' +
+      '\n' +
+      'Expected: "/#solution-panel-earthmoving-construction"\n' +
+      'Received: "http://127.0.0.1:3100/"\n' +
+      'Timeout:  5000ms\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "toHaveURL" with timeout 5000ms\n' +
+      '    13 × locator resolved to <html lang="en-ZW">…</html>\n' +
+      '       - unexpected value "http://127.0.0.1:3100/"\n',
+    pass: false,
+    actual: 'http://127.0.0.1:3100/',
+    log: [
+      '  - Expect "toHaveURL" with timeout 5000ms',
+      '    13 × locator resolved to <html lang="en-ZW">…</html>',
+      '       - unexpected value "http://127.0.0.1:3100/"'
+    ],
+    timeout: 5000,
+    ariaSnapshot: '- link "Skip to content":\n' +
+      '  - /url: "#main-content"\n' +
+      '- banner:\n' +
+      '  - link "Zieve Industries home":\n' +
+      '    - /url: /\n' +
+      '    - img "Zieve Industries"\n' +
+      '  - navigation "Main navigation":\n' +
+      '    - list:\n' +
+      '      - listitem:\n' +
+      '        - link "Home":\n' +
+      '          - /url: /\n' +
+      '      - listitem:\n' +
+      '        - link "About Us":\n' +
+      '          - /url: /#company-introduction\n' +
+      '      - listitem:\n' +
+      '        - button "Our Solutions"\n' +
+      '      - listitem:\n' +
+      '        - link "Industries":\n' +
+      '          - /url: /#industries-we-serve\n' +
+      '      - listitem:\n' +
+      '        - link "Why Zieve":\n' +
+      '          - /url: /#zieve-advantage\n' +
+      '      - listitem:\n' +
+      '        - link "Contact":\n' +
+      '          - /url: /#partner-with-zieve\n' +
+      '    - link "Request a Quote":\n' +
+      '      - /url: /#request-a-quote\n' +
+      '- main:\n' +
+      '  - region "Equipping Industry. Empowering Growth.":\n' +
+      '    - paragraph: ZIEVE INDUSTRIES · HARARE, ZIMBABWE\n' +
+      '    - heading "Equipping Industry. Empowering Growth." [level=1]\n' +
+      '    - paragraph: A dependable partner for earthmoving equipment, gold-processing plants, industrial chemicals, lubricants and critical consumables.\n' +
+      '    - link "Explore Our Solutions":\n' +
+      '      - /url: /#industrial-solutions\n' +
+      '    - link "Request a Quote":\n' +
+      '      - /url: /#request-a-quote\n' +
+      '    - link "Scroll to the end of the hero":\n' +
+      '      - /url: "#hero-end"\n' +
+      '      - text: Scroll\n' +
+      '    - paragraph: Illustrative stock photo · Metehan Özaras / Pexels · Not a Zieve site\n' +
+      '  - group "End of the hero"\n' +
+      '  - region "Built around uptime.":\n' +
+      '    - heading "Built around uptime." [level=2]\n' +
+      '    - paragraph: In heavy industry, every hour matters. A machine waiting for parts, a processing plant missing critical inputs or a project delayed by unreliable supply can create significant operational costs.\n' +
+      '    - paragraph: Zieve Industries brings equipment, gold-processing plants, industrial chemicals, lubricants and essential consumables together through one dependable industrial supply partner.\n' +
+      '    - paragraph: Reliable Supply. Real Impact.\n' +
+      '    - figure "Illustrative stock photo · Kateryna Babaieva / Pexels":\n' +
+      '      - img "Large metal component suspended in an industrial workshop. Not a Zieve facility photograph."\n' +
+      '      - text: Illustrative stock photo · Kateryna Babaieva / Pexels\n' +
+      '  - region "One accountable partner. Five core divisions.":\n' +
+      '    - heading "One accountable partner. Five core divisions." [level=2]\n' +
+      '    - paragraph: Everything a heavy-industry client needs to acquire, run and maintain their plant and fleet.\n' +
+      '    - group "Choose an industrial solution":\n' +
+      '      - button "Earthmoving & Construction Equipment" [pressed]\n' +
+      '      - button "Elution Plants & Gold Processing"\n' +
+      '      - button "Industrial Chemicals"\n' +
+      '      - button "Lubricants & Fluids"\n' +
+      '      - button "Consumables & Spares"\n' +
+      '    - article "Built for demanding sites.":\n' +
+      '      - figure "Illustrative schematic · Approved division photography pending":\n' +
+      '        - img "Illustrative earthmoving equipment schematic. Not a Zieve facility or inventory photograph."\n' +
+      '        - text: Illustrative schematic · Approved division photography pending\n' +
+      '      - paragraph: Division 01 / 05\n' +
+      '      - heading "Built for demanding sites." [level=3]\n' +
+      '      - paragraph: Excavators, bulldozers, motor graders, compaction rollers, concrete mixers, generators and genuine spare parts.\n' +
+      `      - 'link "Link to this solution: Earthmoving & Construction Equipment"':\n` +
+      '        - /url: /#solution-panel-earthmoving-construction\n' +
+      '        - text: Link to this solution\n' +
+      '    - status: "Division 01: Earthmoving & Construction Equipment selected."\n' +
+      '  - region "Built for the industries that build tomorrow.":\n' +
+      '    - heading "Built for the industries that build tomorrow." [level=2]\n' +
+      '    - list:\n' +
+      '      - listitem:\n' +
+      '        - article "Mining & Mineral Processing":\n' +
+      '          - heading "Mining & Mineral Processing" [level=3]\n' +
+      '          - paragraph: Equipment and inputs for the recovery chain.\n' +
+      '          - paragraph: Supporting large-scale mining and artisanal and small-scale mining operations through equipment, gold-processing systems, industrial chemicals, lubricants and critical consumables.\n' +
+      '          - paragraph: Relevant solutions\n' +
+      '          - list:\n' +
+      '            - listitem:\n' +
+      '              - link "Earthmoving & Construction Equipment":\n' +
+      '                - /url: /#solution-panel-earthmoving-construction\n' +
+      '            - listitem:\n' +
+      '              - link "Elution Plants & Gold Processing":\n' +
+      '                - /url: /#solution-panel-elution-gold-processing\n' +
+      '            - listitem:\n' +
+      '              - link "Industrial Chemicals":\n' +
+      '                - /url: /#solution-panel-industrial-chemicals\n' +
+      '            - listitem:\n' +
+      '              - link "Lubricants & Fluids":\n' +
+      '                - /url: /#solution-panel-lubricants-fluids\n' +
+      '            - listitem:\n' +
+      '              - link "Consumables & Spares":\n' +
+      '                - /url: /#solution-panel-consumables-spares\n' +
+      '          - figure "Illustrative stock photo · Volker Braun / Pexels":\n' +
+      '            - img "Overhead view of a surface extraction site with processing equipment, stockpiles and access tracks. Not a Zieve facility or employee photograph."\n' +
+      '            - text: Illustrative stock photo · Volker Braun / Pexels\n' +
+      '      - listitem:\n' +
+      '        - article "Civil & Infrastructure Construction":\n' +
+      '          - heading "Civil & Infrastructure Construction" [level=3]\n' +
+      '          - paragraph: From earthworks to essential infrastructure.\n' +
+      '          - paragraph: Supplying earthmoving machinery, generators, construction-related chemicals, lubricants and maintenance essentials for infrastructure and civil works.\n' +
+      '          - paragraph: For civil contractors, government agencies and public infrastructure procurement.\n' +
+      '          - paragraph: Relevant solutions\n' +
+      '          - list:\n' +
+      '            - listitem:\n' +
+      '              - link "Earthmoving & Construction Equipment":\n' +
+      '                - /url: /#solution-panel-earthmoving-construction\n' +
+      '            - listitem:\n' +
+      '              - link "Industrial Chemicals":\n' +
+      '                - /url: /#solution-panel-industrial-chemicals\n' +
+      '            - listitem:\n' +
+      '              - link "Lubricants & Fluids":\n' +
+      '                - /url: /#solution-panel-lubricants-fluids\n' +
+      '            - listitem:\n' +
+      '              - link "Consumables & Spares":\n' +
+      '                - /url: /#solution-panel-consumables-spares\n' +
+      '          - figure "Illustrative sector schematic · Approved photography pending":\n' +
+      '            - img "Illustrative bridge and civil works scene. Not a Zieve project, facility or customer photograph."\n' +
+      '            - text: Illustrative sector schematic · Approved photography pending\n' +
+      '      - listitem:\n' +
+      '        - article "Manufacturing":\n' +
+      '          - heading "Manufacturing" [level=3]\n' +
+      '          - paragraph: Processing inputs. Maintenance essentials.\n' +
+      '          - paragraph: Providing industrial processing chemicals, lubricants, filters, fittings and essential inputs for plant operations.\n' +
+      '          - paragraph: Relevant solutions\n' +
+      '          - list:\n' +
+      '            - listitem:\n' +
+      '              - link "Industrial Chemicals":\n' +
+      '                - /url: /#solution-panel-industrial-chemicals\n' +
+      '            - listitem:\n' +
+      '              - link "Lubricants & Fluids":\n' +
+      '                - /url: /#solution-panel-lubricants-fluids\n' +
+      '            - listitem:\n' +
+      '              - link "Consumables & Spares":\n' +
+      '                - /url: /#solution-panel-consumables-spares\n' +
+      '          - figure "Illustrative stock photo · Kateryna Babaieva / Pexels":\n' +
+      '            - img "Factory worker in high-visibility clothing beside a large machined metal shaft. Not a Zieve facility or employee photograph."\n' +
+      '            - text: Illustrative stock photo · Kateryna Babaieva / Pexels\n' +
+      '      - listitem:\n' +
+      '        - article "Agro-processing":\n' +
+      '          - heading "Agro-processing" [level=3]\n' +
+      '          - paragraph: Supporting the processing cycle.\n' +
+      '          - paragraph: Supporting agro-processing facilities through industrial chemicals, machinery-related consumables, lubricants and maintenance inputs.\n' +
+      '          - paragraph: Relevant solutions\n' +
+      '          - list:\n' +
+      '            - listitem:\n' +
+      '              - link "Industrial Chemicals":\n' +
+      '                - /url: /#solution-panel-industrial-chemicals\n' +
+      '            - listitem:\n' +
+      '              - link "Lubricants & Fluids":\n' +
+      '                - /url: /#solution-panel-lubricants-fluids\n' +
+      '            - listitem:\n' +
+      '              - link "Consumables & Spares":\n' +
+      '                - /url: /#solution-panel-consumables-spares\n' +
+      '          - figure "Illustrative stock photo · Psilo Cybe / Pexels":\n' +
+      '            - img "Grain silos linked by an elevated material-handling walkway in warm evening light. Not a Zieve facility or employee photograph."\n' +
+      '            - text: Illustrative stock photo · Psilo Cybe / Pexels\n' +
+      '  - region "Built on reliability. Driven by performance.":\n' +
+      '    - heading "Built on reliability. Driven by performance." [level=2]\n' +
+      '    - paragraph: More than a supplier. A dependable partner for the operations that cannot afford to stand still.\n' +
+      '    - paragraph: Supply. Support. Quality. Convenience. Specialisation.\n' +
+      '    - heading "Reliable Supply Chain" [level=3]:\n' +
+      '      - button "Reliable Supply Chain" [expanded]\n' +
+      '    - region "Reliable Supply Chain":\n' +
+      '      - paragraph: Our Harare base and disciplined inventory approach help clients obtain the equipment, materials and consumables they need to keep operations moving.\n' +
+      '    - heading "Technical After-Sales Support" [level=3]:\n' +
+      '      - button "Technical After-Sales Support"\n' +
+      '    - heading "Genuine Quality Assurance" [level=3]:\n' +
+      '      - button "Genuine Quality Assurance"\n' +
+      '    - heading "One-Stop-Shop Convenience" [level=3]:\n' +
+      '      - button "One-Stop-Shop Convenience"\n' +
+      '    - heading "Sector Specialisation" [level=3]:\n' +
+      '      - button "Sector Specialisation"\n' +
+      '  - region "The standard we operate by.":\n' +
+      '    - heading "The standard we operate by." [level=2]\n' +
+      '    - heading "Our Vision" [level=3]\n' +
+      '    - paragraph: To be Southern Africa’s most trusted industrial supply partner — the name that mining, construction, and processing leaders rely on to keep their operations productive, profitable, and growing.\n' +
+      '    - heading "Our Mission" [level=3]\n' +
+      '    - paragraph: To deliver genuine, high-performance equipment, plants, chemicals, and consumables — backed by uncom'... 5711 more characters
+  }
+}
+
+Node.js v26.13.0

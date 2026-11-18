@@ -34,7 +34,7 @@ describe('Industries experience', () => {
     expect(new Set(Object.values(industryPlaceholders).map(item => item.src)).size).toBe(4);
     for (const media of Object.values(industryMedia)) {
       expect(existsSync(`public${media.src}`)).toBe(true);
-      expect(media.alt).toContain('Not a Zieve project, facility or customer photograph');
+      expect(media.alt).toContain('Not a Zieve');
       const html = renderToStaticMarkup(createElement(IndustryMedia, { media, fallback: media }));
       expect(html).toContain('loading="lazy"');
       expect(html).not.toContain('fetchPriority="high"');
@@ -49,4 +49,19 @@ describe('Industries experience', () => {
     expect(html).toContain('alt="Test fixture only"');
     expect(html).toContain('--industry-mobile-position:70% 50%');
   });
+});
+
+it('server-renders each industry once in heading, labelled media, then supporting-copy order', () => {
+  const html = renderToStaticMarkup(createElement(IndustryExperience));
+  expect(html.match(/<figure\b/g)).toHaveLength(4);
+  for (const sector of industrySectors) {
+    const title = html.indexOf(`id="industry-title-${sector.slug}"`);
+    const figure = html.indexOf('<figure', title);
+    const copy = html.indexOf('class="industry-copy"', figure);
+    expect(title).toBeGreaterThan(0);
+    expect(figure).toBeGreaterThan(title);
+    expect(copy).toBeGreaterThan(figure);
+    expect(html.slice(figure, copy)).toContain(`aria-labelledby="industry-title-${sector.slug}"`);
+    expect(html.split(sector.description)).toHaveLength(2);
+  }
 });

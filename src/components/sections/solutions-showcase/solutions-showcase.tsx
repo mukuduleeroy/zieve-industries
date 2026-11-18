@@ -6,7 +6,6 @@ export function SolutionsShowcase() {
   return <Section tabIndex={-1} id={content.id} className="solutions-showcase" aria-labelledby="solutions-title"><Container>
     <SolutionsMotion>
       <div className="solutions-section-header">
-        <p className="eyebrow solutions-eyebrow" data-solutions-heading>{content.eyebrow}</p>
         <Heading as="h2" id="solutions-title" className="solutions-title" data-solutions-heading>{content.headline.map((line, index) => <span key={line}>{line}{index === 0 ? ' ' : ''}</span>)}</Heading>
         <Text className="solutions-supporting" data-solutions-heading>{content.supporting}</Text>
       </div>
