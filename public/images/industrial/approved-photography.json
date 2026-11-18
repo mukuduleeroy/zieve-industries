@@ -1,0 +1,79 @@
+{
+  "images": [
+    {
+      "id": "earthmoving",
+      "source": "https://unsplash.com/photos/excavator-bucket-dumping-dirt-against-a-blue-sky-KDTd-1lYHrE",
+      "original": "https://images.unsplash.com/photo-1768053823555-b75cd4ead6c4?q=95&fm=jpg",
+      "author": "Adrian Sulyok",
+      "license": "https://unsplash.com/license",
+      "originalDimensions": [
+        5472,
+        3648
+      ],
+      "originalSha256": "b1256ce6fa02804c3b14a614387e588600d6f2a45d43b9af91cecdcf733d9bc9",
+      "acquiredAt": "2026-11-18T12:28:45.745Z",
+      "crop": {
+        "left": 0,
+        "top": 114,
+        "width": 5472,
+        "height": 3420
+      },
+      "publishedSrc": "/images/industrial/solutions/earthmoving-excavator-bucket.webp",
+      "publishedSha256": "84a37ca2dbf162df942188cc1f8291dcb7ec0405a37d821f6f046fe7f345a86c",
+      "approvedForPlacement": true,
+      "status": "User approved specific image and shown crop in conversation, 2026-11-18",
+      "integratedAt": "2026-11-18T12:41:28.359445+00:00",
+      "rightsReview": "Original publisher copyright licence permits commercial use and modification; selected subject/crop visually checked for prominent marks and identifiable people. No affiliation/endorsement or Zieve ownership implied. No additional release warranty inferred."
+    },
+    {
+      "id": "lubricants",
+      "source": "https://www.pexels.com/photo/industrial-gear-lubrication-process-in-action-28752000/",
+      "original": "https://images.pexels.com/photos/28752000/pexels-photo-28752000.jpeg",
+      "author": "Connor Lucock",
+      "license": "https://www.pexels.com/terms-of-service/",
+      "originalDimensions": [
+        4000,
+        6000
+      ],
+      "originalSha256": "b14d9c901e430420f787fefad1f3d65275c1f0c7db0e4c4a914974102d2930c9",
+      "acquiredAt": "2026-11-18T12:24:19.175Z",
+      "crop": {
+        "left": 0,
+        "top": 650,
+        "width": 4000,
+        "height": 2500
+      },
+      "publishedSrc": "/images/industrial/solutions/industrial-gear-lubrication.webp",
+      "publishedSha256": "3ad97ffda586579a95dfe9f88d77f062cf20df7f2cd1c692760a1d96c0d3c825",
+      "approvedForPlacement": true,
+      "status": "User approved specific image and shown crop in conversation, 2026-11-18",
+      "integratedAt": "2026-11-18T12:41:28.360455+00:00",
+      "rightsReview": "Original publisher copyright licence permits commercial use and modification; selected subject/crop visually checked for prominent marks and identifiable people. No affiliation/endorsement or Zieve ownership implied. No additional release warranty inferred."
+    },
+    {
+      "id": "civil",
+      "source": "https://unsplash.com/photos/bridge-construction-over-wide-river-3AapCKPPklQ",
+      "original": "https://images.unsplash.com/photo-1786471919740-ef5e4b5504da?q=95&fm=jpg",
+      "author": "Jeffrey Eisen",
+      "license": "https://unsplash.com/license",
+      "originalDimensions": [
+        6000,
+        4000
+      ],
+      "originalSha256": "ded85a10a44bd155e816345142f77dec63e05b0905dc639a3ceaa18542fef495",
+      "acquiredAt": "2026-11-18T12:27:48.394Z",
+      "crop": {
+        "left": 333,
+        "top": 0,
+        "width": 5333,
+        "height": 4000
+      },
+      "publishedSrc": "/images/industrial/industries/bridge-construction.webp",
+      "publishedSha256": "061522b86ce44aad63e10776f379cb973e3d25b182b424f7ddb10235201a89fa",
+      "approvedForPlacement": true,
+      "status": "User approved specific image and shown crop in conversation, 2026-11-18",
+      "integratedAt": "2026-11-18T12:41:28.361751+00:00",
+      "rightsReview": "Original publisher copyright licence permits commercial use and modification; selected subject/crop visually checked for prominent marks and identifiable people. No affiliation/endorsement or Zieve ownership implied. No additional release warranty inferred."
+    }
+  ]
+}

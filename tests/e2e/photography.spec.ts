@@ -1,5 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { introductionMedia, introductionPlaceholder } from '../../src/config/introduction-media';
+import { approvedPhotography } from '../../src/config/approved-photography';
 import { industrialPhotography } from '../../src/config/industrial-photography';
 import { blockMedia } from './media-routes';
 
@@ -11,6 +12,7 @@ test('approved photographs load through Next Image while held placements stay sc
     ['#industry-mining-mineral-processing .industry-figure', industrialPhotography.mining],
     ['#industry-manufacturing .industry-figure', industrialPhotography.manufacturing],
     ['#industry-agro-processing .industry-figure', industrialPhotography.agro],
+    ['#industry-civil-infrastructure .industry-figure', approvedPhotography.civil],
   ] as const) {
     const figure = page.locator(selector);
     await figure.scrollIntoViewIfNeeded();
@@ -20,10 +22,9 @@ test('approved photographs load through Next Image while held placements stay sc
     await expect(image).toHaveAttribute('src', /\/_next\/image\?/);
     await expect(figure.locator('figcaption')).toHaveText(media.caption);
   }
-  await expect(page.locator('#industry-civil-infrastructure .industry-figure')).toHaveAttribute('data-media-kind', 'placeholder');
   await page.setViewportSize({ width: 390, height: 844 });
   await page.locator('#industrial-solutions').scrollIntoViewIfNeeded();
-  for (const [slug, kind] of [['industrial-chemicals','image'],['consumables-spares','image'],['earthmoving-construction','placeholder'],['elution-gold-processing','placeholder'],['lubricants-fluids','placeholder']] as const) {
+  for (const [slug, kind] of [['industrial-chemicals','image'],['consumables-spares','image'],['earthmoving-construction','image'],['elution-gold-processing','placeholder'],['lubricants-fluids','image']] as const) {
     await page.getByRole('combobox', { name: 'Choose a division' }).selectOption(slug);
     const figure = page.locator('.solution-panel[data-active=true] .solution-media');
     await expect(figure).toHaveAttribute('data-media-kind', kind);

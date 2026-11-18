@@ -1,4 +1,5 @@
 import { industrialPhotography } from './industrial-photography';
+import { approvedPhotography } from './approved-photography';
 import type { EditorialMediaConfig } from '@/types/editorial-media';
 import type { IndustrySlug } from '@/content/industry-experience';
 const illustration = (src: string, subject: string): Extract<EditorialMediaConfig, { kind: 'placeholder' }> => ({
@@ -17,7 +18,7 @@ export const industryPlaceholders = {
 export const industryMedia: Record<IndustrySlug, EditorialMediaConfig> = {
   ...industryPlaceholders,
   'mining-mineral-processing': industrialPhotography.mining,
-  // Civil stays schematic: branded machinery and recognizable workers are not cleared.
+  'civil-infrastructure': approvedPhotography.civil,
   manufacturing: industrialPhotography.manufacturing,
   'agro-processing': industrialPhotography.agro,
 };

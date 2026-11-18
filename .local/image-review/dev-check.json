@@ -1,0 +1,28 @@
+[
+  {
+    "allowedOrigin": "192.168.100.151",
+    "devAssetStatus": 200,
+    "hmrHandshake": "opened"
+  },
+  {
+    "path": "/",
+    "parentPosition": "absolute",
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ]
+  },
+  {
+    "path": "/#solution-panel-consumables-spares",
+    "parentPosition": "absolute",
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ]
+  },
+  {
+    "path": "/#industrial-solutions",
+    "parentPosition": "absolute",
+    "warnings": [
+      "You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled"
+    ]
+  }
+]
