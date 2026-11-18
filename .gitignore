@@ -8,3 +8,15 @@ test-results/
 .env*
 !.env.example
 .DS_Store
+
+# Local development documentation, source briefs and review evidence
+/docs/
+/.local/
+/README.md
+/*.pdf
+/public/**/README.md
+
+# Local tooling and generated diagnostics
+/.idea/
+/.vscode/
+*.log
